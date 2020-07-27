@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "edb1988e2acee2f25dd432b7925142bd",
+  "assets/AssetManifest.json": "7210d64c22941f70fa90c784ddbfea88",
 "assets/assets/files/Mark%2520Brown%2520-%2520Resume.pdf": "b19216add5aabb00f4cc3500685f8fad",
 "assets/assets/fonts/anurati_regular.ttf": "4dfaf70b140d41c9d21c2a4c46c276f5",
 "assets/assets/fonts/bebasneue.ttf": "21bb70b62317f276f2e97a919ff5bd8c",
@@ -28,19 +28,18 @@ const RESOURCES = {
 "assets/assets/images/rit.jpg": "eb82136a81bd0fbacda1da2536b481d7",
 "assets/assets/images/upkeepalert.png": "88d26336eef3965108e87b706415defc",
 "assets/assets/images/wavio.png": "a5db47114d728d7671843fdd7c40bc75",
-"assets/FontManifest.json": "956fd8d3ed63e0c9d873da7492e83e19",
+"assets/FontManifest.json": "ef24fcd875fc96f6d05e51d301d7ec32",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "f3a8aeef06a4e4710447afb16f134a1b",
-"assets/packages/flutter_neumorphic/fonts/NeumorphicIcons.ttf": "32be0c4c86773ba5c9f7791e69964585",
+"assets/NOTICES": "342fd779c6a5b2711be3dc7a28890b6e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
-"icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
+"icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
+"icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
 "index.html": "d3431f840e8fece4db6d1fb6e74cfeb0",
 "/": "d3431f840e8fece4db6d1fb6e74cfeb0",
-"main.dart.js": "f471377ff691edd54a3212c17354a203",
+"main.dart.js": "bdfd484c0ec90ae972502f9ad6a2f034",
 "manifest.json": "f5149d86789d964780b3fda9b62f1994"
 };
 
