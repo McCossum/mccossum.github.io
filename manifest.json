@@ -1,11 +1,11 @@
 {
-    "name": "mccossum_com",
-    "short_name": "mccossum_com",
+    "name": "Mark Brown",
+    "short_name": "Mark Brown",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "Mark Brown's Portfolio Site",
+    "description": "Founder of Certainly Apps, Project & Engagement Managet at indeed.com, Instudrial & Systems Engineer B.S. Rochester Institute of Technology",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
