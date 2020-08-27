@@ -16,6 +16,10 @@
 
   <title>Mark Brown | Project Manager | Industrial Engineer</title>
   <link rel="manifest" href="manifest.json">
+
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script> <!-- Added -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script> <!-- Added -->
+  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-messaging.js"></script> <!-- Added -->
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -28,6 +32,8 @@
       });
     }
   </script>
+  <script src="./firebase-messaging-sw.js"></script> <!-- Added -->
+  <script src="myjs.js"></script> <!-- Added -->
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
