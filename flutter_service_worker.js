@@ -53,14 +53,14 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
 "favicon.png": "056d53d3c8bef1308fffa206a377ffca",
-"firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
-"index.html": "47d8d0d4c6c4b2a4f13270338c10753c",
-"/": "47d8d0d4c6c4b2a4f13270338c10753c",
+"index.html": "6e01cbcb436de13a16311c8166fdbfae",
+"/": "6e01cbcb436de13a16311c8166fdbfae",
 "main.dart.js": "9137ccab586f130c3be44323d777fbea",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
-"myjs.js": "3ec9ca829f367856282c06cf6a0ea400"
+"OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
+"OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726"
 };
 
 // The application shell files that are downloaded before a service worker can

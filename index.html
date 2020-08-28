@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Founder of Certainly Apps, Project & Engagement Managet at indeed.com, Instudrial & Systems Engineer B.S. Rochester Institute of Technology">
+  <meta name="description" content="Founder of Certainly Apps, Project & Engagement Management at indeed.com, Industrial & Systems Engineer B.S. Rochester Institute of Technology">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -17,9 +17,18 @@
   <title>Mark Brown | Project Manager | Industrial Engineer</title>
   <link rel="manifest" href="manifest.json">
 
-  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script> <!-- Added -->
-  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script> <!-- Added -->
-  <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-messaging.js"></script> <!-- Added -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "39b47f41-7366-4f2e-bbc6-18a7618d4e57",
+        notifyButton: {
+          enable: true,
+        },
+      });
+    });
+  </script>
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -32,8 +41,6 @@
       });
     }
   </script>
-  <script src="./firebase-messaging-sw.js"></script> <!-- Added -->
-  <script src="myjs.js"></script> <!-- Added -->
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
