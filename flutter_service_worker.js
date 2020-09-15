@@ -61,7 +61,7 @@ const RESOURCES = {
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
 "index.html": "716c7af9d4414c8a9ce3bf17c77b8ba4",
 "/": "716c7af9d4414c8a9ce3bf17c77b8ba4",
-"main.dart.js": "516326623aa31d26aec1963b3256a1cc",
+"main.dart.js": "67a4f62623345f8062e5f06078f27f58",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726"
