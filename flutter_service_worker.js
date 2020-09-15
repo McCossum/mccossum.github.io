@@ -3,12 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "427972e60b780303e479bbdb4741de2d",
-"assets/assets/fonts/anurati_regular.ttf": "4dfaf70b140d41c9d21c2a4c46c276f5",
-"assets/assets/fonts/bebasneue.ttf": "21bb70b62317f276f2e97a919ff5bd8c",
+  "assets/AssetManifest.json": "ba02fc9993918519fb394ae97cc44a31",
 "assets/assets/fonts/gilroylight.otf": "c62aded729bf7146d491275e5019d7fc",
-"assets/assets/fonts/nunito_bold.ttf": "6f47bcfc065790f02ed3cb8b51bef56f",
-"assets/assets/fonts/nunito_regular.ttf": "65bb0a158ee1967292ee4d11079d45ae",
 "assets/assets/images/mlogo.png": "2de4f7fc4c7a591bec577f325f1ff866",
 "assets/assets/images/portfolio/campusfood.png": "1ec295c88088129ac833026578dbc7ff",
 "assets/assets/images/portfolio/campusfood2.png": "fa592fa7330c62f7de73b38e3de7c5b4",
@@ -54,9 +50,9 @@ const RESOURCES = {
 "assets/assets/images/resume/lc.jpg": "aeb9d9b51db02f696e91d154a0e7dd01",
 "assets/assets/images/resume/rit.jpg": "eb82136a81bd0fbacda1da2536b481d7",
 "assets/assets/images/resume/wavio.png": "a5db47114d728d7671843fdd7c40bc75",
-"assets/FontManifest.json": "6d0118ac2d6336283bd0b5e6584765aa",
+"assets/FontManifest.json": "bc41220f97f2b350ec9580b2b770896f",
 "assets/fonts/MaterialIcons-Regular.otf": "a68d2a28c526b3b070aefca4bac93d25",
-"assets/NOTICES": "f277ccffdf0c2e85ca67d803f0f7479c",
+"assets/NOTICES": "d73840608cb7860770870a6dde094a73",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "2aa350bd2aeab88b601a593f793734c0",
@@ -65,7 +61,7 @@ const RESOURCES = {
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
 "index.html": "716c7af9d4414c8a9ce3bf17c77b8ba4",
 "/": "716c7af9d4414c8a9ce3bf17c77b8ba4",
-"main.dart.js": "a5e9d04159aeb3417bd59324f04c520d",
+"main.dart.js": "516326623aa31d26aec1963b3256a1cc",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726"
