@@ -27,7 +27,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'UA-106072642-1');
   </script>
 
@@ -47,20 +46,55 @@
   </script>
 </head>
 
-<body>
+<body style="background-color:#25AAE2;">
+
+  <div class="divcenter">
+    <img src="/assets/images/mlogo.png" alt="centered image" class="imagecenter"/>
+    <progress class="loadcenter"></progress>
+  </div>
+
   <script src="./firebase-messaging-sw.js"></script>
   <script src="myjs.js"></script>
-  <script src="main.dart.js?v=4094274465" type="application/javascript"></script>
+  <script src="main.dart.js?v=2066692305" type="application/javascript"></script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=4094274465');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2066692305');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+<style>
+  html, body {
+      height: 100%;
+      margin:0;
+      padding:0;
+  }
+  .divcenter {
+    position:relative;
+    height: 100%;
+    width: 100%;
+  }
+  .imagecenter {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 25%;
+  }
+  .loadcenter {
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    right: -10%;
+    bottom: 0;
+    margin: auto;
+  }
+</style>
 </html>
