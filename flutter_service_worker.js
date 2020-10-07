@@ -60,11 +60,12 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
-"index.html": "e6fc927cd5d4a1527e304b211c10835b",
-"/": "e6fc927cd5d4a1527e304b211c10835b",
-"main.dart.js": "f4ebca00575f2f82ce7ab2e70b45b813",
+"index.html": "22955a3f084c4b6727c20fd050f0657a",
+"/": "22955a3f084c4b6727c20fd050f0657a",
+"main.dart.js": "38faef253f27a1b35503301508149800",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
-"myjs.js": "8c9be47ad7c6d132c48befeb15855418",
+"mlogo.png": "2de4f7fc4c7a591bec577f325f1ff866",
+"myjs.js": "c86b001d433121c1d98350e7399f9c4b",
 "OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
 "OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726"
 };

@@ -17,5 +17,5 @@ var messaging = firebase.messaging()
 messaging.usePublicVapidKey('BFAwEvEjniNJFM1JrXCHod5I9HJazb1icCPG2ZaVmW3VNaDYcY9qn7M5m4qDIoNDElsRg3ZGwTlf78_ohXvf-CM');
 
 messaging.getToken().then((currentToken) => {
-    console.log(currentToken)
+//    console.log(currentToken)
 })
