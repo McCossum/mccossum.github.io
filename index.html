@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+  html, body {
+    height: 100%;
+    margin:0;
+    padding:0;
+  }
+  .divcenter {
+    position:relative;
+    height: 100%;
+    width: 100%;
+  }
+  .imagecenter {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 25%;
+  }
+  .loadcenter {
+    position: absolute;
+    top: 15%;
+    left: -10%;
+    right: -10%;
+    bottom: 0;
+    margin: auto;
+  }
+</style>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Founder of Certainly Apps, Project & Engagement Management at indeed.com, Industrial & Systems Engineer B.S. Rochester Institute of Technology">
@@ -43,7 +72,6 @@
     });
   </script>
 </head>
-
 <body style="background-color:#25AAE2;">
 
   <div class="divcenter">
@@ -53,46 +81,17 @@
 
   <script src="./firebase-messaging-sw.js"></script>
   <script src="myjs.js"></script>
-  <script src="main.dart.js?v=3962261735" type="application/javascript"></script>
+  <script src="main.dart.js" type="application/javascript"></script>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3962261735');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=2892143378');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
-<style>
-  html, body {
-      height: 100%;
-      margin:0;
-      padding:0;
-  }
-  .divcenter {
-    position:relative;
-    height: 100%;
-    width: 100%;
-  }
-  .imagecenter {
-    position: absolute;
-    top: -5%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    height: 25%;
-  }
-  .loadcenter {
-    position: absolute;
-    top: 15%;
-    left: -10%;
-    right: -10%;
-    bottom: 0;
-    margin: auto;
-  }
-</style>
 </html>
