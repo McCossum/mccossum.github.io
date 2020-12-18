@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "ba02fc9993918519fb394ae97cc44a31",
+  "assets/AssetManifest.json": "a9fd57a56de985ad42d6b5aa90b778c7",
 "assets/assets/fonts/gilroylight.otf": "c62aded729bf7146d491275e5019d7fc",
 "assets/assets/images/mlogo.png": "2de4f7fc4c7a591bec577f325f1ff866",
 "assets/assets/images/portfolio/campusfood.png": "1ec295c88088129ac833026578dbc7ff",
@@ -52,7 +52,7 @@ const RESOURCES = {
 "assets/assets/images/resume/wavio.png": "a5db47114d728d7671843fdd7c40bc75",
 "assets/FontManifest.json": "bc41220f97f2b350ec9580b2b770896f",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "d626d8724897c1c9afe8f20743175d07",
+"assets/NOTICES": "2b26ebafa20a1d64b71ae39f8dce0ff0",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "831eb40a2d76095849ba4aecd4340f19",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "a126c025bab9a1b4d8ac5534af76a208",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "d80ca32233940ebadc5ae5372ccd67f9",
@@ -60,9 +60,9 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
-"index.html": "5578ebc53de75ecaf055676ecf730c9c",
-"/": "5578ebc53de75ecaf055676ecf730c9c",
-"main.dart.js": "afaf9a2ca9c96c4d02ccf87f388e3afb",
+"index.html": "7e9be8a3322488b999aac1986c7e6506",
+"/": "7e9be8a3322488b999aac1986c7e6506",
+"main.dart.js": "c4628449254e9673161ad3e70563ca55",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "mlogo_sm.png": "c30f62a6ce397f6c1926397d94b66d89",
 "myjs.js": "c86b001d433121c1d98350e7399f9c4b",
