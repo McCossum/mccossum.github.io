@@ -53,7 +53,7 @@ const RESOURCES = {
 "assets/assets/images/resume/wavio.png": "a5db47114d728d7671843fdd7c40bc75",
 "assets/FontManifest.json": "bc41220f97f2b350ec9580b2b770896f",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "e069344c4b0610691f786b4c7b9f8727",
+"assets/NOTICES": "3a8c80a4bdd0c10fd3bd178cdbf9fcdd",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
@@ -61,14 +61,14 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
-"index.html": "fb0cb85bca8009f334f781a9a7a19763",
-"/": "fb0cb85bca8009f334f781a9a7a19763",
-"main.dart.js": "532647b1d204cff2765b464413e33d53",
+"index.html": "11dbcc742413b2cbaa8a4136aec60c73",
+"/": "11dbcc742413b2cbaa8a4136aec60c73",
+"main.dart.js": "d105ec479a41f0a33fdaf670deeccb5f",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "mlogo_sm.png": "c30f62a6ce397f6c1926397d94b66d89",
 "myjs.js": "c86b001d433121c1d98350e7399f9c4b",
-"OneSignalSDKUpdaterWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
-"OneSignalSDKWorker.js": "ebb63ca15bba16b550232b0b0f66c726",
+"OneSignalSDKUpdaterWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
+"OneSignalSDKWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
 "version.json": "b0e160cd8126a9cd0cc0c22010ab2166"
 };
 
@@ -87,7 +87,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value, {'cache': 'reload'})));
+        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
     })
   );
 });
