@@ -56,8 +56,8 @@ const RESOURCES = {
 "assets/assets/images/resume/rit.jpg": "eb82136a81bd0fbacda1da2536b481d7",
 "assets/assets/images/resume/wavio.png": "a5db47114d728d7671843fdd7c40bc75",
 "assets/FontManifest.json": "bc41220f97f2b350ec9580b2b770896f",
-"assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/NOTICES": "4abb63c8082416ec146d7db417d26c9c",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/NOTICES": "5497b84cc23b1452da04c3a483525784",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "00bb2b684be61e89d1bc7d75dee30b58",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "4b6a9b7c20913279a3ad3dd9c96e155b",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dffd9504fcb1894620fa41c700172994",
@@ -65,9 +65,9 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "5e764132c36e726473b73cc2d0252aa2",
 "icons/icon-512.png": "1885d08306e1b0a725861f0d29a03753",
-"index.html": "3154ffefebf0aaba8cdce4d9bd2e92c9",
-"/": "3154ffefebf0aaba8cdce4d9bd2e92c9",
-"main.dart.js": "4deb9bdf2bb100c7e4eefb339e4ee9b5",
+"index.html": "501b31fe077e9b6c76120a25cc2cb32e",
+"/": "501b31fe077e9b6c76120a25cc2cb32e",
+"main.dart.js": "dc9a49e262c3dba9e1ce8b3b8191ca7e",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "mlogo_sm.png": "c30f62a6ce397f6c1926397d94b66d89",
 "myjs.js": "c86b001d433121c1d98350e7399f9c4b",
@@ -91,7 +91,7 @@ self.addEventListener("install", (event) => {
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
       return cache.addAll(
-        CORE.map((value) => new Request(value + '?revision=' + RESOURCES[value], {'cache': 'reload'})));
+        CORE.map((value) => new Request(value, {'cache': 'reload'})));
     })
   );
 });
