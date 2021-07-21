@@ -448,7 +448,7 @@ s=new H.Rx(b).$1(r)
 s.toString
 new H.Rw(b).$1(s)
 return new H.AJ(s,b.i("AJ<0>"))},
-b8:function(){var s=new H.mL(C.bN,C.at,C.m,C.eK)
+b8:function(){var s=new H.mL(C.bN,C.at,C.l,C.eK)
 s.fm(null,t.vy)
 return s},
 akp:function(a,b){var s,r,q=new H.mM(b)
@@ -551,7 +551,7 @@ s=H.b5()
 if(s===C.E&&!g){s="0px 0px "+H.c(i*2)+"px "+j
 C.e.P(k,C.e.I(k,"box-shadow"),s,"")
 s=b.r
-if(s==null)s=C.m
+if(s==null)s=C.l
 s=H.bS(new P.C(((C.c.ao((1-Math.min(Math.sqrt(i)/6.283185307179586,1))*(s.gn(s)>>>24&255))&255)<<24|s.gn(s)&16777215)>>>0))
 s.toString
 j=s}else{s="blur("+H.c(i)+"px)"
@@ -586,7 +586,7 @@ p.a=o
 o=p.a=o+"<path "
 s=b.r
 r=s==null
-if(r)s=C.m
+if(r)s=C.l
 q=b.b
 if(q!==C.a1)if(q!==C.at){q=b.c
 q=q!==0&&q!=null}else q=!1
@@ -989,7 +989,7 @@ adl:function(){var s=$.a8h
 return s==null?H.e(H.t("_programCache")):s},
 aep:function(a){return"blur("+H.c((a.a+a.b)/2)+"px)"},
 alS:function(a1,a2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
-if(a2==null)a2=C.oG
+if(a2==null)a2=C.oF
 s=a1.length
 r=!J.f(a2[0],0)
 q=!J.f(C.b.gJ(a2),1)
@@ -8173,7 +8173,7 @@ if(r){q=C.aj.j(0,500)
 q.toString
 n=q}else{q=d7.b.j(0,100)
 q.toString
-n=q}if(r)m=C.m
+n=q}if(r)m=C.l
 else{q=d7.b.j(0,700)
 q.toString
 m=q}l=o===C.a8
@@ -8206,11 +8206,11 @@ b.toString}if(r){a=C.aj.j(0,700)
 a.toString}else{a=d7.b.j(0,200)
 a.toString}a0=C.jh.j(0,700)
 a0.toString
-a1=c?C.j:C.m
-q=q===C.a8?C.j:C.m
-a2=r?C.j:C.m
-a3=c?C.j:C.m
-a4=new A.mQ(d7,m,j,b,e,a,a0,a1,q,a2,a3,r?C.m:C.j,s)
+a1=c?C.j:C.l
+q=q===C.a8?C.j:C.l
+a2=r?C.j:C.l
+a3=c?C.j:C.l
+a4=new A.mQ(d7,m,j,b,e,a,a0,a1,q,a2,a3,r?C.l:C.j,s)
 q=C.aj.j(0,100)
 q.toString
 a5=q
@@ -8269,7 +8269,7 @@ q.toString}else q=p
 b=c3.y
 b.toString
 d3=K.akj(a4.cx,b,q)
-return X.a84(j,i,b6,c5,C.kW,!1,b0,C.uP,f,C.l4,C.l5,C.l6,C.lh,c7,new M.yx(c7,d4,c8,c9,d6,d4,a4,c6),g,e,C.mb,C.mc,d3,a4,d4,C.mE,C.ne,b1,C.no,d0,d,C.np,C.nS,b4,!1,C.nX,c8,d1,b3,c9,b7,b2,C.lz,c6,C.uX,C.v7,C.lL,b8,C.yE,p,o,m,n,b5,c4,C.yG,g,C.yZ,a7,a5,C.m,C.zB,C.zC,d2,C.m3,C.zP,C.zW,C.zY,a8,a9,C.A8,c3,C.E9,C.Ea,k,C.Eb,b9,a6,!0,d8)},
+return X.a84(j,i,b6,c5,C.kW,!1,b0,C.uP,f,C.l4,C.l5,C.l6,C.lh,c7,new M.yx(c7,d4,c8,c9,d6,d4,a4,c6),g,e,C.mb,C.mc,d3,a4,d4,C.mE,C.ne,b1,C.no,d0,d,C.np,C.nS,b4,!1,C.nX,c8,d1,b3,c9,b7,b2,C.lz,c6,C.uX,C.v7,C.lL,b8,C.yE,p,o,m,n,b5,c4,C.yG,g,C.yZ,a7,a5,C.l,C.zB,C.zC,d2,C.m3,C.zP,C.zW,C.zY,a8,a9,C.A8,c3,C.E9,C.Ea,k,C.Eb,b9,a6,!0,d8)},
 a84:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9,c0,c1,c2,c3,c4,c5,c6,c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,f3,f4,f5,f6,f7){return new X.eO(f7,c7,c8,d0,c9,p,d8,a,b,d4,i,q,a8,b4,b7,b5,e1,e2,d7,f5,a7,o,f1,n,d6,e6,a3,e7,g,a5,b9,b6,b1,f2,e9,d2,d,c0,b8,d1,c,d9,e4,f3,r,a0,c5,c1,!1,c4,e,d5,j,a1,e0,a6,b3,c2,f4,a2,l,c6,h,a9,m,k,f0,e5,b0,c3,e8,a4,s,d3,e3,!1,!0)},
 and:function(){return X.acZ(C.a9,null,null,null)},
 ane:function(a,b){return $.ag0().bh(0,new X.pi(a,b),new X.Zp(a,b))},
@@ -12318,7 +12318,7 @@ a2Z:function a2Z(a,b){this.a=a
 this.b=b},
 xw:function xw(){},
 aaV:function(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q){return new K.yF(a,d,e,m,l,o,n,c,g,i,q,p,h,k,b,f,j)},
-akj:function(a,b,c){var s,r,q,p,o,n,m=null,l=a===C.a9?C.m:C.j,k=l.a,j=k>>>16&255,i=k>>>8&255
+akj:function(a,b,c){var s,r,q,p,o,n,m=null,l=a===C.a9?C.l:C.j,k=l.a,j=k>>>16&255,i=k>>>8&255
 k&=255
 s=P.aF(31,j,i,k)
 r=P.aF(222,j,i,k)
@@ -18342,7 +18342,7 @@ s.shadowBlur=o.b*2
 r=a.r
 if(r!=null){r=H.bS(P.aF(255,r.gn(r)>>>16&255,r.gn(r)>>>8&255,r.gn(r)&255))
 r.toString
-s.shadowColor=r}else{r=H.bS(C.m)
+s.shadowColor=r}else{r=H.bS(C.l)
 r.toString
 s.shadowColor=r}s.translate(-5e4,0)
 n=new Float32Array(2)
@@ -20013,7 +20013,7 @@ z0:function(a){var s,r,q,p,o,n=H.a([],t.G)
 for(s=J.ay(a),r=this.c.b,q=0;q<s.gl(a);++q){p=s.j(a,q)
 o=J.ay(p)
 n.push(new P.fw(o.j(p,0),o.j(p,1),o.j(p,2),o.j(p,3),r))}return n},
-lk:function(a){var s=J.aj0(this.gR(),a.a,a.b),r=J.h(s),q=C.pD[J.aak(r.gWG(s))]
+lk:function(a){var s=J.aj0(this.gR(),a.a,a.b),r=J.h(s),q=C.pC[J.aak(r.gWG(s))]
 return new P.cW(r.ga02(s),q)},
 dI:function(a,b){var s,r
 this.e=b
@@ -21052,7 +21052,7 @@ skS:function(a){var s=this
 if(s.b){s.a=s.a.cw(0)
 s.b=!1}s.a.f=a},
 gag:function(a){var s=this.a.r
-return s==null?C.m:s},
+return s==null?C.l:s},
 sag:function(a,b){var s,r=this
 if(r.b){r.a=r.a.cw(0)
 r.b=!1}s=r.a
@@ -21080,8 +21080,8 @@ s="; "}else s=""
 p=r.a
 if(!p.f){q+=s+"antialias off"
 s="; "}p=p.r
-if(!(p==null?C.m:p).k(0,C.m)){p=r.a.r
-q+=s+(p==null?C.m:p).h(0)}q+=")"
+if(!(p==null?C.l:p).k(0,C.l)){p=r.a.r
+q+=s+(p==null?C.l:p).h(0)}q+=")"
 return q.charCodeAt(0)==0?q:q},
 $ia7K:1}
 H.b2.prototype={
@@ -27426,7 +27426,7 @@ o=q.j(r,"textAlignIndex")
 n=q.j(r,"textDirectionIndex")
 m=q.j(r,"fontWeightIndex")
 l=m!=null?H.af_(m):"normal"
-s.$1(new H.Ei(new H.OY(q.j(r,"fontSize"),l,q.j(r,"fontFamily"),C.pJ[o],C.pE[n])))
+s.$1(new H.Ei(new H.OY(q.j(r,"fontSize"),l,q.j(r,"fontFamily"),C.pJ[o],C.pD[n])))
 break
 case"TextInput.clearClient":s.$1(C.lR)
 break
@@ -32225,7 +32225,7 @@ if(t.sK.b(a)){s=s.body
 s.toString
 q=s}else{s.toString
 q=s.createElement(a.tagName)
-$.jf.body.appendChild(q)}if("createContextualFragment" in window.Range.prototype&&!C.b.v(C.pT,a.tagName)){$.a6Q.selectNodeContents(q)
+$.jf.body.appendChild(q)}if("createContextualFragment" in window.Range.prototype&&!C.b.v(C.pS,a.tagName)){$.a6Q.selectNodeContents(q)
 s=$.a6Q
 s.toString
 p=s.createContextualFragment(b==null?"null":b)}else{q.innerHTML=b
@@ -34547,7 +34547,7 @@ s=q.f
 q=r.e
 return K.a7X(K.a7X(new K.zB(q,r.f,q,null),r.c,s,!0),r.d,s,!1)}}
 D.p2.prototype={
-az:function(){return new D.p3(C.l,this.$ti.i("p3<1>"))},
+az:function(){return new D.p3(C.m,this.$ti.i("p3<1>"))},
 YH:function(){return this.d.$0()},
 a_Q:function(){return this.e.$0()}}
 D.p3.prototype={
@@ -34683,7 +34683,7 @@ h.sag(0,i)
 i=m+l*j-1
 a.bL(0,new P.y(i,s,i+1,r),h)}}}
 E.mX.prototype={
-az:function(){return new E.vH(new N.bD(null,t.F),null,C.l)}}
+az:function(){return new E.vH(new N.bD(null,t.F),null,C.m)}}
 E.vH.prototype={
 gkd:function(){var s=this.dx
 return s==null?H.e(H.t("_thicknessAnimationController")):s},
@@ -36079,7 +36079,7 @@ else return new R.oS(p,1,new P.aw(m.a.a-s.a.a),m.b.a1(0,s.b))}}
 S.Zq.prototype={
 h:function(a){return this.b}}
 S.t1.prototype={
-az:function(){return new S.wg(C.l)}}
+az:function(){return new S.wg(C.m)}}
 S.Ss.prototype={
 $2:function(a,b){return new D.ny(a,b)},
 $S:157}
@@ -36149,7 +36149,7 @@ lu:function(a){return this.b!==a.b}}
 E.q7.prototype={
 RC:function(a){switch(a.O){case C.P:case C.W:case C.K:case C.M:return!1
 case C.O:case C.L:return!0}},
-az:function(){return new E.vp(C.l)}}
+az:function(){return new E.vp(C.m)}}
 E.vp.prototype={
 Si:function(){var s,r,q=this.c
 q.toString
@@ -36239,13 +36239,13 @@ a7=a5.y
 if(a7==null)a7=a4.d
 if(a7==null)a7=4
 s=a4.e
-if(s==null)s=C.m
+if(s==null)s=C.l
 return T.cw(a0,new X.q4(b,M.t0(C.ap,!0,T.cw(a0,c,!1,a0,!0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0),C.q,o,a7,a0,s,a5.Q,a0,C.bZ),a0,t.qC),!0,a0,!1,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0,a0)}}
 E.a3z.prototype={
 gnh:function(){return Math.max(this.id+this.fy,this.go)},
 h:function(a){return"<optimized out>#"+Y.bB(this)+"(topPadding: "+C.c.N(this.id,1)+", bottomHeight: "+C.h.N(this.x2,1)+", ...)"}}
 E.uE.prototype={
-az:function(){return new E.Jz(null,C.l)}}
+az:function(){return new E.Jz(null,C.m)}}
 E.Jz.prototype={
 Wj:function(){this.a.toString
 var s=this.d=null
@@ -36518,7 +36518,7 @@ if(J.N(b)!==H.B(s))return!1
 return b instanceof X.qh&&J.f(b.a,s.a)&&b.b==s.b&&J.f(b.c,s.c)&&b.d==s.d&&J.f(b.e,s.e)&&!0}}
 X.Fn.prototype={}
 Z.tN.prototype={
-az:function(){return new Z.wC(P.aS(t.BD),C.l)}}
+az:function(){return new Z.wC(P.aS(t.BD),C.m)}}
 Z.wC.prototype={
 BA:function(a){if(this.d.v(0,C.as)!==a)this.aq(new Z.a2N(this,a))},
 Sw:function(a){if(this.d.v(0,C.ad)!==a)this.aq(new Z.a2O(this,a))},
@@ -36661,7 +36661,7 @@ return t.yX.a(Y.eL(q,s,this.c))},
 $iaH:1}
 A.Fp.prototype={}
 K.ql.prototype={
-az:function(){return new K.vs(P.aS(t.BD),null,C.l)}}
+az:function(){return new K.vs(P.aS(t.BD),null,C.m)}}
 K.vs.prototype={
 Ai:function(a){if(this.r.v(0,C.as)!==a)this.aq(new K.a_z(this,a))},
 Q3:function(a){if(this.r.v(0,C.ad)!==a)this.aq(new K.a_A(this,a))},
@@ -37073,7 +37073,7 @@ h:function(a){return this.b}}
 Z.uN.prototype={
 h:function(a){return this.b}}
 Z.ra.prototype={
-az:function(){return new Z.GH(C.l)}}
+az:function(){return new Z.GH(C.m)}}
 Z.GH.prototype={
 Rz:function(a,b){this.a.toString
 switch(C.hU){case C.me:return-(b.x-b.y)
@@ -37398,7 +37398,7 @@ S:function(a,b){var s=this,r=b.C(t.AD),q=r==null?null:r.f
 return new R.w1(s.c,s.d,s.e,s.f,s.r,s.x,s.y,s.z,s.Q,s.ch,s.cx,s.cy,s.db,s.dx,s.dy,s.fr,s.fx,s.fy,s.go,s.id,s.k1,!1,s.k3,!1,s.r1,s.r2,q,s.gIR(),s.gY9(),null)},
 Ya:function(a){return!0}}
 R.w1.prototype={
-az:function(){return new R.w0(P.v(t.uR,t.z6),new R.bl(H.a([],t.hL),t.fR),null,C.l)}}
+az:function(){return new R.w0(P.v(t.uR,t.z6),new R.bl(H.a([],t.hL),t.fR),null,C.m)}}
 R.pg.prototype={
 h:function(a){return this.b}}
 R.w0.prototype={
@@ -37679,7 +37679,7 @@ L.H8.prototype={}
 M.jx.prototype={
 h:function(a){return this.b}}
 M.t_.prototype={
-az:function(){return new M.Hy(new N.bD("ink renderer",t.F),null,C.l)}}
+az:function(){return new M.Hy(new N.bD("ink renderer",t.F),null,C.m)}}
 M.Hy.prototype={
 S:function(a,b){var s,r,q,p,o,n=this,m=null,l=K.b4(b),k=n.a,j=k.f
 if(j==null)switch(k.d){case C.bZ:j=l.f
@@ -37762,7 +37762,7 @@ h:function(a){return"<optimized out>#"+Y.bB(this)}}
 M.lM.prototype={
 d8:function(a){return Y.eL(this.a,this.b,a)}}
 M.wh.prototype={
-az:function(){return new M.Hv(null,C.l)}}
+az:function(){return new M.Hv(null,C.m)}}
 M.Hv.prototype={
 kP:function(a){var s=this
 s.dx=t.nr.a(a.$3(s.dx,s.a.Q,new M.a1S()))
@@ -37866,7 +37866,7 @@ K.zs.prototype={
 ET:function(a,b,c,d,e,f){return D.akz(a,b,c,d,e,f)}}
 K.BA.prototype={
 te:function(a){var s=t.dM
-return P.aC(new H.aG(C.qj,new K.TG(a),s),!0,s.i("bb.E"))},
+return P.aC(new H.aG(C.qi,new K.TG(a),s),!0,s.i("bb.E"))},
 k:function(a,b){var s,r=this
 if(b==null)return!1
 if(r===b)return!0
@@ -37911,7 +37911,7 @@ T.IH.prototype={}
 M.et.prototype={
 h:function(a){return this.b}}
 M.ud.prototype={
-az:function(){return new M.Db(P.ic(t.yp),P.ju(null,t.sL),null,C.l)}}
+az:function(){return new M.Db(P.ic(t.yp),P.ju(null,t.sL),null,C.m)}}
 M.Db.prototype={
 aE:function(){var s,r=this,q=r.c.C(t.w).f
 if(r.x===!0)if(!q.z){s=r.r
@@ -38013,7 +38013,7 @@ $0:function(){var s=this.a.a
 return s==null?H.e(H.cf("floatingActionButtonRect")):s},
 $S:57}
 M.vQ.prototype={
-az:function(){return new M.vR(null,C.l)}}
+az:function(){return new M.vR(null,C.m)}}
 M.vR.prototype={
 gk8:function(){var s=this.d
 return s==null?H.e(H.t("_previousController")):s},
@@ -38108,7 +38108,7 @@ $0:function(){if(this.b===C.C)this.a.a.r.cj(0)},
 $S:0}
 M.uc.prototype={
 az:function(){var s=null,r=t.qb,q=t.V
-return new M.o2(new N.bD(s,r),new N.bD(s,r),new U.u1(!1,new P.bF(q)),new U.u1(!1,new P.bF(q)),P.ju(s,t.sL),H.a([],t.pc),new N.bD(s,t.F),C.m,s,P.v(t.wb,t.M),s,!0,s,s,C.l)}}
+return new M.o2(new N.bD(s,r),new N.bD(s,r),new U.u1(!1,new P.bF(q)),new U.u1(!1,new P.bF(q)),P.ju(s,t.sL),H.a([],t.pc),new N.bD(s,t.F),C.l,s,P.v(t.wb,t.M),s,!0,s,s,C.m)}}
 M.o2.prototype={
 gea:function(){this.a.toString
 return null},
@@ -38332,7 +38332,7 @@ q=this.bz$
 if(q!=null)for(q=P.cr(q,q.r),r=H.n(q).c;q.q();)r.a(q.d).se8(0,s)
 this.ce()}}
 E.uo.prototype={
-az:function(){return new E.Jo(C.l)}}
+az:function(){return new E.Jo(C.m)}}
 E.Jo.prototype={
 S:function(a,b){var s,r=null,q=this.c
 q.toString
@@ -38344,7 +38344,7 @@ s=q.c
 q=q.d
 return new E.po(r,r,s,q,r,r,r,C.bi,C.cq,C.w,G.a61(),r,r)}}
 E.po.prototype={
-az:function(){return new E.Hx(new N.bD(null,t.F),null,C.l)}}
+az:function(){return new E.Hx(new N.bD(null,t.F),null,C.m)}}
 E.Hx.prototype={
 gk0:function(){var s=this.dx
 return s==null?H.e(H.t("_hoverAnimationController")):s},
@@ -39066,7 +39066,7 @@ j1=R.a81(u6.e,s.e,u7,P.dx(),j1)
 u6=P.U(u6.f,s.f,u7)
 return X.a84(i,h,c4,c0,new V.q8(h2,h1,h4,h5,h6,h7,h8,h9,i0,i1,i2,i3,i4,h0),!1,b2,new Q.t2(n6,n7,n8,n4),f,new D.qf(j8,j9,i5),new M.qg(o6,o7,o8,o9,p0,p1,p2,p3,p4,p5,p6,o4),m6,n9,a7,a5,k,e,new A.qp(g2,g3,g4,g5,g6,g0),new F.qq(t1,t2,t3,t4,t5,t6,t7,r3,r8),g1,new A.mQ(k1,k2,k3,k4,k5,k6,k7,k8,k9,l0,l1,l2,j7),l9,b0,new Z.qI(s0,s1,s2,s3,s4,s5,s6,s7,s8,s9,r9),b3,new Y.qM(l4,l5,l6,l7,k0),a4,d,new G.qO(o0,o1,o2,o3,n5),r5,b6,!1,l3,c,a,b5,b,c2,b4,c1,g8,l8,r6,g9,g7,n3,r,n,l,m,c3,b9,new T.tJ(t9,u0,u2,u3,u1,t0),g,new X.uq(i6,i7,i8,i9,j0,j2,j3,j4,j5,j6,h3),a8,a2,j,new Q.uD(c7,c8,c9,d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,e0,e1,e2,e3,e4,e5,e6,e7,e8,e9,f0,f1,f2,c5),new K.uG(m7,m8,m9,n0,n1,n2,m5),a0,a1,new R.uT(t8,u4,u5,o,j1,u6),new U.uU(f4,f5,f6,f7,f8,f9,f3),p7,a9,b1,r7,b8,new A.v6(p9,q0,q1,q2,q3,q4,q5,q6,q7,q8,q9,r0,r1,r2,r4,p8,o5),a6,b7,c6,new U.ve(m1,m2,m3,m4,m0),a3,!0,new X.iL(p,q))}}
 K.pZ.prototype={
-az:function(){return new K.F6(null,C.l)}}
+az:function(){return new K.F6(null,C.m)}}
 K.F6.prototype={
 kP:function(a){var s=a.$3(this.dx,this.a.r,new K.a_c())
 s.toString
@@ -39209,7 +39209,7 @@ if(J.N(b)!==H.B(s))return!1
 return b instanceof S.v7&&J.f(b.a,s.a)&&J.f(b.b,s.b)&&J.f(b.c,s.c)&&J.f(b.d,s.d)&&J.f(b.e,s.e)&&J.f(b.f,s.f)&&J.f(b.r,s.r)&&J.f(b.x,s.x)&&J.f(b.z,s.z)&&J.f(b.y,s.y)&&J.f(b.Q,s.Q)&&J.f(b.ch,s.ch)&&J.f(b.cx,s.cx)&&J.f(b.db,s.db)&&b.cy==s.cy}}
 S.Kf.prototype={}
 S.v8.prototype={
-az:function(){return new S.xe(null,C.l)}}
+az:function(){return new S.xe(null,C.m)}}
 S.xe.prototype={
 sa6:function(a,b){this.d=b},
 gke:function(){var s=this.ch
@@ -39333,7 +39333,7 @@ b.C(t.cF)
 s=K.b4(b).by
 r=k.aa.z
 if(k.ak.cx===C.a8){r.toString
-q=r.Fd(C.m,m.Bm())
+q=r.Fd(C.l,m.Bm())
 p=new S.ey(P.aF(C.c.ao(229.5),255,255,255),l,l,C.eu,l,l,C.a7)}else{r.toString
 q=r.Fd(C.j,m.Bm())
 r=C.aj.j(0,700)
@@ -40789,13 +40789,13 @@ for(g=0;g<4;++g){f=i[g]
 a.c0(0,n[h],f)
 a.a5(0,0,0)}a.aN(0)
 a.a5(0,0,0)}a.aW(0)
-a.f2(0,b,C.m,10,!0)
+a.f2(0,b,C.l,10,!0)
 a.a5(0,0,0)
-a.f2(0,b,C.m,10,!1)
+a.f2(0,b,C.l,10,!1)
 a.aN(0)
 a.a5(0,0,0)
 e=P.a7L(P.TL(null,null,null,null,null,null,null,null,null,null,C.p,null))
-e.jw(0,P.a83(null,C.m,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null))
+e.jw(0,P.a83(null,C.l,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null))
 e.ja(0,"_")
 d=e.bd(0)
 d.dI(0,C.v8)
@@ -47421,7 +47421,7 @@ U.Mx.prototype={
 a_5:function(a,b,c){if(a instanceof U.bs)return a.au(b,c)
 else return a.b1(b)}}
 U.fK.prototype={
-az:function(){return new U.vm(P.aS(t.nT),new P.w(),C.l)}}
+az:function(){return new U.vm(P.aS(t.nT),new P.w(),C.m)}}
 U.My.prototype={
 $1:function(a){t.ke.a(a.gM())
 return!1},
@@ -47503,7 +47503,7 @@ return s},
 aw:function(a,b){b.sn(0,this.e)
 b.sJA(!0)}}
 S.vi.prototype={
-az:function(){return new S.xn(C.l)}}
+az:function(){return new S.xn(C.m)}}
 S.xn.prototype={
 gTy:function(){var s,r
 $.al.toString
@@ -47628,7 +47628,7 @@ S.a47.prototype={
 $1:function(a){return this.b.a.dx.$2(a,this.a.a)},
 $S:26}
 S.wk.prototype={
-az:function(){return new S.Hz(C.l)}}
+az:function(){return new S.Hz(C.m)}}
 S.Hz.prototype={
 aV:function(){this.bn()
 $.al.aj$.push(this)},
@@ -47667,7 +47667,7 @@ $S:0}
 S.L4.prototype={}
 S.Lz.prototype={}
 L.mD.prototype={
-az:function(){return new L.vq(C.l)}}
+az:function(){return new L.vq(C.m)}}
 L.vq.prototype={
 aV:function(){this.bn()
 this.DU()},
@@ -48136,7 +48136,7 @@ b.b4=s.y
 b.df=s.z
 b.A=s.Q}}
 T.tc.prototype={
-az:function(){return new T.wo(C.l)}}
+az:function(){return new T.wo(C.m)}}
 T.wo.prototype={
 Zn:function(a){var s=this.a.e
 if(s!=null&&this.c!=null)s.$1(a)},
@@ -48972,7 +48972,7 @@ O.GN.prototype={}
 O.GO.prototype={}
 O.GP.prototype={}
 L.kW.prototype={
-az:function(){return new L.p8(C.l)}}
+az:function(){return new L.p8(C.m)}}
 L.p8.prototype={
 gc5:function(a){var s=this.a.x
 if(s==null){s=this.d
@@ -49066,7 +49066,7 @@ L.a0J.prototype={
 $0:function(){this.a.r=this.b},
 $S:0}
 L.Al.prototype={
-az:function(){return new L.GQ(C.l)}}
+az:function(){return new L.GQ(C.m)}}
 L.GQ.prototype={
 AO:function(){var s=this.a,r=s.c,q=s.Q
 s=s.y
@@ -49407,7 +49407,7 @@ $1:function(a){var s=a.b.d7(this.a)
 return!s.gG(s)},
 $S:290}
 U.rh.prototype={
-az:function(){return new U.GR(C.l)}}
+az:function(){return new U.GR(C.m)}}
 U.GR.prototype={
 aV:function(){this.bn()
 this.d=O.abq(!1,"FocusTraversalGroup",!0,null,!0)},
@@ -50130,7 +50130,7 @@ a.db=null
 a.z=s.H},
 $S:304}
 D.jI.prototype={
-az:function(){return new D.nW(C.uD,C.l)}}
+az:function(){return new D.nW(C.uD,C.m)}}
 D.nW.prototype={
 aV:function(){var s,r,q=this
 q.bn()
@@ -50281,7 +50281,7 @@ $S:19}
 T.nc.prototype={
 h:function(a){return this.b}}
 T.jk.prototype={
-az:function(){return new T.pf(new N.bD(null,t.F),C.l)}}
+az:function(){return new T.pf(new N.bD(null,t.F),C.m)}}
 T.QK.prototype={
 $2:function(a,b){var s
 t.tV.a(a.e)
@@ -50580,7 +50580,7 @@ q=i==null
 if(!q&&r.gcC(r)!=null&&r.c!=null)p=r
 else{o=r.c
 if(o==null)o=24
-if(q)i=C.m
+if(q)i=C.l
 q=r.gcC(r)
 p=r.mE(i,q==null?C.eO.gcC(C.eO):q,o)}n=p.c
 i=this.c
@@ -50628,7 +50628,7 @@ gu:function(a){var s=this
 return P.P(s.a,s.gcC(s),s.c,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a)}}
 T.H3.prototype={}
 U.ru.prototype={
-az:function(){return new U.vY(C.l)}}
+az:function(){return new U.vY(C.m)}}
 U.vY.prototype={
 gD2:function(){var s=this.Q
 return s==null?H.e(H.t("_scrollAwareContext")):s},
@@ -50818,7 +50818,7 @@ G.MD.prototype={
 $0:function(){},
 $S:0}
 G.pX.prototype={
-az:function(){return new G.F4(null,C.l)}}
+az:function(){return new G.F4(null,C.m)}}
 G.F4.prototype={
 kP:function(a){this.dx=t.uH.a(a.$3(this.dx,this.a.r,new G.a_6()))},
 S:function(a,b){var s,r=this.dx
@@ -50829,7 +50829,7 @@ G.a_6.prototype={
 $1:function(a){return new G.kO(t.F0.a(a),null)},
 $S:313}
 G.pW.prototype={
-az:function(){return new G.F3(null,C.l)}}
+az:function(){return new G.F3(null,C.m)}}
 G.F3.prototype={
 kP:function(a){this.dx=t.uh.a(a.$3(this.dx,this.a.x,new G.a_5()))},
 S:function(a,b){var s,r=this.dx
@@ -50841,7 +50841,7 @@ G.a_5.prototype={
 $1:function(a){return new G.lW(t.F1.a(a),null)},
 $S:314}
 G.pY.prototype={
-az:function(){return new G.F5(null,C.l)}}
+az:function(){return new G.F5(null,C.m)}}
 G.F5.prototype={
 kP:function(a){var s,r=this
 r.dx=t.iH.a(a.$3(r.dx,r.a.z,new G.a_7()))
@@ -51041,7 +51041,7 @@ L.zM.prototype={$ivj:1}
 L.wd.prototype={
 cm:function(a){return this.x!==a.x}}
 L.rV.prototype={
-az:function(){return new L.Hp(new N.bD(null,t.F),P.v(t.v,t.z),C.l)}}
+az:function(){return new L.Hp(new N.bD(null,t.F),P.v(t.v,t.z),C.m)}}
 L.Hp.prototype={
 aV:function(){this.bn()
 this.cB(0,this.a.c)},
@@ -51305,7 +51305,7 @@ K.Ey.prototype={}
 K.zL.prototype={}
 K.tk.prototype={
 az:function(){var s=null,r=t.V,q=t.ar
-return new K.h6(H.a([],t.hi),new K.H0(new P.bF(r)),P.ju(s,q),P.ju(s,q),O.PZ(!0,"Navigator Scope",!1),new U.u2(0,new P.bF(r),t.rj),new B.iJ(!1,new P.bF(r)),P.aS(t.S),s,P.v(t.wb,t.M),s,!0,s,s,C.l)},
+return new K.h6(H.a([],t.hi),new K.H0(new P.bF(r)),P.ju(s,q),P.ju(s,q),O.PZ(!0,"Navigator Scope",!1),new U.u2(0,new P.bF(r),t.rj),new B.iJ(!1,new P.bF(r)),P.aS(t.S),s,P.v(t.wb,t.M),s,!0,s,s,C.m)},
 a_N:function(a,b){return this.Q.$2(a,b)}}
 K.Te.prototype={
 $1:function(a){return a==null},
@@ -51411,7 +51411,7 @@ l.d=new N.bD(null,t.r9)
 C.b.L(r,s.HU(null,l))
 l.a.toString
 q=0
-for(;!1;++q){p=C.pX[q]
+for(;!1;++q){p=C.pW[q]
 r=l.c
 r.toString
 r=p.vJ(r)
@@ -51830,7 +51830,7 @@ X.Tx.prototype={
 $1:function(a){this.a.C1()},
 $S:1}
 X.pt.prototype={
-az:function(){return new X.wz(C.l)}}
+az:function(){return new X.wz(C.m)}}
 X.wz.prototype={
 aV:function(){this.bn()
 this.a.c.E1(!0)},
@@ -51843,7 +51843,7 @@ X.a2u.prototype={
 $0:function(){},
 $S:0}
 X.tr.prototype={
-az:function(){return new X.nJ(H.a([],t.tD),null,C.l)}}
+az:function(){return new X.nJ(H.a([],t.tD),null,C.m)}}
 X.nJ.prototype={
 aV:function(){this.bn()
 this.ZV(0,this.a.c)},
@@ -52021,7 +52021,7 @@ q.toString
 s=r.a(q).a_$}}}
 L.rn.prototype={
 az:function(){var s=t.y
-return new L.vV(P.aL([!1,!0,!0,!0],s,s),null,C.l)},
+return new L.vV(P.aL([!1,!0,!0,!0],s,s),null,C.m)},
 xc:function(a){return G.a61().$1(a)}}
 L.vV.prototype={
 aV:function(){var s,r,q=this
@@ -52310,7 +52310,7 @@ b.sa0c(0)}}
 E.nS.prototype={
 cm:function(a){return this.f!=a.f}}
 K.jM.prototype={
-az:function(){return new K.Jb(null,P.v(t.wb,t.M),null,!0,null,C.l)}}
+az:function(){return new K.Jb(null,P.v(t.wb,t.M),null,!0,null,C.m)}}
 K.Jb.prototype={
 gea:function(){return this.a.d},
 jz:function(a,b){},
@@ -52318,7 +52318,7 @@ S:function(a,b){return K.a8a(this.aF$,this.a.c)}}
 K.vg.prototype={
 cm:function(a){return a.f!=this.f}}
 K.u8.prototype={
-az:function(){return new K.wN(C.l)}}
+az:function(){return new K.wN(C.m)}}
 K.wN.prototype={
 aE:function(){var s,r=this
 r.ce()
@@ -52582,7 +52582,7 @@ b1:function(a){return K.nC(this.c).H1()}}
 T.wn.prototype={
 cm:function(a){return this.f!==a.f||this.r!==a.r||this.x!==a.x}}
 T.pq.prototype={
-az:function(){return new T.m9(O.PZ(!0,C.EZ.h(0)+" Focus Scope",!1),F.We(),C.l,this.$ti.i("m9<1>"))}}
+az:function(){return new T.m9(O.PZ(!0,C.EZ.h(0)+" Focus Scope",!1),F.We(),C.m,this.$ti.i("m9<1>"))}}
 T.m9.prototype={
 aV:function(){var s,r,q=this
 q.bn()
@@ -53598,7 +53598,7 @@ $2:function(a,b){if(!a.a)a.ab(0,b)},
 $S:40}
 F.um.prototype={
 az:function(){var s=null,r=t.F
-return new F.un(new F.J9(new P.bF(t.V)),new N.bD(s,r),new N.bD(s,t.lV),new N.bD(s,r),C.jl,s,P.v(t.wb,t.M),s,!0,s,s,C.l)},
+return new F.un(new F.J9(new P.bF(t.V)),new N.bD(s,r),new N.bD(s,t.lV),new N.bD(s,r),C.jl,s,P.v(t.wb,t.M),s,!0,s,s,C.m)},
 a1e:function(a,b){return this.f.$2(a,b)}}
 F.Wo.prototype={
 $1:function(a){return null},
@@ -54223,7 +54223,7 @@ return!s.a.k(0,a.a)||!s.b.k(0,a.b)||!s.c.k(0,a.c)||s.d!=a.d||s.e!==a.e||s.f!==a.
 yY:function(a){return!1},
 gyz:function(){return null}}
 E.nY.prototype={
-az:function(){return new E.hf(new N.bD(null,t.F),null,C.l,t.mP)},
+az:function(){return new E.hf(new N.bD(null,t.F),null,C.m,t.mP)},
 xc:function(a){return this.ch.$1(a)}}
 E.hf.prototype={
 ghJ:function(){var s=this.r
@@ -54511,7 +54511,7 @@ p=U.ajW(r)
 p.a_5(q,s,r)
 return q.vB(s)?C.ix:C.iy}}return C.dh}}
 X.lN.prototype={
-az:function(){return new X.wW(C.l)}}
+az:function(){return new X.wW(C.m)}}
 X.wW.prototype={
 gqv:function(){this.a.toString
 var s=this.d
@@ -54867,7 +54867,7 @@ S:function(a,b){var s=this.d
 X.Z4(new X.ME(this.c,s.gn(s)))
 return this.e}}
 K.q_.prototype={
-az:function(){return new K.vn(C.l)}}
+az:function(){return new K.vn(C.m)}}
 K.vn.prototype={
 aV:function(){this.bn()
 this.a.c.aS(0,this.guV())},
@@ -54986,7 +54986,7 @@ N.a4z.prototype={
 $1:function(a){return!0},
 $S:15}
 F.vk.prototype={
-az:function(){return new F.KO(C.l)}}
+az:function(){return new F.KO(C.m)}}
 F.KO.prototype={
 aE:function(){var s,r,q=this
 q.ce()
@@ -55104,7 +55104,7 @@ F.YG.prototype={
 $1:function(a){return new N.cv(14,null)},
 $S:4}
 F.le.prototype={
-az:function(){return new F.Hr([],[],C.l)}}
+az:function(){return new F.Hr([],[],C.m)}}
 F.Hr.prototype={
 aV:function(){var s,r,q,p,o=this
 for(s=o.r,r=t.t,q=o.x,p=0;p<15;++p){s.push(H.a([p,4],r))
@@ -55259,7 +55259,7 @@ $C:"$0",
 $R:0,
 $S:21}
 N.cv.prototype={
-az:function(){return new N.I8(C.l)}}
+az:function(){return new N.I8(C.m)}}
 N.I8.prototype={
 S:function(a6,a7){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a=this,a0=null,a1="assets/images/portfolio/",a2=C.S[a.a.c][0],a3=t.w,a4=a7.C(a3).f.a.a>=a7.C(a3).f.a.b?a7.C(a3).f.a.a/5:150,a5=T.aby(T.aaX(T.hk(U.l3(a1+H.c(C.S[a.a.c][1]),C.bO,a0),a4,a0)),a2)
 a2=a7.C(a3).f.a.a>=a7.C(a3).f.a.b?a7.C(a3).f.a.a/5+16:166
@@ -55304,7 +55304,7 @@ $R:0,
 $S:0}
 E.U3.prototype={}
 B.rP.prototype={
-az:function(){return new B.Hn(document.createElement("div"),new N.bD(null,t.F),C.l)}}
+az:function(){return new B.Hn(document.createElement("div"),new N.bD(null,t.F),C.m)}}
 B.Hn.prototype={
 aE:function(){var s=$.xV(),r=this.c
 r.toString
@@ -55372,7 +55372,7 @@ if(r!=null)r.appendChild(s)}},
 $S:1}
 B.L2.prototype={}
 G.cq.prototype={
-az:function(){return new G.K6(document.createElement("div"),new N.bD(null,t.F),C.l)},
+az:function(){return new G.K6(document.createElement("div"),new N.bD(null,t.F),C.m)},
 dP:function(a){return this.c.$0()}}
 G.K6.prototype={
 aE:function(){var s=$.xV(),r=this.c
@@ -57477,9 +57477,9 @@ C.a3=new P.b1(0,0)
 C.aI=new K.c5(C.a3,C.a3,C.a3,C.a3)
 C.cM=new P.b1(4,4)
 C.eu=new K.c5(C.cM,C.cM,C.cM,C.cM)
-C.m=new P.C(4278190080)
+C.l=new P.C(4278190080)
 C.R=new Y.yo("BorderStyle.none")
-C.u=new Y.dk(C.m,0,C.R)
+C.u=new Y.dk(C.l,0,C.R)
 C.U=new Y.yo("BorderStyle.solid")
 C.l4=new D.qf(null,null,null)
 C.l5=new M.qg(null,null,null,null,null,null,null,null,null,null,null,null)
@@ -57706,7 +57706,7 @@ C.hM=new S.F1()
 C.d7=new S.F2()
 C.lZ=new L.FN()
 C.j=new P.C(4294967295)
-C.G8=new E.eC(C.m,"label",null,C.m,C.j,C.m,C.j,C.m,C.j,C.m,C.j,0)
+C.G8=new E.eC(C.l,"label",null,C.l,C.j,C.l,C.j,C.l,C.j,C.l,C.j,0)
 C.cn=new P.C(4288256409)
 C.cm=new P.C(4285887861)
 C.G6=new E.eC(C.cn,"inactiveGray",null,C.cn,C.cm,C.cn,C.cm,C.cn,C.cm,C.cn,C.cm,0)
@@ -57718,7 +57718,7 @@ C.i_=new P.C(4282424575)
 C.G5=new E.eC(C.eA,"systemBlue",null,C.eA,C.hY,C.hX,C.i_,C.eA,C.hY,C.hX,C.i_,0)
 C.mt=new P.C(4280032286)
 C.my=new P.C(4280558630)
-C.G7=new E.eC(C.j,"systemBackground",null,C.j,C.m,C.j,C.m,C.j,C.mt,C.j,C.my,0)
+C.G7=new E.eC(C.j,"systemBackground",null,C.j,C.l,C.j,C.l,C.j,C.mt,C.j,C.my,0)
 C.cl=new P.C(4042914297)
 C.d9=new P.C(4028439837)
 C.G9=new E.eC(C.cl,null,null,C.cl,C.d9,C.cl,C.d9,C.cl,C.d9,C.cl,C.d9,0)
@@ -57911,8 +57911,8 @@ C.ir=new X.fV(57490,"MaterialIcons",null,!0)
 C.o9=new X.fV(57491,"MaterialIcons",null,!0)
 C.y=new P.C(3707764736)
 C.oe=new T.e9(C.y,null,null)
-C.eO=new T.e9(C.m,1,24)
-C.is=new T.e9(C.m,null,null)
+C.eO=new T.e9(C.l,1,24)
+C.is=new T.e9(C.l,null,null)
 C.eP=new T.e9(C.j,null,null)
 C.iq=new K.R4(61788,"FontAwesomeRegular","font_awesome_flutter",!1)
 C.of=new L.eG(C.iq,C.y,null)
@@ -57999,7 +57999,7 @@ C.fj=new B.ee("ModifierKey.scrollLockModifier")
 C.fk=new B.ee("ModifierKey.functionModifier")
 C.jr=new B.ee("ModifierKey.symbolModifier")
 C.oz=H.a(s([C.c0,C.c1,C.c2,C.c3,C.fh,C.fi,C.fj,C.fk,C.jr]),H.Q("q<ee>"))
-C.oG=H.a(s([0,1]),t.zp)
+C.oF=H.a(s([0,1]),t.zp)
 C.eM=new P.eF(0)
 C.o0=new P.eF(1)
 C.o1=new P.eF(2)
@@ -58011,132 +58011,26 @@ C.im=new P.eF(8)
 C.oL=H.a(s([C.eM,C.o0,C.o1,C.H,C.aM,C.o2,C.Y,C.o3,C.im]),H.Q("q<eF>"))
 C.iD=H.a(s([0,0,32776,33792,1,10240,0,0]),t.t)
 C.oN=H.a(s(["*::class","*::dir","*::draggable","*::hidden","*::id","*::inert","*::itemprop","*::itemref","*::itemscope","*::lang","*::spellcheck","*::title","*::translate","A::accesskey","A::coords","A::hreflang","A::name","A::shape","A::tabindex","A::target","A::type","AREA::accesskey","AREA::alt","AREA::coords","AREA::nohref","AREA::shape","AREA::tabindex","AREA::target","AUDIO::controls","AUDIO::loop","AUDIO::mediagroup","AUDIO::muted","AUDIO::preload","BDO::dir","BODY::alink","BODY::bgcolor","BODY::link","BODY::text","BODY::vlink","BR::clear","BUTTON::accesskey","BUTTON::disabled","BUTTON::name","BUTTON::tabindex","BUTTON::type","BUTTON::value","CANVAS::height","CANVAS::width","CAPTION::align","COL::align","COL::char","COL::charoff","COL::span","COL::valign","COL::width","COLGROUP::align","COLGROUP::char","COLGROUP::charoff","COLGROUP::span","COLGROUP::valign","COLGROUP::width","COMMAND::checked","COMMAND::command","COMMAND::disabled","COMMAND::label","COMMAND::radiogroup","COMMAND::type","DATA::value","DEL::datetime","DETAILS::open","DIR::compact","DIV::align","DL::compact","FIELDSET::disabled","FONT::color","FONT::face","FONT::size","FORM::accept","FORM::autocomplete","FORM::enctype","FORM::method","FORM::name","FORM::novalidate","FORM::target","FRAME::name","H1::align","H2::align","H3::align","H4::align","H5::align","H6::align","HR::align","HR::noshade","HR::size","HR::width","HTML::version","IFRAME::align","IFRAME::frameborder","IFRAME::height","IFRAME::marginheight","IFRAME::marginwidth","IFRAME::width","IMG::align","IMG::alt","IMG::border","IMG::height","IMG::hspace","IMG::ismap","IMG::name","IMG::usemap","IMG::vspace","IMG::width","INPUT::accept","INPUT::accesskey","INPUT::align","INPUT::alt","INPUT::autocomplete","INPUT::autofocus","INPUT::checked","INPUT::disabled","INPUT::inputmode","INPUT::ismap","INPUT::list","INPUT::max","INPUT::maxlength","INPUT::min","INPUT::multiple","INPUT::name","INPUT::placeholder","INPUT::readonly","INPUT::required","INPUT::size","INPUT::step","INPUT::tabindex","INPUT::type","INPUT::usemap","INPUT::value","INS::datetime","KEYGEN::disabled","KEYGEN::keytype","KEYGEN::name","LABEL::accesskey","LABEL::for","LEGEND::accesskey","LEGEND::align","LI::type","LI::value","LINK::sizes","MAP::name","MENU::compact","MENU::label","MENU::type","METER::high","METER::low","METER::max","METER::min","METER::value","OBJECT::typemustmatch","OL::compact","OL::reversed","OL::start","OL::type","OPTGROUP::disabled","OPTGROUP::label","OPTION::disabled","OPTION::label","OPTION::selected","OPTION::value","OUTPUT::for","OUTPUT::name","P::align","PRE::width","PROGRESS::max","PROGRESS::min","PROGRESS::value","SELECT::autocomplete","SELECT::disabled","SELECT::multiple","SELECT::name","SELECT::required","SELECT::size","SELECT::tabindex","SOURCE::type","TABLE::align","TABLE::bgcolor","TABLE::border","TABLE::cellpadding","TABLE::cellspacing","TABLE::frame","TABLE::rules","TABLE::summary","TABLE::width","TBODY::align","TBODY::char","TBODY::charoff","TBODY::valign","TD::abbr","TD::align","TD::axis","TD::bgcolor","TD::char","TD::charoff","TD::colspan","TD::headers","TD::height","TD::nowrap","TD::rowspan","TD::scope","TD::valign","TD::width","TEXTAREA::accesskey","TEXTAREA::autocomplete","TEXTAREA::cols","TEXTAREA::disabled","TEXTAREA::inputmode","TEXTAREA::name","TEXTAREA::placeholder","TEXTAREA::readonly","TEXTAREA::required","TEXTAREA::rows","TEXTAREA::tabindex","TEXTAREA::wrap","TFOOT::align","TFOOT::char","TFOOT::charoff","TFOOT::valign","TH::abbr","TH::align","TH::axis","TH::bgcolor","TH::char","TH::charoff","TH::colspan","TH::headers","TH::height","TH::nowrap","TH::rowspan","TH::scope","TH::valign","TH::width","THEAD::align","THEAD::char","THEAD::charoff","THEAD::valign","TR::align","TR::bgcolor","TR::char","TR::charoff","TR::valign","TRACK::default","TRACK::kind","TRACK::label","TRACK::srclang","UL::compact","UL::type","VIDEO::controls","VIDEO::height","VIDEO::loop","VIDEO::mediagroup","VIDEO::muted","VIDEO::preload","VIDEO::width"]),t.s)
-C.qi=H.a(s(["Project Manager\n& Engagement Manager","Indeed.com","indeed.png","Provided elastic capability to accelerate product development by bringing in ready-made contractor teams. Built relationships with external vendors to manage a diverse project portfolio for software, infrastructure, and engineering teams. Focused heavily on path-to-green decisions while monitoring proper utilization of resources and improving project value, velocity, and quality. My portfolio totaled over $2.5-million and 80 contractors."]),t.s)
+C.qh=H.a(s(["Project Manager\n& Engagement Manager","Indeed.com","indeed.png","Provided elastic capability to accelerate product development by bringing in ready-made contractor teams. Built relationships with external vendors to manage a diverse project portfolio for software, infrastructure, and engineering teams. Focused heavily on path-to-green decisions while monitoring proper utilization of resources and improving project value, velocity, and quality. My portfolio totaled over $2.5-million and 80 contractors."]),t.s)
 C.pm=H.a(s(["Founder","Certainly Apps","ca.png","Lead a start-up team developing mobile geolocation aggregation software. Acquired users by conducting continuous market research. Lead software development (Python/Flutter/Java), managed finances, and objectives for the team. This venture aimed to reduce food waste and hunger in multiple cities."]),t.s)
-C.pS=H.a(s(["Sr. Lab Manager","RIT Makerspace","rit.jpg","Helped students develop projects in electronics, programming, and rapid prototyping. Managed weekly tasks for a team of student workers. Lead classes teaching proper machine usage and safety. This job included work in hardware & software prototyping, graphic design, and general mentoring."]),t.s)
+C.pR=H.a(s(["Sr. Lab Manager","RIT Makerspace","rit.jpg","Helped students develop projects in electronics, programming, and rapid prototyping. Managed weekly tasks for a team of student workers. Lead classes teaching proper machine usage and safety. This job included work in hardware & software prototyping, graphic design, and general mentoring."]),t.s)
 C.qg=H.a(s(["Quality Engineering Intern","Dark Field Technologies","df.png","Designed, tested, and installed systems for in-line defect detection at fortune 500 companies. Improved the current flagship product by 90% in detection quality. Planned layout for a new warehouse."]),t.s)
 C.q2=H.a(s(["Manufacturing Engineer","Hz Innovations (Wavio)","wavio.png","Coordinated initial manufacturing for a smart-home device offering in-home AI sound recognition. Worked developing the startup foundation while prototyping electronics and field testing units."]),t.s)
 C.ph=H.a(s(["Research Assistant","Lewis & Clark College","lc.jpg","Organized experiments to study behavioral patterns in young children. Aided in research and peer-review of a paper on \u2018The Theory of Mind\u2019. Worked organizing years of collected data and creating iOS applications with friendly UI for future experiments.\n"]),t.s)
-C.iE=H.a(s([C.qi,C.pm,C.pS,C.qg,C.q2,C.ph]),H.Q("q<x<o>>"))
+C.iE=H.a(s([C.qh,C.pm,C.pR,C.qg,C.q2,C.ph]),H.Q("q<x<o>>"))
 C.dB=H.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 C.pi=H.a(s(["pointerdown","pointermove","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseup","keyup","keydown"]),t.s)
 C.iF=H.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
 C.qp=new P.jv("en","US")
 C.iG=H.a(s([C.qp]),t.as)
-C.AQ=new Q.ak("Food insecurity is an issue that affects 1 in 8 Americans. Due to this, many food banks are often struggling with food collection and distribution. To make matters more difficult, many of these individuals do not qualify for federal nutrition programs currently and thus rely heavily on their local food banks. This is all happening in a country where 30-40% of food goes to waste. A large portion of this waste is simply due to the food being \u201cugly.\u201d This ranges from dents in cans to off-color tomatoes. These items, along with those around after the suggested sell-by date, are often still safe to donate, yet aren\u2019t donated.\n\nA group of college students and I developed the Community Food app working together with restaurants, grocers, and food banks to connect people to better food. Our app makes listing donations and scheduling food pickups as easy as a few taps.\n\nOur team had researched reasons restaurants and grocers are not donating food and discovered the following three main reasons.",null,C.k,null)
-C.fN=new A.p(!0,null,null,null,null,null,24,C.Y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.AN=new Q.ak("\n\n1. ",null,C.k,C.fN)
-C.AC=new Q.ak("Lack of Education. Many workers do not possess knowledge of their local food resources and do not know how to responsibly donate.",null,C.k,null)
-C.AW=new Q.ak("\n\n2. ",null,C.k,C.fN)
-C.AR=new Q.ak("Hassle/Lack of Time. Often, restaurants and grocers feel as though it is too difficult to comprise a list of necessary items and contact the local food resource. Donations are not prioritized because of the commotion and amount of other tasks to be completed in kitchens and supply rooms.",null,C.k,null)
-C.AM=new Q.ak("\n\n3. ",null,C.k,C.fN)
-C.AH=new Q.ak("Assumption that the food is unwanted. This is similar to the lack of education but is based around the idea that the food will not be acceptable for the food resource and thus better in the trash.",null,C.k,null)
-C.AZ=new Q.ak("\n\nOne of the biggest factors we found when conducting our research was that no one said they do not donate because they have nothing to give or no one to give it to; they simply just did not know what to give or who would be the best recipient.\n\nWe aimed to help solve the issue of food insecurity and food waste in one elegant solution. Education and automation of the food donation and receiving process will help us tackle these issues head-on.",null,C.k,null)
-C.pu=H.a(s([C.AQ,C.AN,C.AC,C.AW,C.AR,C.AM,C.AH,C.AZ]),t.n)
-C.Ay=new Q.ak("Our team realized that the gap between the 40% of food going to waste and the 1 in 8 food-insecure Americans was not a supply problem but a data problem. We started looking at how we could help automate the food donation and collection process to encourage donations while at the same time educating the public. This was the founding idea for the Community Food app.\n\nLooking at the current donation process, individuals are expected to search for their local food resource, give the location a call, and then wait to describe their possible donation to an overworked volunteer. It is not an easy or rewarding process, and poor descriptions lead to wasted time.\n\nAs a donor, all one would have to do is download the app, register their location, and start scanning barcodes of items ready to be sent to food services, along with a brief description. At this point, the volunteers at the local food services will be alerted on their phones that there is food ready to be retrieved. They will get information on the type of food, its nutritional content, its size, and perishability. This will allow volunteers to make educated decisions on how much room they need, how many volunteers should go out, and if they need to bring a refrigeration unit. This will help keep food from spoiling, as well as save the time of overworked volunteers.\n\nThis application takes advantage of the fact that most people have a smartphone with access to the internet, GPS, and a camera on them at all times. We take the average smartphone and turn it into a network of data collection devices in the fight against hunger.\n\nCommunity Food takes away the need to know who and where one is donating to. In addition, the app removes the hassle of logging and communication, and most importantly, Community Food shares exact nutrients and sizing information with the volunteers picking it up. This makes everyone\u2019s lives easier in the food donation and collection process.",null,C.k,null)
-C.oA=H.a(s([C.Ay]),t.n)
-C.pQ=H.a(s(["Food Donation","communityfood.png","comfood2.png","comfood3.png","Community Food",C.pu,C.oA,"Scanning a barcode in the app","Securely signing into the system","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainlyapps.community_food",4294220075]),t.b)
-C.AV=new Q.ak("Way in the back of the campus at the Rochester Institute of Technology is a beige paneled building. Most of the space on the ground floor is taken up by a laundry room, but next to that is a FoodShare. This is a place for students in need to pick up donated groceries and other essentials donated from the local community.\n\nFor the first 2 years of college, I thought nothing of it until a friend mentioned to me that it had well over 8,000 student visits. For a private college with clubs giving away free food and vendors offering samples, I always took food for granted. This was clearly not the case for everyone.\n\nI started Campus Food as a Twitter retweet bot and a way to start learning Python. This account would search for tweets mentioning free food at RIT and retweet them to the @RITFreeFood account for my followers. After setting it up I quickly forgot about it, thinking little of the efforts so far. A year later, I revisited the page and noticed the 500+ followers and the many missed messages. I never anticipated such a large response.\n\nI then realized there may be some potential to this idea. Many of the messages were about bringing this account to other platforms besides Twitter, which was quickly losing popularity on campus. I started work on an RITFreeFood website where students could view a live map of free food powered by location keywords in the tweets. From there I added a method for students to submit new events directly to the service. This is when I had a few brands reach out to me wanting to promote their products.",null,C.k,null)
-C.pq=H.a(s([C.AV]),t.n)
-C.AI=new Q.ak("I decided to make the pivot from a fairly basic webpage to a mobile application. This was due in large part from not knowing how to properly store my API keys in JavaScript. I wrote and released a mobile application, now called Campus Food, on iOS and Android. This quickly grew minor popularity on campus.\n\nMy goal from there was to implement ads and collaborate with brands doing events on campus to promote their giveaways in order to start making revenue. I recruited a small team of students to grow this idea with me.\n\nThe following semester, we launched a crowdfunding campaign to scale our app to new campuses. Currently, the app is functional on over 800 campuses in the United States, helping hungry people find free food and reducing food waste.",null,C.k,null)
-C.oB=H.a(s([C.AI]),t.n)
-C.pw=H.a(s(["Finding Free Food","campusfood.png","campusfood3.png","campusfood2.png","Campus Food",C.pq,C.oB,"The login screen of the app","An example of a post on the app","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainly_apps.campus_food",4293357950]),t.b)
-C.Av=new Q.ak("Eyeglasses should be a form of expression. What if instead of selecting from a limited set of cookie-cutter eyewear, you could have fully customized glasses? What if you could do this all from the comfort of your home? This was the idea behind an entrepreneurial project I worked on in my sophomore year of college.\n\nWorking with a small team in a makerspace, we designed a way to quickly capture eye measurements from a standard smartphone selfie camera. With this data, we could manipulate standard eyeglass forms to guarantee superior fit.\n\nOur ability to make custom glasses was enabled by using wood laminate and polycarbonate blanks cut out on an industrial laser cutter. This let us gain full control of each measurement and curve of the frames. From there, my team envisioned a system where a user could fully design their own styles. For customization, the sky was the limit!",null,C.k,null)
-C.pG=H.a(s([C.Av]),t.n)
-C.AY=new Q.ak("This project got accepted into the RIT Summer Start incubator, my college\u2019s exclusive student incubator. With the funding they provided my team, we spent the summer conducting market research and advancing our concept. Classes focused around competition analysis, prototype validation, analyzing growth financials, and developing our pitching skills.\n\nIn the 13 weeks of the program Form Eyewear transformed from a simple way to customize eyeglass styles into a form-fitting program for customers who want a truly custom fit. Summer Start was a great experience to rapidly iterate on an idea with other entrepreneurs in a similar stage of development.",null,C.k,null)
-C.oC=H.a(s([C.AY]),t.n)
-C.pr=H.a(s(["Eyeglass Buying","form.png","fe3.png","fe2.png","Form Eyewear",C.pG,C.oC,"The features of a pair of Form Eyewear sunglasses","Custom defined measurements","","",4285807152]),t.b)
-C.AK=new Q.ak("A common problem I believe in is that technology is advancing far faster than our education system. Teachers, though experienced in many fields, are continuously asked to prepare modern lessons without the support of the appropriate budget or time to learn themselves. For this reason, many modern engineering subjects are simply unable to be taught outside of a specialized environment. I was lucky enough to go to a high school that did offer these specialized engineering environments, and I wanted to bring this modern opportunity to the general population.\n\nIf we brought down the cost of materials and improved the learning curve for the instructor, most of the barriers to entry for this critical education could be eliminated. Currently, for $60 an instructor can demo basic electronics and circuitry lessons to a class. This is the cost of one kit, a kit that only one individual can interact with at a time. For this project, I wanted to offer that same learning experience to an entire class at the same time, all while not increasing the cost.\n\nMy solution to this problem: paper, easily the most common classroom material there is.",null,C.k,null)
-C.pR=H.a(s([C.AK]),t.n)
-C.Aj=new Q.ak("Paper Bread was an interactive online circuit maker where teachers could build their own, or download pre-built lesson plans for circuits. The circuit components listed in the lesson plans were real prototyping components such as breadboards, LEDs, SMD resistors, and various sensors. Most lesson plans had a cost per student of $2 ($60 for a class of 30 \ud83c\udf89) and included links to purchase the components wholesale.\n\nLesson plans were printed and placed on top of each breadboard. The students would then be instructed to punch each component through the paper and into the breadboard to complete the circuit. This design resembled the functions of the Lite-Brite toy.\n\nI tested this project at Imagine RIT and two Maker Faires, helping people from 8 to 80 years old make their first circuit. The look of excitement when they lit up their first LED or connected their first sensor felt as though they had just performed magic. In under 10 minutes, participants went from a printed sheet of paper on a plastic box to controlling electricity using real electronics.\n\nI am currently working on making a more stable version of this project and testing it in more classrooms. If you are interested in testing it out or finding out more, please feel free to reach out to me: McCossum@gmail.com",null,C.k,null)
-C.oF=H.a(s([C.Aj]),t.n)
-C.oO=H.a(s(["Learning Electronics","paperbread.png","pb2.png","pb3.png","Paper Breadboarding",C.pR,C.oF,"A Parer Bread kit cut out","A young student using Paper Bread","","",4286207800]),t.b)
-C.AF=new Q.ak("Finding new applications for existing products is just as important to the entrepreneurial mindset as creating a new product. Doing this not only provides new value to an existing product but greatly reduces the expensive development time. This is the approach I took with many of the applications in my portfolio.\n\nIt started simply, developing Campus Food in order to help the many hungry college students locate free food. To develop this application, my team had to create a system to aggregate and display live, crowdsourced geolocation data. This system served a much more friendly utility, but in short, that is all it was. After running the service for a few months a local food bank reached out to me thinking they were the intended audience. After taking the lesson to better brand the application I realized that they were not wrong, there was nothing preventing them from being the customer of a food geolocation aggregation service. My team and I quickly threw a new skin on the application and rebranded that fork as Community Food for them.\n\nThe move to create Campus Food took months but the transition to Community Food only took a few weeks. At this point, it had become easier to develop new applications for new markets instead of trying to add increasingly complex features to obtain a niche market. My team, at the time, split into one group working on new markets and the other group maintaining and marketing the already developed apps. This is when we created Upkeep Alert.\n\nMoving from community-centered food information into facilities management systems was not an immediately apparent decision. The team took a long look at what location data we could crowdsource. I remember being on my way to a college exam and needing to quickly use the restroom. The sink in the restroom was stuck and overflowing, wasting a ton of water and damaging the area. I did nothing about this, as my exam felt more important to me than taking time to call maintenance. Due to not having a system to quickly send urgent maintenance requests, the expenses from these events piled up. This is where the idea for Upkeep Alert came from.",null,C.k,null)
-C.px=H.a(s([C.AF]),t.n)
-C.Ad=new Q.ak("The process at the time for maintenance reporting was to observe a maintenance issue, find a computer, log in to an online portal, and try to describe an issue you are no longer even keeping an eye on. By using the same system as the other applications, all someone would have to do moving forward is take a picture on their phone and provide an optional description, and the geolocation data would be sent right to maintenance. The multi-step process was reduced to just 2 quick actions.\n\nDue to the criticality of the data being captured by the app, my team created a unique strategy of rolling out changes. We would test new features in Campus Food, an app that if it failed, a few college students may miss out on a free food event. From there we tested them in a more critical application, Community Food. If all went well we would finally roll out the changes to Upkeep Alert, keeping our potential enterprise customers on the most stable and tested application.\n\nWe look to one day pick up this application\u2019s development again and integrate its simple reporting system into other commonly used maintenance management applications.",null,C.k,null)
-C.pn=H.a(s([C.Ad]),t.n)
-C.pB=H.a(s(["Maintenance Requests","ua3.png","upkeepalert.png","ua2.png","Upkeep Alert",C.px,C.pn,"Marking a maintenance issue on the app","Providing more information on a maintenance issue","","",4279989187]),t.b)
-C.AP=new Q.ak("It is my strong belief that some people do not deserve the fame the media gives them. News organizations fixate over the actions of evil individuals instead of the life stories of those affected. It is all too common that those who commit crimes are more remembered than the victims. Committing heinous acts should not be a means to fame, publicity, or anything positive.\n\nI grew up in the digital age. From the time I entered high school, I started receiving my news not just from mainstream cable providers but from then-smaller indie productions such as the Philip DeFranco Show. This show was unique to me because of its bootstrap production setup and the show\u2019s ability to challenge the cookie-cutter model of broadcast news networks. The Philip DeFranco Show implemented a policy of not displaying or even naming individuals accused of monstrous acts. This was the first time I had seen a news organization have a policy like this and it greatly appealed to me.\n\nTaking the idea from the show, I wanted to attempt to bring this approach to the rest of the internet. What came of this was NoFame, an optional Chrome plugin to remove the names of monsters from web pages. No longer would users have to constantly be surrounded by the names and life stories of school shooters, mass murderers, and other vile people; instead, it would replace their name with what they truly are, \u201ca monster.\u201d",null,C.k,null)
-C.pg=H.a(s([C.AP]),t.n)
-C.Am=new Q.ak("Though this plugin will never be able to replace all mentions of monsters, I do try to keep up with lists supplied from well-reviewed Wikipedia lists. Admittedly, there are also a number of problems with the plugin being unable to appropriately remove common names and pictures of these people. I recognize these current shortcomings and do want to continue to improve the tool. If you believe you have a well-reviewed Wikipedia page that should be included in our list, please add it with the form here: https://bit.ly/2EHdsH6. With your help, we can make evil a fameless pursuit.\n\nFor more information as well as access to the plugin please visit this link or search \u201cNoFame\u201d in the Chrome WebStore.",null,C.k,null)
-C.q3=H.a(s([C.Am]),t.n)
-C.pp=H.a(s(["Infamy","nofame.png","nofame.png","nofame.png","NoFame",C.pg,C.q3,"NoFame logo","NoFame logo","See it on the Chrome Web Store","https://chrome.google.com/webstore/detail/nofame/fjjggbeocpjmkmfhlbggbbfehnkdcblp?hl=en-US",4284900966]),t.b)
-C.AX=new Q.ak("During my second year of college, I was asked the question, \u201cWhat are our shortcomings when it comes to innovation?\u201d I had recently started leading the Innovator\u2019s Hour research organization through the Albert J. Simone Center for Innovation and Entrepreneurship. This  gave my team the unique opportunity to create programs to help address these shortcomings.\n\nA few select members of the research organization and I realized that most of the entrepreneurial ideas coming from the club were targeted towards what we then called the \u201ciPhone Demographic.\u201d This largely upper-middle-class demographic usually consists of white, predominantly male, able-bodied individuals. There are many reasons for selecting this demographic when doing case studies for new products and services, but an immense portion of the population remains ignored.\n\nOn behalf of the club, I reached out to a number of diversity, inclusion, and belonging groups on the RIT campus. We ended up partnering with Grey Matter, a hot-button discussion group, along with the Center for Diversity and RIT\u2019s President\u2019s office to plan a weekend-long event named \u201cDesign for Diversity.\u201d\n\nDesign for Diversity challenged the students to design a product or service benefiting those in underrepresented groups. Teams of students were assigned pre-written user stories focusing on the lives of immigrants, specially-abled individuals, and various marginalized populations.",null,C.k,null)
-C.pz=H.a(s([C.AX]),t.n)
-C.Af=new Q.ak("From there, the teams examined what popular modern products were not serving these demographics and worked to identify why. The list the teams created was even larger than I expected.\n\nThe teams were then given the next 24 hours to reimagine popular products to better address the needs of their given user story. Innovator\u2019s Hour recruited a number of faculty moderators to advise the teams, making sure topics stayed respectful, appropriate, and unbiased toward negative stereotypes or assumptions. Many of the mentors even included individuals whose life experiences paralleled those of the user stories, gaining real market research in the process.\n\nAt the end of the weekend, the teams regrouped to present their work. Though none of these ideas ever came to market, the goal of this event was still achieved. It was never our intention to sell a new product or service from this weekend but instead, we wanted students thinking outside the illegitimate box of the perception of a \u201cnormal\u201d end-user. We hope this activity inspired more diverse work in the RIT entrepreneurship community moving forward.",null,C.k,null)
-C.pv=H.a(s([C.Af]),t.n)
-C.q4=H.a(s(["Disability Design Thinking","desfordiv.png","ih2.png","ih3.png","Design For Diversity",C.pz,C.pv,"Students brainstorming","Students presenting their final project","","",4291110187]),t.b)
-C.An=new Q.ak("Coffee grounds and rubber balloons. These are everyday items that most people may have lying around their house. They are fairly cheap and can help put together a good party but what if they could also work as a decent universal grabber for those without full dexterity?\n\nBy filling a common latex balloon with coffee grounds, or another fine ground yet unevenly sized material, and applying a vacuum, it will tightly form around whatever object it is pressed against. The granular material will go from acting more like a liquid to acting as a rigid solid. Along with this, the latex balloon will create a fair bit of friction, allowing for it to grab even obtuse angles.\n\nThis idea is already used in a few industrial applications for picking up and placing objects of non-standard geometry. Experimenting with this idea in college I wanted to see if I could create one of these devices to pick up things in my dormitory and how small I could make it. After playing around with it for a while I realized there may be potential to help people with low dexterity pick up objects. Using a balloon was a lot easier than using one of those claw arms used by people who cannot bend over and it can pick up a wider range of objects. Creating a grabbing-wand would certainly be one way to take this project, but I also found the idea of making a palm-sized device quite interesting. Having this device in the palm of your hand would allow people with limited or no mobility in their hands to still pick up small objects with ease. The best part was that the materials were mostly household items already and the cost would be fairly low.",null,C.k,null)
-C.pF=H.a(s([C.An]),t.n)
-C.Aw=new Q.ak("Areas where this design falls short are, first and foremost, around the fact that this device does not look like a traditional hand. There is an immense amount of work trying to create prosthetics that look similar to a human hand. This is completely understandable, as there is a strong stigma around having an artificial part of your body. This design simply does not take this into account at this time. Also, the vacuum needed in this design is quite powerful, though there are some improvements that could greatly scale this down in a closed system. Along with this, the current model is quite bulky and complex. It puts functionality and versatility above aesthetics and simplicity. There are also concerns with the current model\u2019s durability over time. Luckily, the parts most likely to need replacement are some of the cheapest currently.\n\nI would greatly enjoy being able to test these designs further in real-world situations. There are plenty of areas for improvement but the idea still stands- there must be a cost-effective way to provide versatile prosthetics to those in need.",null,C.k,null)
-C.pH=H.a(s([C.Aw]),t.n)
-C.py=H.a(s(["Low-Mobility Dexterity","hand.png","joe2.png","joe3.png","Joe Universal Grip",C.pF,C.pH,"Coffee grounds acting solid when compacted","Sketch of internal components","","",4290492856]),t.b)
-C.Ac=new Q.ak("Growing up in the Pacific Northwest bikes were everywhere, and that also meant plenty of bike racks. I remember as a kid jumping between the loops of the wavy, curbside racks thinking I looked pretty cool. As I grew up, unfortunately, they became more of a nuisance. They narrowed packed sidewalks and collected politically-charged stickers, yet they still served a great public use.\n\nIt was these thoughts I brought in when I began my high school Engineering Design class. In this class, we had to pick a real-world problem and investigate potential solutions over the course of a full year. This class was the first time I was asked to apply engineering and design-thinking to a real-world problem.\n\nMy team, involving my best friend, a random classmate, and of course myself, chose to tackle the mild nuisance of bike racks. We wanted to find a solution that would still allow us to have as many bike racks as desired while removing them from cluttering pathways while not in use. For this, we created the idea of folding bike racks.",null,C.k,null)
-C.pI=H.a(s([C.Ac]),t.n)
-C.Aa=new Q.ak("Folding bike racks would allow them to be placed flush with the pathway when not in use. This would keep the racks from acting as fences when not in use. Of course, this created a fair bit of new problems. How would it safely lock into place when in use? How would the racks not trip people, and what about the hole they left behind when in use?\n\nTo answer these questions and quickly demonstrate solutions, we learned basic AutoCAD. This allowed us to come up with solutions for vertically sliding racks or smaller post-style racks. This was the first time I had gone through a design-thinking approach for a project, and I learned a lot about iterative solutioning in engineering.",null,C.k,null)
-C.qe=H.a(s([C.Aa]),t.n)
-C.po=H.a(s(["Bike Racks","rack.png","rack3.png","rack2.png","Hidden Bike Racks",C.pI,C.qe,"Early prototype of the folding bike rack","Render of the folding bike rack\n(Sliding version in round picture above)","","",4282874563]),t.b)
-C.Au=new Q.ak("Imagine cooking mac and cheese while babysitting. Everything is going great, the kid is off in the other room cleaning up after playing with some toys when they trip and fall. They are crying for help and you quickly go over to comfort them. Simple bruises and accidents are a not too uncommon event while babysitting, but how do we know when they occur? Simple- we hear them crying for help.\n\nNow imagine you are staying at a friend\u2019s house for the weekend. If the doorbell rings or the fire alarm gets tripped, you should most likely do something about it, and many of us do.\n\nNow imagine both these situations but you are Hard of Hearing or Deaf. In these situations seconds are precious, yet the barrier to be called to action can be immense. This was the founding idea behind Wavio, an intelligent sounds recognition startup I joined during my third year of college.\n\nWavio is a fully integrated notification platform deployed through plug-and-play sound recognition technology capitalizing on proprietary audio signal processing algorithms delivering a unique user experience. In short, it would plug into the wall, listen for critical sounds, and notify the user on their smartphone.",null,C.k,null)
-C.q1=H.a(s([C.Au]),t.n)
-C.Ax=new Q.ak("The Wavio device aimed to remove critical barriers faced by the Deaf and Hard of Hearing community. The team was led by members who had experienced many of the current difficulties associated with being Hard of Hearing, including an experience very similar to the first example above. With their insight, they were able to lead a highly-motivated engineering team to develop a product to remove barriers and take advantage of emerging technology solutions.\n\nWhile working with the Wavio team, I gained experience taking a product from conceptual designs through market validation and manufacturing negotiations. I learned about PCB layout, design for manufacturability, and most importantly, perspectives from a customer segment I was largely unfamiliar with.",null,C.k,null)
-C.ps=H.a(s([C.Ax]),t.n)
-C.oX=H.a(s(["Hearing","wavio1.png","wavio3.png","wavio2.png","Wavio",C.q1,C.ps,"Wavio device concepts","A Wavio prototype plugged into a wall","See how the project advanced: see-sound.com","https://www.see-sound.com/",4280655359]),t.b)
-C.Ak=new Q.ak("Have you ever had the frustrating experience of wanting to go out and eat with someone but you just can\u2019t agree as to where? For people who want to quickly and collaboratively choose where to eat, I created Restaurant Match. This is an app where you and your party can swipe through places to eat around you and get notified when you match.\n\nThink Tinder, but for restaurants.\n\nWith the app, you can swipe through all the eateries local to your area in privacy. This allows you to choose as many places as you feel comfortable going without having to justify each decision one-by-one. While you are looking for places, your party can do the same. As soon as there are a few matches, you and your party will be alerted. This allows for a short, already agreed-upon list to be vetted instead of a lengthy list of controversial food choices.",null,C.k,null)
-C.pf=H.a(s([C.Ak]),t.n)
-C.AT=new Q.ak("This application was developed with Flutter/Dart. It uses the Google Places API along with the Google Maps Mobile SDK and a few other support libraries for Flutter to produce a rich restaurant mapping experience. This can provide filtering information such as distance, rating, and price.\n\nThis application is still in development, as there are a number of hurdles yet to overcome, such as developing certain aspects and polishing up the experience overall. I did plan on releasing a beta version of this app in March 2020, but that was a very unfortunate time to develop an application based around restaurants and going places in general. I still cannot justify releasing the beta but hope to further the development of this soon.",null,C.k,null)
-C.pK=H.a(s([C.AT]),t.n)
-C.qk=H.a(s(["Picking Where to Eat","rm.png","rm2.png","rm3.png","Restaurant Match",C.pf,C.pK,"Getting location within the app","Example of a card within the app","","",4283020262]),t.b)
-C.At=new Q.ak("In my final year of college, I had the privilege of taking the Functional Printing special topics class in the AMPrint Center. This was conducted in the NY State Center for Advanced Technology funded Center for Additive Manufacturing and Multifunctional Printing. All the long names made the class feel very official.\n\nIn the class we studied an immense amount of printing styles, from Flexo to Gravure and Stereolithography to Fused Deposition Modeling. Throughout the entirety of college, no class made my head hurt more. It was incredible to see all the various solutions to printing and additive manufacturing processes, but this class was not just for demonstrating existing methods. For our grade in the class we had to use a combination of the printing methods in a new way. This meant either creating a new end-product using the tools or combining the printing methods in a new way.\n\nMy team took on trying to create a Peltier tile on a flexible substrate. The main goal of the project was to create a printed, flexible Peltier device that could produce small amounts of current through the Seebeck effect when a temperature gradient was applied on either side. Peltier devices had, up to this point, traditionally been made of rigid ceramic in order to withstand their temperature gradients. This increases their durability but prevents them from properly conforming to irregular surface areas.\n\nThe potential for a flexible Peltier device could open the door to possibilities of thermal power generation in wearable technology. With further research, it is feasible that fabric-like material could generate small amounts of energy with the temperature gradient between the body and the ambient room temperature. This would open the door for the continuous recharging of wearable tech. Above all this, the flexible and patterned method for creating these devices could allow for roll-to-roll processing of these devices, allowing for variable sizes and an overall reduction in manufacturing cost.",null,C.k,null)
-C.pk=H.a(s([C.At]),t.n)
-C.As=new Q.ak("All major parts of the Peltier device have been commonly printed for other drives. This includes flexible copper, printed solder, and both P and N type semiconductors. By printing flexible copper traces into a flexible yet heat resistant substrate such as Kapton and depositing P and N type printable semiconductors like PEDOT:PSS, a flexible Peltier device is theoretically possible.\n\nA basic Peltier tile functions with an insulating air gap between components, allowing for an increased temperature gradient. With the appropriate printing methods, we can replace this with a flexible silicone insulator to further enhance the effects. This could also allow for smaller material deposition sizes by using the ceramic to place the semiconductors more precisely. By having everything more compact, the device would be much more efficient at generating current.\n\nDuring the course of the semester, our tested printed Peltier device did not show conclusive results. This could have been due to the limited number of semiconductor junctions or large impurities in our printing processes. We also did not have access to the printable semiconductor material we had first envisioned with the design. More research would have to be done in order to find a more efficient process for creating this device.",null,C.k,null)
-C.oZ=H.a(s([C.As]),t.n)
-C.oY=H.a(s(["3D Printed Power Generation","pt1.png","pt3.png","pt2.png","Flexible 3D Printed Peltier Tiles",C.pk,C.oZ,"Assembling layers of printed components","Testing of an early prototype","","",4294609154]),t.b)
-C.fO=new A.p(!0,null,null,null,null,null,24,C.Y,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.Az=new Q.ak("Current Concepts",null,C.k,C.fO)
-C.bc=new A.p(!0,null,null,null,null,null,18,C.Y,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-C.AL=new Q.ak("\n\nBackground",null,C.k,C.bc)
-C.AE=new Q.ak("\n\nThe recent rise in Non Fungible Tokens (NFTs) has shown a modern resurgence in the classic collectable market. NFTs expand on the established fungible token trading markets such as Ethereum and Bitcoin by adding a unique characteristic to each item.\n\nMillions of NFTs have been created and traded in the first few months of 2020. One of the most notable NFTs is CryptoPunks, a set of pixelated headshots creating a total trade volume of $259.03M. This set of tradable tokens is capped at 10,000 total unique images. Each one allows for a subjective value to be assigned to them in the eyes of the market. This subjective value is the driving force behind the rise of NFTs and many cryptocurrencies. These assets, untied to any physical value, are purely distilled to their tradable value.",null,C.k,null)
-C.AB=new Q.ak("\n\nThe Finite",null,C.k,C.bc)
-C.Aq=new Q.ak("\n\nThe CryptoPunks set is innately finite. This sets a scarcity demand that creates economic stability for Cryptopunks and other similar NFTS, not unlike how the gold standard created stability for the U.S. dollar. Due to the limited set of CryptoPunks some traders aim on collecting like sets, thus inflating the value of their investment for future trades. At the same time the scarcity has made CryptoPunks an almost untouchable market for the layman. The average price for a CryptoPunk token is absorbently high due to the notoriety and combined scarcity. This is an issue that will,  at some point, limit all sought-after NFT sets.",null,C.k,null)
-C.AJ=new Q.ak("\n\nThe Expandable",null,C.k,C.bc)
-C.AO=new Q.ak("\n\nAnother implementation of the limited nature of NFT and cryptocurrency sets is the growth-over-time model. This is most notably seen in the Bitcoin market. Bitcoin acts in an inflationary way, as community members can mine new Bitcoins. Token mining allows the set to scale over time, enabling new members to jump into the marketplace before all 21 million Bitcoins are released. All Bitcoins will be mined in roughly 120 years. Part of the policy\u2019s aim is to balance scarcity with new demand, in order to curb rapid fluctuations and monopolies.",null,C.k,null)
-C.B1=new Q.ak("\n\nThe Infinite",null,C.k,C.bc)
-C.AA=new Q.ak("\n\nMost current mainstream cryptocurrencies have a planned maximum set. Very few, such as $NEO, are potentially infinite. This can be achieved by never setting a limit to new tokens being mined. As long as the ability to mine tokens exists, community members will assist the network\u2019s function. This sets up the hypothesis that once all tokens from a set are created, the market will enter a highly unpredictable state.\n\nNo current mainstream currency is both able to maintain a finite set of whole tokens and infinitely divisible. For Bitcoin specifically, the smallest possible unit is 0.00000001 BTC, called a \u201cSatoshi.\u201d At time of writing, one Satoshi is roughly 0.02 cents. By being unable to divide further, this creates a wealth floor, removing the fair representation of goods under that amount. This will only get worse as the value increases, which possibly prevents some people from being able to partake in the crypto revolution.",null,C.k,null)
-C.A9=new Q.ak("\n\nThe Live",null,C.k,C.bc)
-C.B_=new Q.ak("\n\nNTFs have also been created to reflect ownership of \u201clive\u201d or real world goods. A prominent example of this phenomenon is Nike securing a patent to list shoe ownership in token form. This public ownership ledger could help them ensure the authenticity of sold/traded shoes. While an excellent idea, this fundamentally sets these tokens apart from other NFTs. Tying NFTs to live assets from shoe ownership to concert tickets puts a fundamental floor on the value of the NFT. This floor is seen as the value of the item before being posted to an NFT ledger. This value may change due to transactional costs such as shipping, material scarcity, labor, or other hastles. Not only does this set a potential value floor, but it creates a value ceiling as well. The maximum value of any live NFT can be seen as the maximum cost to secure and insure the longevity of the asset. If the live asset is destroyed yet traded, it is no different from other non-live assets. For these reasons, live NFT trading is fundamentally flawed as an economic model and does not utilize the full potential of a digital economy.",null,C.k,null)
-C.qh=H.a(s([C.Az,C.AL,C.AE,C.AB,C.Aq,C.AJ,C.AO,C.B1,C.AA,C.A9,C.B_]),t.n)
-C.Al=new Q.ak("Novel Concepts",null,C.k,C.fO)
-C.Ar=new Q.ak("\n\nA Finite Infinity",null,C.k,C.bc)
-C.B0=new Q.ak("\n\nCreating an asset, or set, which has a known total value but is infinitely divisible, was infeasible until the digital era. Most physical currencies only have about 20 value units consisting of cash and coins, allowing for simple, countable transactions among a general population. With the assistance of computers, we can ignore the need for easily identifiable units and focus on the agreed value of the transaction as a unit in itself. This method is how electronic (cashless) payments have been working for years. Even they, however, have a minimum divisible unit often set by a physical payment system.\n\nOne way to conceptualize this is to reconceptualise this new economic model as an economy based around a single dollar. If you take that dollar and divide it in half, you now have 2 tokens adding up to the total original value. To take this further, this imaginary dollar can be repeatedly divided into infinite parts and reassembled without adding or losing any parts. Most importantly to this is that there will never be any more than one dollar. It is up to the community to assign value to the set and decide how far they need to divide the parts.",null,C.k,null)
-C.Ah=new Q.ak("\n\nThe New Infinite",null,C.k,C.bc)
-C.Ai=new Q.ak("\n\nThere are more numbers between 0 and 1 than there are total integers. Both sets are infinite but creating a currency with growth built in will act in an inflationary manner over time. Creating a currency with a set known maximum yet maintaining infinite growth could provide more long term stability while still enabling it to serve any population. This is unlike any currency in existence.\n\nAny finite asset will eventually be lost to entropy. This is mainly due to people losing access to their assets or passing on without relinquishing access to the held tokens. It is estimated that 25-30% of Bitcoin is currently inaccessible for these reasons. The process of losing access to tokens will increase the value of the remaining set to a highly restrictive amount due to scarcity. Using an infinite currency is the only way to avoid this setback.\n\nCreating a currency that is infinitely divisible allows for all assets, no matter how low in value, to be traded. This principle also keeps deflationary scarcity tactics such as money hoarding from affecting the currencies value on a large scale. With this economic tactic a single currency can continue to represent a population as a whole even with an equally infinite population or growing wealth inequality.",null,C.k,null)
-C.AD=new Q.ak("\n\nThe New Finite",null,C.k,C.bc)
-C.Ag=new Q.ak("\n\nEven with an infinite set, there are still methods to create demand and scarcity. Imagine a fractal. As it is subdivided it still maintains its original form (see images). If you take this image and apply a linear gradient over it, the form and repeatability remain the same but now each pixel or region has a unique color value. This allows the holder of that subset region to know exactly which region they hold but without innately changing any aspect of the token; size, intrinsic value, or otherwise. This combines the fungible nature of cryptocurrencies with the uniqueness of NFTs.\n\nA currency with these features would allow the community to trade tokens with value assigned from either the fungible fraction value or the unique position attribute. By combining both these qualities the possibilities of how the community will interact with and assign value are immense. We can further set assets to the currency to enable more controlled and interesting attributes.",null,C.k,null)
-C.Ae=new Q.ak("\n\nDeconstruction and Reconstruction",null,C.k,C.bc)
-C.Ao=new Q.ak("\n\nAs the assets are infinitely divisible they must also be able to be recombined in order to curb inflationary behaviours. A few extra rules can be set in place to disincentivize divisions while still allowing for their existence.\n\nIf any token can be broken down but only \u201cadjacent\u201d tokens - those with unique values sequential to each other - can be reassembled into larger tokens, it would encourage the community to assess value off of both the fungible and non-fungible aspects. If community members are looking to grow their sets, they have to look at transactions based not only on the perceived value of the tokens but the unique value of the token\u2019s adjacentcy to the tokens they already hold.\n\nThis may enable many unique features to the currency\u2019s community, such as groups looking to only trade for tokens in specific regions of the set, thus looking to increase their chances of being able to build back their divided tokens. This allows for the idea of currency subsets within the single currency. These communities can grow to represent a subset of the currency\u2019s range without changing any of the initial aspects and functionality of the currency. Just like a fractal, the initial principles and design are reflected in any subset.\n\nThere is a real need to encourage the use of larger tokens as well. Many smaller tokens will inevitably take more energy to register and reconcile transactions with than one large token. By charging a small transaction fee on the per-token basis, the system can largely incentivise the use of whole tokens.",null,C.k,null)
-C.AS=new Q.ak("\n\n\nConclusion",null,C.k,C.fO)
-C.AG=new Q.ak("\n\nCreating an economy around an infinitely divisible and non-growing set enables many unique features we cannot achieve with any current economic systems. An infinite currency will enable its utility to expand far into the future, adapt to a population of any size, and set a trade value to even the smallest of items.\n\nThese tokens combine the best attributes of modern cryptocurrency trading with the unique collectibility of NFTs.\n\nBy creating a method and incentive to recombine held currency into larger assets, the currency\u2019s integrity can be preserved. In addition, opportunities will be created to find various methods of assigning value.\n\nThere is no way of knowing how a currency like this will truly behave once created, but it is the best way to ensure the longevity of a system far beyond our current imagination.",null,C.k,null)
-C.oP=H.a(s([C.Al,C.Ar,C.B0,C.Ah,C.Ai,C.AD,C.Ag,C.Ae,C.Ao,C.AS,C.AG]),t.n)
-C.oD=H.a(s(["Cryptocurrency Economics","e.png","tri1.png","tri2.png","The Infinite Economy",C.qh,C.oP,"Representation of\nhow the system is maintained\nwhile infinitely divided","Representation of\nhow unique attributes are preserved\nin an infinite set","Clap on Medium","https://mccossum.medium.com/the-infinite-economy-2ba585b61ddb",4289831540]),t.b)
-C.Ab=new Q.ak("Cooking should be simple. Most recipes can be simplified down to three things; Ingredients, Temperature, and Time. This is in stark contrast to how recipes are presented online. Many hide behind long stories and intrusive ads. Even after all that I still found many hard to follow and keep track of my place in.\n\nI started working with a team of good friends to investigate methods of creating a great user experience while following new recipes. We worked on hardware, software, and design to tackle this initiative.",null,C.k,null)
-C.pj=H.a(s([C.Ab]),t.n)
-C.AU=new Q.ak("Starting with the software, we used a robust recipe parser to extract only the most relevant information from online recipes. No stories, no obscure links, only what the user needed to know to make the recipe. Along with this, we designed our screens to focus on minimalism, only showing the user one measurement or instruction at a time. This guaranteed comprehension while maintaining an intuitive flow.\n\nAll of the software paired directly with our custom hardware. To seamlessly connect the digital space to the physical food our team designed a sleek, food-safe, scale. With the aid of this scale, users could navigate through a recipe without the need to know exact amounts. All they have to focus on is if they need to add more or less of each ingredient to the scale. This allowed recipes to auto-advance on the phone once each ingredient was correct. This intuitive pairing allowed room for a level of simplicity in recipes that was previously unheard of.\n\nAll this is wrapped up in a design language that spans across both software and hardware. The scale easily pairs with our kitchenware and bowls to automatically detect and calibrate the added weight. Our unique stamped logo guarantees grip and stability of app parts leading to fewer messes compared to other scales. Even if there is a mess, our scale is one of the few covered in dishwasher safe parts allowing for easy cleanup. This elegant design is reflected in the app as colors automatically change to match the user's kitchenware set and allow them to quickly jump into recipes with similar recipes to those made in the past.\n\nThis project is still in development by the team and does not have an official launch date as of this time. Our team is working diligently to ensure the success of the Banana Scale with over 10,000 recipes. Please allow notifications to hear about this project as it progresses.",null,C.k,null)
-C.pl=H.a(s([C.AU]),t.n)
-C.q5=H.a(s(["Preparing Food","rethinkrecipes.png","rr1.png","rr2.png","Banana Scale",C.pj,C.pl,"Starting a recipe","Minimalist instructions","","",4293878608]),t.b)
-C.B2=new Q.ak("Our interaction with the air around us is often taken for granted. Though the air we breathe is a constant shaping force in our lives we rarely think about how it changes with our environment. As we go throughout our day in different locations for both indoor and outdoor settings the composition of our air can vary greatly.\n\nAround 60 years ago Carbon Dioxide (CO2) concentrations were around 300 parts per million (ppm). Currently, in a natural environment, CO2 levels average about 415ppm. With this sudden change taking us 35% over the historical average and still growing, we are entering unprecedented territory.\n\nThis situation only gets more bleak when we look into unnatural environments. Office buildings and other crowded gathering spaces can have CO2 levels ranging from several hundred ppm to over 1000 ppm. This is still under common safety guidelines warning of levels of 5000ppm and above but recent studies have shown there still may be reason for concern. At 1000ppm there is a 15% decrease in cognitive function going up to 50% at 1400ppm. If we care about our ability to think, either as an individual or a species this issue needs to be addressed.\n\nOn a small scale, plans may be an option to curb high CO2 levels. It takes about 7-8 mature trees per person to exchange all the air we breathe. While trees are a vital part of our ecosystem they are not the most efficient to manage CO2 levels, nor are they practical in an indoor setting. With the aid of selective breeding, we may be able to create super oxygenating plants to curb indoor CO2 levels.",null,C.k,null)
-C.q_=H.a(s([C.B2]),t.n)
-C.Ap=new Q.ak("To test the hypothesis that I could breed better oxygenating plants I started with 64 Fast Plants from the University of Wisconsin. These are a type of mustard seed with a total lifecycle of around 60 days. This would allow me to isolate leaves from mature plants and only germinate seeds from plants with the highest oxygen-producing levels per leaf mass. Over many generations, I would expect to see a trend of higher oxygen-producing varieties.\n\nI have also thought about reproducing this experiment with Spirulina algae in a series of bioreactors. This would be beneficial not only for the faster reproductive cycle leading to faster evolution times but because Spirulina are nutrient-dense algae. This means they can be eaten as well as produce oxygen. Above all, the bioreactors just look extremely cool. I could easily imagine these lining a sci-fi-looking spaceship in the future able to supply future generations with clean air and nutrients.\n\nThe experiment with Wisconsin Fast Plants is still ongoing and has not yet shown results. I do not expect to see significant changes till the tenth generation. I will work on posting updates as this unfolds so please sign up for notifications. This is a slow project but one that would leave behind a more efficient method for clean air in the future.",null,C.k,null)
-C.pY=H.a(s([C.Ap]),t.n)
-C.pO=H.a(s(["Oxygen","o2.png","o22.png","o23.png","Selective Breeding for Better O2 Production",C.q_,C.pY,"Test of an Algae Bioreactor","Grid of FastPlants Growing","","",4282085435]),t.b)
-C.S=H.a(s([C.pQ,C.pw,C.pr,C.oO,C.pB,C.pp,C.q4,C.py,C.po,C.oX,C.qk,C.oY,C.oD,C.q5,C.pO]),H.Q("q<x<@>>"))
 C.kk=new Z.uN("StretchMode.zoomBackground")
 C.iH=H.a(s([C.kk]),H.Q("q<uN>"))
 C.bb=new P.uW("TextAffinity.upstream")
 C.aw=new P.uW("TextAffinity.downstream")
-C.pD=H.a(s([C.bb,C.aw]),H.Q("q<uW>"))
+C.pC=H.a(s([C.bb,C.aw]),H.Q("q<uW>"))
 C.z=new P.v0(0,"TextDirection.rtl")
 C.p=new P.v0(1,"TextDirection.ltr")
-C.pE=H.a(s([C.z,C.p]),H.Q("q<v0>"))
+C.pD=H.a(s([C.z,C.p]),H.Q("q<v0>"))
 C.fJ=new P.iD(0,"TextAlign.left")
 C.cT=new P.iD(1,"TextAlign.right")
 C.br=new P.iD(2,"TextAlign.center")
@@ -58148,13 +58042,13 @@ C.e8=new K.wO(0,"_RouteRestorationType.named")
 C.kP=new K.wO(1,"_RouteRestorationType.anonymous")
 C.pN=H.a(s([C.e8,C.kP]),H.Q("q<wO>"))
 C.pP=H.a(s(["click","scroll"]),t.s)
-C.pT=H.a(s(["HEAD","AREA","BASE","BASEFONT","BR","COL","COLGROUP","EMBED","FRAME","FRAMESET","HR","IMAGE","IMG","INPUT","ISINDEX","LINK","META","PARAM","SOURCE","STYLE","TITLE","WBR"]),t.s)
+C.pS=H.a(s(["HEAD","AREA","BASE","BASEFONT","BR","COL","COLGROUP","EMBED","FRAME","FRAMESET","HR","IMAGE","IMG","INPUT","ISINDEX","LINK","META","PARAM","SOURCE","STYLE","TITLE","WBR"]),t.s)
 C.iI=H.a(s([]),t.Y)
 C.iM=H.a(s([]),H.Q("q<arI>"))
 C.Gb=H.a(s([]),t.as)
 C.iK=H.a(s([]),t.tl)
 C.iL=H.a(s([]),t.tD)
-C.pX=H.a(s([]),H.Q("q<acc<@>>"))
+C.pW=H.a(s([]),H.Q("q<acc<@>>"))
 C.f_=H.a(s([]),t.L)
 C.cC=H.a(s([]),t.s)
 C.iN=H.a(s([]),t.G)
@@ -58166,7 +58060,113 @@ C.dC=H.a(s([0,0,24576,1023,65534,34815,65534,18431]),t.t)
 C.qf=H.a(s([0,0,32754,11263,65534,34815,65534,18431]),t.t)
 C.iO=H.a(s([0,0,65490,12287,65535,34815,65534,18431]),t.t)
 C.W=new T.dd("TargetPlatform.fuchsia")
-C.qj=H.a(s([C.P,C.W,C.O,C.K,C.L,C.M]),H.Q("q<dd>"))
+C.qi=H.a(s([C.P,C.W,C.O,C.K,C.L,C.M]),H.Q("q<dd>"))
+C.AL=new Q.ak("Food insecurity is an issue that affects 1 in 8 Americans. Due to this, many food banks are often struggling with food collection and distribution. To make matters more difficult, many of these individuals do not qualify for federal nutrition programs currently and thus rely heavily on their local food banks. This is all happening in a country where 30-40% of food goes to waste. A large portion of this waste is simply due to the food being \u201cugly.\u201d This ranges from dents in cans to off-color tomatoes. These items, along with those around after the suggested sell-by date, are often still safe to donate, yet aren\u2019t donated.\n\nA group of college students and I developed the Community Food app working together with restaurants, grocers, and food banks to connect people to better food. Our app makes listing donations and scheduling food pickups as easy as a few taps.\n\nOur team had researched reasons restaurants and grocers are not donating food and discovered the following three main reasons.",null,C.k,null)
+C.fN=new A.p(!0,C.l,null,null,null,null,24,C.Y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.At=new Q.ak("\n\n1. ",null,C.k,C.fN)
+C.AA=new Q.ak("Lack of Education. Many workers do not possess knowledge of their local food resources and do not know how to responsibly donate.",null,C.k,null)
+C.AN=new Q.ak("\n\n2. ",null,C.k,C.fN)
+C.AM=new Q.ak("Hassle/Lack of Time. Often, restaurants and grocers feel as though it is too difficult to comprise a list of necessary items and contact the local food resource. Donations are not prioritized because of the commotion and amount of other tasks to be completed in kitchens and supply rooms.",null,C.k,null)
+C.Al=new Q.ak("\n\n3. ",null,C.k,C.fN)
+C.AF=new Q.ak("Assumption that the food is unwanted. This is similar to the lack of education but is based around the idea that the food will not be acceptable for the food resource and thus better in the trash.",null,C.k,null)
+C.B_=new Q.ak("\n\nOne of the biggest factors we found when conducting our research was that no one said they do not donate because they have nothing to give or no one to give it to; they simply just did not know what to give or who would be the best recipient.\n\nWe aimed to help solve the issue of food insecurity and food waste in one elegant solution. Education and automation of the food donation and receiving process will help us tackle these issues head-on.",null,C.k,null)
+C.pX=H.a(s([C.AL,C.At,C.AA,C.AN,C.AM,C.Al,C.AF,C.B_]),t.n)
+C.Ax=new Q.ak("Our team realized that the gap between the 40% of food going to waste and the 1 in 8 food-insecure Americans was not a supply problem but a data problem. We started looking at how we could help automate the food donation and collection process to encourage donations while at the same time educating the public. This was the founding idea for the Community Food app.\n\nLooking at the current donation process, individuals are expected to search for their local food resource, give the location a call, and then wait to describe their possible donation to an overworked volunteer. It is not an easy or rewarding process, and poor descriptions lead to wasted time.\n\nAs a donor, all one would have to do is download the app, register their location, and start scanning barcodes of items ready to be sent to food services, along with a brief description. At this point, the volunteers at the local food services will be alerted on their phones that there is food ready to be retrieved. They will get information on the type of food, its nutritional content, its size, and perishability. This will allow volunteers to make educated decisions on how much room they need, how many volunteers should go out, and if they need to bring a refrigeration unit. This will help keep food from spoiling, as well as save the time of overworked volunteers.\n\nThis application takes advantage of the fact that most people have a smartphone with access to the internet, GPS, and a camera on them at all times. We take the average smartphone and turn it into a network of data collection devices in the fight against hunger.\n\nCommunity Food takes away the need to know who and where one is donating to. In addition, the app removes the hassle of logging and communication, and most importantly, Community Food shares exact nutrients and sizing information with the volunteers picking it up. This makes everyone\u2019s lives easier in the food donation and collection process.",null,C.k,null)
+C.oA=H.a(s([C.Ax]),t.n)
+C.oG=H.a(s(["Food Donation","communityfood.png","comfood2.png","comfood3.png","Community Food",C.pX,C.oA,"Scanning a barcode in the app","Securely signing into the system","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainlyapps.community_food",4294220075]),t.b)
+C.AT=new Q.ak("Way in the back of the campus at the Rochester Institute of Technology is a beige paneled building. Most of the space on the ground floor is taken up by a laundry room, but next to that is a FoodShare. This is a place for students in need to pick up donated groceries and other essentials donated from the local community.\n\nFor the first 2 years of college, I thought nothing of it until a friend mentioned to me that it had well over 8,000 student visits. For a private college with clubs giving away free food and vendors offering samples, I always took food for granted. This was clearly not the case for everyone.\n\nI started Campus Food as a Twitter retweet bot and a way to start learning Python. This account would search for tweets mentioning free food at RIT and retweet them to the @RITFreeFood account for my followers. After setting it up I quickly forgot about it, thinking little of the efforts so far. A year later, I revisited the page and noticed the 500+ followers and the many missed messages. I never anticipated such a large response.\n\nI then realized there may be some potential to this idea. Many of the messages were about bringing this account to other platforms besides Twitter, which was quickly losing popularity on campus. I started work on an RITFreeFood website where students could view a live map of free food powered by location keywords in the tweets. From there I added a method for students to submit new events directly to the service. This is when I had a few brands reach out to me wanting to promote their products.",null,C.k,null)
+C.pq=H.a(s([C.AT]),t.n)
+C.AH=new Q.ak("I decided to make the pivot from a fairly basic webpage to a mobile application. This was due in large part from not knowing how to properly store my API keys in JavaScript. I wrote and released a mobile application, now called Campus Food, on iOS and Android. This quickly grew minor popularity on campus.\n\nMy goal from there was to implement ads and collaborate with brands doing events on campus to promote their giveaways in order to start making revenue. I recruited a small team of students to grow this idea with me.\n\nThe following semester, we launched a crowdfunding campaign to scale our app to new campuses. Currently, the app is functional on over 800 campuses in the United States, helping hungry people find free food and reducing food waste.",null,C.k,null)
+C.oB=H.a(s([C.AH]),t.n)
+C.pv=H.a(s(["Finding Free Food","campusfood.png","campusfood3.png","campusfood2.png","Campus Food",C.pq,C.oB,"The login screen of the app","An example of a post on the app","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainly_apps.campus_food",4293357950]),t.b)
+C.Au=new Q.ak("Eyeglasses should be a form of expression. What if instead of selecting from a limited set of cookie-cutter eyewear, you could have fully customized glasses? What if you could do this all from the comfort of your home? This was the idea behind an entrepreneurial project I worked on in my sophomore year of college.\n\nWorking with a small team in a makerspace, we designed a way to quickly capture eye measurements from a standard smartphone selfie camera. With this data, we could manipulate standard eyeglass forms to guarantee superior fit.\n\nOur ability to make custom glasses was enabled by using wood laminate and polycarbonate blanks cut out on an industrial laser cutter. This let us gain full control of each measurement and curve of the frames. From there, my team envisioned a system where a user could fully design their own styles. For customization, the sky was the limit!",null,C.k,null)
+C.pG=H.a(s([C.Au]),t.n)
+C.AZ=new Q.ak("This project got accepted into the RIT Summer Start incubator, my college\u2019s exclusive student incubator. With the funding they provided my team, we spent the summer conducting market research and advancing our concept. Classes focused around competition analysis, prototype validation, analyzing growth financials, and developing our pitching skills.\n\nIn the 13 weeks of the program Form Eyewear transformed from a simple way to customize eyeglass styles into a form-fitting program for customers who want a truly custom fit. Summer Start was a great experience to rapidly iterate on an idea with other entrepreneurs in a similar stage of development.",null,C.k,null)
+C.oC=H.a(s([C.AZ]),t.n)
+C.pr=H.a(s(["Eyeglass Buying","form.png","fe3.png","fe2.png","Form Eyewear",C.pG,C.oC,"The features of a pair of Form Eyewear sunglasses","Custom defined measurements","","",4285807152]),t.b)
+C.AI=new Q.ak("A common problem I believe in is that technology is advancing far faster than our education system. Teachers, though experienced in many fields, are continuously asked to prepare modern lessons without the support of the appropriate budget or time to learn themselves. For this reason, many modern engineering subjects are simply unable to be taught outside of a specialized environment. I was lucky enough to go to a high school that did offer these specialized engineering environments, and I wanted to bring this modern opportunity to the general population.\n\nIf we brought down the cost of materials and improved the learning curve for the instructor, most of the barriers to entry for this critical education could be eliminated. Currently, for $60 an instructor can demo basic electronics and circuitry lessons to a class. This is the cost of one kit, a kit that only one individual can interact with at a time. For this project, I wanted to offer that same learning experience to an entire class at the same time, all while not increasing the cost.\n\nMy solution to this problem: paper, easily the most common classroom material there is.",null,C.k,null)
+C.pQ=H.a(s([C.AI]),t.n)
+C.Ah=new Q.ak("Paper Bread was an interactive online circuit maker where teachers could build their own, or download pre-built lesson plans for circuits. The circuit components listed in the lesson plans were real prototyping components such as breadboards, LEDs, SMD resistors, and various sensors. Most lesson plans had a cost per student of $2 ($60 for a class of 30 \ud83c\udf89) and included links to purchase the components wholesale.\n\nLesson plans were printed and placed on top of each breadboard. The students would then be instructed to punch each component through the paper and into the breadboard to complete the circuit. This design resembled the functions of the Lite-Brite toy.\n\nI tested this project at Imagine RIT and two Maker Faires, helping people from 8 to 80 years old make their first circuit. The look of excitement when they lit up their first LED or connected their first sensor felt as though they had just performed magic. In under 10 minutes, participants went from a printed sheet of paper on a plastic box to controlling electricity using real electronics.\n\nI am currently working on making a more stable version of this project and testing it in more classrooms. If you are interested in testing it out or finding out more, please feel free to reach out to me: McCossum@gmail.com",null,C.k,null)
+C.oE=H.a(s([C.Ah]),t.n)
+C.oO=H.a(s(["Learning Electronics","paperbread.png","pb2.png","pb3.png","Paper Breadboarding",C.pQ,C.oE,"A Parer Bread kit cut out","A young student using Paper Bread","","",4286207800]),t.b)
+C.AD=new Q.ak("Finding new applications for existing products is just as important to the entrepreneurial mindset as creating a new product. Doing this not only provides new value to an existing product but greatly reduces the expensive development time. This is the approach I took with many of the applications in my portfolio.\n\nIt started simply, developing Campus Food in order to help the many hungry college students locate free food. To develop this application, my team had to create a system to aggregate and display live, crowdsourced geolocation data. This system served a much more friendly utility, but in short, that is all it was. After running the service for a few months a local food bank reached out to me thinking they were the intended audience. After taking the lesson to better brand the application I realized that they were not wrong, there was nothing preventing them from being the customer of a food geolocation aggregation service. My team and I quickly threw a new skin on the application and rebranded that fork as Community Food for them.\n\nThe move to create Campus Food took months but the transition to Community Food only took a few weeks. At this point, it had become easier to develop new applications for new markets instead of trying to add increasingly complex features to obtain a niche market. My team, at the time, split into one group working on new markets and the other group maintaining and marketing the already developed apps. This is when we created Upkeep Alert.\n\nMoving from community-centered food information into facilities management systems was not an immediately apparent decision. The team took a long look at what location data we could crowdsource. I remember being on my way to a college exam and needing to quickly use the restroom. The sink in the restroom was stuck and overflowing, wasting a ton of water and damaging the area. I did nothing about this, as my exam felt more important to me than taking time to call maintenance. Due to not having a system to quickly send urgent maintenance requests, the expenses from these events piled up. This is where the idea for Upkeep Alert came from.",null,C.k,null)
+C.pw=H.a(s([C.AD]),t.n)
+C.Ac=new Q.ak("The process at the time for maintenance reporting was to observe a maintenance issue, find a computer, log in to an online portal, and try to describe an issue you are no longer even keeping an eye on. By using the same system as the other applications, all someone would have to do moving forward is take a picture on their phone and provide an optional description, and the geolocation data would be sent right to maintenance. The multi-step process was reduced to just 2 quick actions.\n\nDue to the criticality of the data being captured by the app, my team created a unique strategy of rolling out changes. We would test new features in Campus Food, an app that if it failed, a few college students may miss out on a free food event. From there we tested them in a more critical application, Community Food. If all went well we would finally roll out the changes to Upkeep Alert, keeping our potential enterprise customers on the most stable and tested application.\n\nWe look to one day pick up this application\u2019s development again and integrate its simple reporting system into other commonly used maintenance management applications.",null,C.k,null)
+C.pn=H.a(s([C.Ac]),t.n)
+C.pA=H.a(s(["Maintenance Requests","ua3.png","upkeepalert.png","ua2.png","Upkeep Alert",C.pw,C.pn,"Marking a maintenance issue on the app","Providing more information on a maintenance issue","","",4279989187]),t.b)
+C.AK=new Q.ak("It is my strong belief that some people do not deserve the fame the media gives them. News organizations fixate over the actions of evil individuals instead of the life stories of those affected. It is all too common that those who commit crimes are more remembered than the victims. Committing heinous acts should not be a means to fame, publicity, or anything positive.\n\nI grew up in the digital age. From the time I entered high school, I started receiving my news not just from mainstream cable providers but from then-smaller indie productions such as the Philip DeFranco Show. This show was unique to me because of its bootstrap production setup and the show\u2019s ability to challenge the cookie-cutter model of broadcast news networks. The Philip DeFranco Show implemented a policy of not displaying or even naming individuals accused of monstrous acts. This was the first time I had seen a news organization have a policy like this and it greatly appealed to me.\n\nTaking the idea from the show, I wanted to attempt to bring this approach to the rest of the internet. What came of this was NoFame, an optional Chrome plugin to remove the names of monsters from web pages. No longer would users have to constantly be surrounded by the names and life stories of school shooters, mass murderers, and other vile people; instead, it would replace their name with what they truly are, \u201ca monster.\u201d",null,C.k,null)
+C.pg=H.a(s([C.AK]),t.n)
+C.Aj=new Q.ak("Though this plugin will never be able to replace all mentions of monsters, I do try to keep up with lists supplied from well-reviewed Wikipedia lists. Admittedly, there are also a number of problems with the plugin being unable to appropriately remove common names and pictures of these people. I recognize these current shortcomings and do want to continue to improve the tool. If you believe you have a well-reviewed Wikipedia page that should be included in our list, please add it with the form here: https://bit.ly/2EHdsH6. With your help, we can make evil a fameless pursuit.\n\nFor more information as well as access to the plugin please visit this link or search \u201cNoFame\u201d in the Chrome WebStore.",null,C.k,null)
+C.q3=H.a(s([C.Aj]),t.n)
+C.pp=H.a(s(["Infamy","nofame.png","nofame.png","nofame.png","NoFame",C.pg,C.q3,"NoFame logo","NoFame logo","See it on the Chrome Web Store","https://chrome.google.com/webstore/detail/nofame/fjjggbeocpjmkmfhlbggbbfehnkdcblp?hl=en-US",4284900966]),t.b)
+C.AU=new Q.ak("During my second year of college, I was asked the question, \u201cWhat are our shortcomings when it comes to innovation?\u201d I had recently started leading the Innovator\u2019s Hour research organization through the Albert J. Simone Center for Innovation and Entrepreneurship. This  gave my team the unique opportunity to create programs to help address these shortcomings.\n\nA few select members of the research organization and I realized that most of the entrepreneurial ideas coming from the club were targeted towards what we then called the \u201ciPhone Demographic.\u201d This largely upper-middle-class demographic usually consists of white, predominantly male, able-bodied individuals. There are many reasons for selecting this demographic when doing case studies for new products and services, but an immense portion of the population remains ignored.\n\nOn behalf of the club, I reached out to a number of diversity, inclusion, and belonging groups on the RIT campus. We ended up partnering with Grey Matter, a hot-button discussion group, along with the Center for Diversity and RIT\u2019s President\u2019s office to plan a weekend-long event named \u201cDesign for Diversity.\u201d\n\nDesign for Diversity challenged the students to design a product or service benefiting those in underrepresented groups. Teams of students were assigned pre-written user stories focusing on the lives of immigrants, specially-abled individuals, and various marginalized populations.",null,C.k,null)
+C.py=H.a(s([C.AU]),t.n)
+C.Ad=new Q.ak("From there, the teams examined what popular modern products were not serving these demographics and worked to identify why. The list the teams created was even larger than I expected.\n\nThe teams were then given the next 24 hours to reimagine popular products to better address the needs of their given user story. Innovator\u2019s Hour recruited a number of faculty moderators to advise the teams, making sure topics stayed respectful, appropriate, and unbiased toward negative stereotypes or assumptions. Many of the mentors even included individuals whose life experiences paralleled those of the user stories, gaining real market research in the process.\n\nAt the end of the weekend, the teams regrouped to present their work. Though none of these ideas ever came to market, the goal of this event was still achieved. It was never our intention to sell a new product or service from this weekend but instead, we wanted students thinking outside the illegitimate box of the perception of a \u201cnormal\u201d end-user. We hope this activity inspired more diverse work in the RIT entrepreneurship community moving forward.",null,C.k,null)
+C.pu=H.a(s([C.Ad]),t.n)
+C.q4=H.a(s(["Disability Design Thinking","desfordiv.png","ih2.png","ih3.png","Design For Diversity",C.py,C.pu,"Students brainstorming","Students presenting their final project","","",4291110187]),t.b)
+C.Am=new Q.ak("Coffee grounds and rubber balloons. These are everyday items that most people may have lying around their house. They are fairly cheap and can help put together a good party but what if they could also work as a decent universal grabber for those without full dexterity?\n\nBy filling a common latex balloon with coffee grounds, or another fine ground yet unevenly sized material, and applying a vacuum, it will tightly form around whatever object it is pressed against. The granular material will go from acting more like a liquid to acting as a rigid solid. Along with this, the latex balloon will create a fair bit of friction, allowing for it to grab even obtuse angles.\n\nThis idea is already used in a few industrial applications for picking up and placing objects of non-standard geometry. Experimenting with this idea in college I wanted to see if I could create one of these devices to pick up things in my dormitory and how small I could make it. After playing around with it for a while I realized there may be potential to help people with low dexterity pick up objects. Using a balloon was a lot easier than using one of those claw arms used by people who cannot bend over and it can pick up a wider range of objects. Creating a grabbing-wand would certainly be one way to take this project, but I also found the idea of making a palm-sized device quite interesting. Having this device in the palm of your hand would allow people with limited or no mobility in their hands to still pick up small objects with ease. The best part was that the materials were mostly household items already and the cost would be fairly low.",null,C.k,null)
+C.pE=H.a(s([C.Am]),t.n)
+C.Av=new Q.ak("Areas where this design falls short are, first and foremost, around the fact that this device does not look like a traditional hand. There is an immense amount of work trying to create prosthetics that look similar to a human hand. This is completely understandable, as there is a strong stigma around having an artificial part of your body. This design simply does not take this into account at this time. Also, the vacuum needed in this design is quite powerful, though there are some improvements that could greatly scale this down in a closed system. Along with this, the current model is quite bulky and complex. It puts functionality and versatility above aesthetics and simplicity. There are also concerns with the current model\u2019s durability over time. Luckily, the parts most likely to need replacement are some of the cheapest currently.\n\nI would greatly enjoy being able to test these designs further in real-world situations. There are plenty of areas for improvement but the idea still stands- there must be a cost-effective way to provide versatile prosthetics to those in need.",null,C.k,null)
+C.pH=H.a(s([C.Av]),t.n)
+C.px=H.a(s(["Low-Mobility Dexterity","hand.png","joe2.png","joe3.png","Joe Universal Grip",C.pE,C.pH,"Coffee grounds acting solid when compacted","Sketch of internal components","","",4290492856]),t.b)
+C.Ab=new Q.ak("Growing up in the Pacific Northwest bikes were everywhere, and that also meant plenty of bike racks. I remember as a kid jumping between the loops of the wavy, curbside racks thinking I looked pretty cool. As I grew up, unfortunately, they became more of a nuisance. They narrowed packed sidewalks and collected politically-charged stickers, yet they still served a great public use.\n\nIt was these thoughts I brought in when I began my high school Engineering Design class. In this class, we had to pick a real-world problem and investigate potential solutions over the course of a full year. This class was the first time I was asked to apply engineering and design-thinking to a real-world problem.\n\nMy team, involving my best friend, a random classmate, and of course myself, chose to tackle the mild nuisance of bike racks. We wanted to find a solution that would still allow us to have as many bike racks as desired while removing them from cluttering pathways while not in use. For this, we created the idea of folding bike racks.",null,C.k,null)
+C.pI=H.a(s([C.Ab]),t.n)
+C.A9=new Q.ak("Folding bike racks would allow them to be placed flush with the pathway when not in use. This would keep the racks from acting as fences when not in use. Of course, this created a fair bit of new problems. How would it safely lock into place when in use? How would the racks not trip people, and what about the hole they left behind when in use?\n\nTo answer these questions and quickly demonstrate solutions, we learned basic AutoCAD. This allowed us to come up with solutions for vertically sliding racks or smaller post-style racks. This was the first time I had gone through a design-thinking approach for a project, and I learned a lot about iterative solutioning in engineering.",null,C.k,null)
+C.qe=H.a(s([C.A9]),t.n)
+C.po=H.a(s(["Bike Racks","rack.png","rack3.png","rack2.png","Hidden Bike Racks",C.pI,C.qe,"Early prototype of the folding bike rack","Render of the folding bike rack\n(Sliding version in round picture above)","","",4282874563]),t.b)
+C.As=new Q.ak("Imagine cooking mac and cheese while babysitting. Everything is going great, the kid is off in the other room cleaning up after playing with some toys when they trip and fall. They are crying for help and you quickly go over to comfort them. Simple bruises and accidents are a not too uncommon event while babysitting, but how do we know when they occur? Simple- we hear them crying for help.\n\nNow imagine you are staying at a friend\u2019s house for the weekend. If the doorbell rings or the fire alarm gets tripped, you should most likely do something about it, and many of us do.\n\nNow imagine both these situations but you are Hard of Hearing or Deaf. In these situations seconds are precious, yet the barrier to be called to action can be immense. This was the founding idea behind Wavio, an intelligent sounds recognition startup I joined during my third year of college.\n\nWavio is a fully integrated notification platform deployed through plug-and-play sound recognition technology capitalizing on proprietary audio signal processing algorithms delivering a unique user experience. In short, it would plug into the wall, listen for critical sounds, and notify the user on their smartphone.",null,C.k,null)
+C.q1=H.a(s([C.As]),t.n)
+C.Aw=new Q.ak("The Wavio device aimed to remove critical barriers faced by the Deaf and Hard of Hearing community. The team was led by members who had experienced many of the current difficulties associated with being Hard of Hearing, including an experience very similar to the first example above. With their insight, they were able to lead a highly-motivated engineering team to develop a product to remove barriers and take advantage of emerging technology solutions.\n\nWhile working with the Wavio team, I gained experience taking a product from conceptual designs through market validation and manufacturing negotiations. I learned about PCB layout, design for manufacturability, and most importantly, perspectives from a customer segment I was largely unfamiliar with.",null,C.k,null)
+C.ps=H.a(s([C.Aw]),t.n)
+C.oX=H.a(s(["Hearing","wavio1.png","wavio3.png","wavio2.png","Wavio",C.q1,C.ps,"Wavio device concepts","A Wavio prototype plugged into a wall","See how the project advanced: see-sound.com","https://www.see-sound.com/",4280655359]),t.b)
+C.Ai=new Q.ak("Have you ever had the frustrating experience of wanting to go out and eat with someone but you just can\u2019t agree as to where? For people who want to quickly and collaboratively choose where to eat, I created Restaurant Match. This is an app where you and your party can swipe through places to eat around you and get notified when you match.\n\nThink Tinder, but for restaurants.\n\nWith the app, you can swipe through all the eateries local to your area in privacy. This allows you to choose as many places as you feel comfortable going without having to justify each decision one-by-one. While you are looking for places, your party can do the same. As soon as there are a few matches, you and your party will be alerted. This allows for a short, already agreed-upon list to be vetted instead of a lengthy list of controversial food choices.",null,C.k,null)
+C.pf=H.a(s([C.Ai]),t.n)
+C.AQ=new Q.ak("This application was developed with Flutter/Dart. It uses the Google Places API along with the Google Maps Mobile SDK and a few other support libraries for Flutter to produce a rich restaurant mapping experience. This can provide filtering information such as distance, rating, and price.\n\nThis application is still in development, as there are a number of hurdles yet to overcome, such as developing certain aspects and polishing up the experience overall. I did plan on releasing a beta version of this app in March 2020, but that was a very unfortunate time to develop an application based around restaurants and going places in general. I still cannot justify releasing the beta but hope to further the development of this soon.",null,C.k,null)
+C.pK=H.a(s([C.AQ]),t.n)
+C.qk=H.a(s(["Picking Where to Eat","rm.png","rm2.png","rm3.png","Restaurant Match",C.pf,C.pK,"Getting location within the app","Example of a card within the app","","",4283020262]),t.b)
+C.Ar=new Q.ak("In my final year of college, I had the privilege of taking the Functional Printing special topics class in the AMPrint Center. This was conducted in the NY State Center for Advanced Technology funded Center for Additive Manufacturing and Multifunctional Printing. All the long names made the class feel very official.\n\nIn the class we studied an immense amount of printing styles, from Flexo to Gravure and Stereolithography to Fused Deposition Modeling. Throughout the entirety of college, no class made my head hurt more. It was incredible to see all the various solutions to printing and additive manufacturing processes, but this class was not just for demonstrating existing methods. For our grade in the class we had to use a combination of the printing methods in a new way. This meant either creating a new end-product using the tools or combining the printing methods in a new way.\n\nMy team took on trying to create a Peltier tile on a flexible substrate. The main goal of the project was to create a printed, flexible Peltier device that could produce small amounts of current through the Seebeck effect when a temperature gradient was applied on either side. Peltier devices had, up to this point, traditionally been made of rigid ceramic in order to withstand their temperature gradients. This increases their durability but prevents them from properly conforming to irregular surface areas.\n\nThe potential for a flexible Peltier device could open the door to possibilities of thermal power generation in wearable technology. With further research, it is feasible that fabric-like material could generate small amounts of energy with the temperature gradient between the body and the ambient room temperature. This would open the door for the continuous recharging of wearable tech. Above all this, the flexible and patterned method for creating these devices could allow for roll-to-roll processing of these devices, allowing for variable sizes and an overall reduction in manufacturing cost.",null,C.k,null)
+C.pk=H.a(s([C.Ar]),t.n)
+C.Aq=new Q.ak("All major parts of the Peltier device have been commonly printed for other drives. This includes flexible copper, printed solder, and both P and N type semiconductors. By printing flexible copper traces into a flexible yet heat resistant substrate such as Kapton and depositing P and N type printable semiconductors like PEDOT:PSS, a flexible Peltier device is theoretically possible.\n\nA basic Peltier tile functions with an insulating air gap between components, allowing for an increased temperature gradient. With the appropriate printing methods, we can replace this with a flexible silicone insulator to further enhance the effects. This could also allow for smaller material deposition sizes by using the ceramic to place the semiconductors more precisely. By having everything more compact, the device would be much more efficient at generating current.\n\nDuring the course of the semester, our tested printed Peltier device did not show conclusive results. This could have been due to the limited number of semiconductor junctions or large impurities in our printing processes. We also did not have access to the printable semiconductor material we had first envisioned with the design. More research would have to be done in order to find a more efficient process for creating this device.",null,C.k,null)
+C.oZ=H.a(s([C.Aq]),t.n)
+C.oY=H.a(s(["3D Printed Power Generation","pt1.png","pt3.png","pt2.png","Flexible 3D Printed Peltier Tiles",C.pk,C.oZ,"Assembling layers of printed components","Testing of an early prototype","","",4294609154]),t.b)
+C.fO=new A.p(!0,C.l,null,null,null,null,24,C.Y,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.AO=new Q.ak("Current Concepts",null,C.k,C.fO)
+C.bc=new A.p(!0,C.l,null,null,null,null,18,C.Y,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.AP=new Q.ak("\n\nBackground",null,C.k,C.bc)
+C.AB=new Q.ak("\n\nThe recent rise in Non Fungible Tokens (NFTs) has shown a modern resurgence in the classic collectable market. NFTs expand on the established fungible token trading markets such as Ethereum and Bitcoin by adding a unique characteristic to each item.\n\nMillions of NFTs have been created and traded in the first few months of 2020. One of the most notable NFTs is CryptoPunks, a set of pixelated headshots creating a total trade volume of $259.03M. This set of tradable tokens is capped at 10,000 total unique images. Each one allows for a subjective value to be assigned to them in the eyes of the market. This subjective value is the driving force behind the rise of NFTs and many cryptocurrencies. These assets, untied to any physical value, are purely distilled to their tradable value.",null,C.k,null)
+C.Ak=new Q.ak("\n\nThe Finite",null,C.k,C.bc)
+C.Ap=new Q.ak("\n\nThe CryptoPunks set is innately finite. This sets a scarcity demand that creates economic stability for Cryptopunks and other similar NFTS, not unlike how the gold standard created stability for the U.S. dollar. Due to the limited set of CryptoPunks some traders aim on collecting like sets, thus inflating the value of their investment for future trades. At the same time the scarcity has made CryptoPunks an almost untouchable market for the layman. The average price for a CryptoPunk token is absorbently high due to the notoriety and combined scarcity. This is an issue that will,  at some point, limit all sought-after NFT sets.",null,C.k,null)
+C.AX=new Q.ak("\n\nThe Expandable",null,C.k,C.bc)
+C.AJ=new Q.ak("\n\nAnother implementation of the limited nature of NFT and cryptocurrency sets is the growth-over-time model. This is most notably seen in the Bitcoin market. Bitcoin acts in an inflationary way, as community members can mine new Bitcoins. Token mining allows the set to scale over time, enabling new members to jump into the marketplace before all 21 million Bitcoins are released. All Bitcoins will be mined in roughly 120 years. Part of the policy\u2019s aim is to balance scarcity with new demand, in order to curb rapid fluctuations and monopolies.",null,C.k,null)
+C.Af=new Q.ak("\n\nThe Infinite",null,C.k,C.bc)
+C.Ay=new Q.ak("\n\nMost current mainstream cryptocurrencies have a planned maximum set. Very few, such as $NEO, are potentially infinite. This can be achieved by never setting a limit to new tokens being mined. As long as the ability to mine tokens exists, community members will assist the network\u2019s function. This sets up the hypothesis that once all tokens from a set are created, the market will enter a highly unpredictable state.\n\nNo current mainstream currency is both able to maintain a finite set of whole tokens and infinitely divisible. For Bitcoin specifically, the smallest possible unit is 0.00000001 BTC, called a \u201cSatoshi.\u201d At time of writing, one Satoshi is roughly 0.02 cents. By being unable to divide further, this creates a wealth floor, removing the fair representation of goods under that amount. This will only get worse as the value increases, which possibly prevents some people from being able to partake in the crypto revolution.",null,C.k,null)
+C.AY=new Q.ak("\n\nThe Live",null,C.k,C.bc)
+C.B0=new Q.ak("\n\nNTFs have also been created to reflect ownership of \u201clive\u201d or real world goods. A prominent example of this phenomenon is Nike securing a patent to list shoe ownership in token form. This public ownership ledger could help them ensure the authenticity of sold/traded shoes. While an excellent idea, this fundamentally sets these tokens apart from other NFTs. Tying NFTs to live assets from shoe ownership to concert tickets puts a fundamental floor on the value of the NFT. This floor is seen as the value of the item before being posted to an NFT ledger. This value may change due to transactional costs such as shipping, material scarcity, labor, or other hastles. Not only does this set a potential value floor, but it creates a value ceiling as well. The maximum value of any live NFT can be seen as the maximum cost to secure and insure the longevity of the asset. If the live asset is destroyed yet traded, it is no different from other non-live assets. For these reasons, live NFT trading is fundamentally flawed as an economic model and does not utilize the full potential of a digital economy.",null,C.k,null)
+C.oW=H.a(s([C.AO,C.AP,C.AB,C.Ak,C.Ap,C.AX,C.AJ,C.Af,C.Ay,C.AY,C.B0]),t.n)
+C.AW=new Q.ak("Novel Concepts",null,C.k,C.fO)
+C.Az=new Q.ak("\n\nA Finite Infinity",null,C.k,C.bc)
+C.B1=new Q.ak("\n\nCreating an asset, or set, which has a known total value but is infinitely divisible, was infeasible until the digital era. Most physical currencies only have about 20 value units consisting of cash and coins, allowing for simple, countable transactions among a general population. With the assistance of computers, we can ignore the need for easily identifiable units and focus on the agreed value of the transaction as a unit in itself. This method is how electronic (cashless) payments have been working for years. Even they, however, have a minimum divisible unit often set by a physical payment system.\n\nOne way to conceptualize this is to reconceptualise this new economic model as an economy based around a single dollar. If you take that dollar and divide it in half, you now have 2 tokens adding up to the total original value. To take this further, this imaginary dollar can be repeatedly divided into infinite parts and reassembled without adding or losing any parts. Most importantly to this is that there will never be any more than one dollar. It is up to the community to assign value to the set and decide how far they need to divide the parts.",null,C.k,null)
+C.AG=new Q.ak("\n\nThe New Infinite",null,C.k,C.bc)
+C.Ag=new Q.ak("\n\nThere are more numbers between 0 and 1 than there are total integers. Both sets are infinite but creating a currency with growth built in will act in an inflationary manner over time. Creating a currency with a set known maximum yet maintaining infinite growth could provide more long term stability while still enabling it to serve any population. This is unlike any currency in existence.\n\nAny finite asset will eventually be lost to entropy. This is mainly due to people losing access to their assets or passing on without relinquishing access to the held tokens. It is estimated that 25-30% of Bitcoin is currently inaccessible for these reasons. The process of losing access to tokens will increase the value of the remaining set to a highly restrictive amount due to scarcity. Using an infinite currency is the only way to avoid this setback.\n\nCreating a currency that is infinitely divisible allows for all assets, no matter how low in value, to be traded. This principle also keeps deflationary scarcity tactics such as money hoarding from affecting the currencies value on a large scale. With this economic tactic a single currency can continue to represent a population as a whole even with an equally infinite population or growing wealth inequality.",null,C.k,null)
+C.AS=new Q.ak("\n\nThe New Finite",null,C.k,C.bc)
+C.Ae=new Q.ak("\n\nEven with an infinite set, there are still methods to create demand and scarcity. Imagine a fractal. As it is subdivided it still maintains its original form (see images). If you take this image and apply a linear gradient over it, the form and repeatability remain the same but now each pixel or region has a unique color value. This allows the holder of that subset region to know exactly which region they hold but without innately changing any aspect of the token; size, intrinsic value, or otherwise. This combines the fungible nature of cryptocurrencies with the uniqueness of NFTs.\n\nA currency with these features would allow the community to trade tokens with value assigned from either the fungible fraction value or the unique position attribute. By combining both these qualities the possibilities of how the community will interact with and assign value are immense. We can further set assets to the currency to enable more controlled and interesting attributes.",null,C.k,null)
+C.AC=new Q.ak("\n\nDeconstruction and Reconstruction",null,C.k,C.bc)
+C.An=new Q.ak("\n\nAs the assets are infinitely divisible they must also be able to be recombined in order to curb inflationary behaviours. A few extra rules can be set in place to disincentivize divisions while still allowing for their existence.\n\nIf any token can be broken down but only \u201cadjacent\u201d tokens - those with unique values sequential to each other - can be reassembled into larger tokens, it would encourage the community to assess value off of both the fungible and non-fungible aspects. If community members are looking to grow their sets, they have to look at transactions based not only on the perceived value of the tokens but the unique value of the token\u2019s adjacentcy to the tokens they already hold.\n\nThis may enable many unique features to the currency\u2019s community, such as groups looking to only trade for tokens in specific regions of the set, thus looking to increase their chances of being able to build back their divided tokens. This allows for the idea of currency subsets within the single currency. These communities can grow to represent a subset of the currency\u2019s range without changing any of the initial aspects and functionality of the currency. Just like a fractal, the initial principles and design are reflected in any subset.\n\nThere is a real need to encourage the use of larger tokens as well. Many smaller tokens will inevitably take more energy to register and reconcile transactions with than one large token. By charging a small transaction fee on the per-token basis, the system can largely incentivise the use of whole tokens.",null,C.k,null)
+C.AV=new Q.ak("\n\n\nConclusion",null,C.k,C.fO)
+C.AE=new Q.ak("\n\nCreating an economy around an infinitely divisible and non-growing set enables many unique features we cannot achieve with any current economic systems. An infinite currency will enable its utility to expand far into the future, adapt to a population of any size, and set a trade value to even the smallest of items.\n\nThese tokens combine the best attributes of modern cryptocurrency trading with the unique collectibility of NFTs.\n\nBy creating a method and incentive to recombine held currency into larger assets, the currency\u2019s integrity can be preserved. In addition, opportunities will be created to find various methods of assigning value.\n\nThere is no way of knowing how a currency like this will truly behave once created, but it is the best way to ensure the longevity of a system far beyond our current imagination.",null,C.k,null)
+C.pF=H.a(s([C.AW,C.Az,C.B1,C.AG,C.Ag,C.AS,C.Ae,C.AC,C.An,C.AV,C.AE]),t.n)
+C.qj=H.a(s(["Cryptocurrency Economics","e.png","tri1.png","tri2.png","The Infinite Economy",C.oW,C.pF,"Representation of\nhow the system is maintained\nwhile infinitely divided","Representation of\nhow unique attributes are preserved\nin an infinite set","Clap on Medium","https://mccossum.medium.com/the-infinite-economy-2ba585b61ddb",4289831540]),t.b)
+C.Aa=new Q.ak("Cooking should be simple. Most recipes can be simplified down to three things; Ingredients, Temperature, and Time. This is in stark contrast to how recipes are presented online. Many hide behind long stories and intrusive ads. Even after all that I still found many hard to follow and keep track of my place in.\n\nI started working with a team of good friends to investigate methods of creating a great user experience while following new recipes. We worked on hardware, software, and design to tackle this initiative.",null,C.k,null)
+C.pj=H.a(s([C.Aa]),t.n)
+C.AR=new Q.ak("Starting with the software, we used a robust recipe parser to extract only the most relevant information from online recipes. No stories, no obscure links, only what the user needed to know to make the recipe. Along with this, we designed our screens to focus on minimalism, only showing the user one measurement or instruction at a time. This guaranteed comprehension while maintaining an intuitive flow.\n\nAll of the software paired directly with our custom hardware. To seamlessly connect the digital space to the physical food our team designed a sleek, food-safe, scale. With the aid of this scale, users could navigate through a recipe without the need to know exact amounts. All they have to focus on is if they need to add more or less of each ingredient to the scale. This allowed recipes to auto-advance on the phone once each ingredient was correct. This intuitive pairing allowed room for a level of simplicity in recipes that was previously unheard of.\n\nAll this is wrapped up in a design language that spans across both software and hardware. The scale easily pairs with our kitchenware and bowls to automatically detect and calibrate the added weight. Our unique stamped logo guarantees grip and stability of app parts leading to fewer messes compared to other scales. Even if there is a mess, our scale is one of the few covered in dishwasher safe parts allowing for easy cleanup. This elegant design is reflected in the app as colors automatically change to match the user's kitchenware set and allow them to quickly jump into recipes with similar recipes to those made in the past.\n\nThis project is still in development by the team and does not have an official launch date as of this time. Our team is working diligently to ensure the success of the Banana Scale with over 10,000 recipes. Please allow notifications to hear about this project as it progresses.",null,C.k,null)
+C.pl=H.a(s([C.AR]),t.n)
+C.q5=H.a(s(["Preparing Food","rethinkrecipes.png","rr1.png","rr2.png","Banana Scale",C.pj,C.pl,"Starting a recipe","Minimalist instructions","","",4293878608]),t.b)
+C.B2=new Q.ak("Our interaction with the air around us is often taken for granted. Though the air we breathe is a constant shaping force in our lives we rarely think about how it changes with our environment. As we go throughout our day in different locations for both indoor and outdoor settings the composition of our air can vary greatly.\n\nAround 60 years ago Carbon Dioxide (CO2) concentrations were around 300 parts per million (ppm). Currently, in a natural environment, CO2 levels average about 415ppm. With this sudden change taking us 35% over the historical average and still growing, we are entering unprecedented territory.\n\nThis situation only gets more bleak when we look into unnatural environments. Office buildings and other crowded gathering spaces can have CO2 levels ranging from several hundred ppm to over 1000 ppm. This is still under common safety guidelines warning of levels of 5000ppm and above but recent studies have shown there still may be reason for concern. At 1000ppm there is a 15% decrease in cognitive function going up to 50% at 1400ppm. If we care about our ability to think, either as an individual or a species this issue needs to be addressed.\n\nOn a small scale, plans may be an option to curb high CO2 levels. It takes about 7-8 mature trees per person to exchange all the air we breathe. While trees are a vital part of our ecosystem they are not the most efficient to manage CO2 levels, nor are they practical in an indoor setting. With the aid of selective breeding, we may be able to create super oxygenating plants to curb indoor CO2 levels.",null,C.k,null)
+C.q_=H.a(s([C.B2]),t.n)
+C.Ao=new Q.ak("To test the hypothesis that I could breed better oxygenating plants I started with 64 Fast Plants from the University of Wisconsin. These are a type of mustard seed with a total lifecycle of around 60 days. This would allow me to isolate leaves from mature plants and only germinate seeds from plants with the highest oxygen-producing levels per leaf mass. Over many generations, I would expect to see a trend of higher oxygen-producing varieties.\n\nI have also thought about reproducing this experiment with Spirulina algae in a series of bioreactors. This would be beneficial not only for the faster reproductive cycle leading to faster evolution times but because Spirulina are nutrient-dense algae. This means they can be eaten as well as produce oxygen. Above all, the bioreactors just look extremely cool. I could easily imagine these lining a sci-fi-looking spaceship in the future able to supply future generations with clean air and nutrients.\n\nThe experiment with Wisconsin Fast Plants is still ongoing and has not yet shown results. I do not expect to see significant changes till the tenth generation. I will work on posting updates as this unfolds so please sign up for notifications. This is a slow project but one that would leave behind a more efficient method for clean air in the future.",null,C.k,null)
+C.pY=H.a(s([C.Ao]),t.n)
+C.pO=H.a(s(["Oxygen","o2.png","o22.png","o23.png","Selective Breeding for Better O2 Production",C.q_,C.pY,"Test of an Algae Bioreactor","Grid of FastPlants Growing","","",4282085435]),t.b)
+C.S=H.a(s([C.oG,C.pv,C.pr,C.oO,C.pA,C.pp,C.q4,C.px,C.po,C.oX,C.qk,C.oY,C.qj,C.q5,C.pO]),H.Q("q<x<@>>"))
 C.iP=H.a(s(["bind","if","ref","repeat","syntax"]),t.s)
 C.qm=H.a(s([0,4,12,1,5,13,3,7,15]),t.t)
 C.f1=H.a(s(["A::href","AREA::href","BLOCKQUOTE::cite","BODY::background","COMMAND::icon","DEL::cite","FORM::action","IMG::src","INPUT::src","INS::cite","Q::cite","VIDEO::poster"]),t.s)
@@ -58221,8 +58221,8 @@ C.ut=new F.jw("MainAxisAlignment.spaceAround")
 C.fe=new F.jw("MainAxisAlignment.spaceEvenly")
 C.jg=new F.B1("MainAxisSize.min")
 C.aE=new F.B1("MainAxisSize.max")
-C.oE=H.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
-C.b7=new H.b7(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},C.oE,t.hD)
+C.oD=H.a(s(["BU","DD","FX","TP","YD","ZR"]),t.s)
+C.b7=new H.b7(6,{BU:"MM",DD:"DE",FX:"FR",TP:"TL",YD:"YE",ZR:"CD"},C.oD,t.hD)
 C.q8=H.a(s(["mode"]),t.s)
 C.cD=new H.b7(1,{mode:"basic"},C.q8,t.hD)
 C.n5=new P.C(4294638330)
@@ -58247,9 +58247,9 @@ C.mU=new P.C(4292030255)
 C.mT=new P.C(4291176488)
 C.mP=new P.C(4290190364)
 C.jh=new H.cP([50,C.n7,100,C.n6,200,C.n2,300,C.mZ,400,C.n1,500,C.n3,600,C.mY,700,C.mU,800,C.mT,900,C.mP],t.bl)
-C.pC=H.a(s(["0","1","2","3","4","5","6","7","8","9",".","Insert","End","ArrowDown","PageDown","ArrowLeft","Clear","ArrowRight","Home","ArrowUp","PageUp","Delete","/","*","-","+","Enter","Shift","Control","Alt","Meta"]),t.s)
-C.oV=H.a(s([48,null,null,8589934640]),t.Z)
-C.oW=H.a(s([49,null,null,8589934641]),t.Z)
+C.pB=H.a(s(["0","1","2","3","4","5","6","7","8","9",".","Insert","End","ArrowDown","PageDown","ArrowLeft","Clear","ArrowRight","Home","ArrowUp","PageUp","Delete","/","*","-","+","Enter","Shift","Control","Alt","Meta"]),t.s)
+C.oU=H.a(s([48,null,null,8589934640]),t.Z)
+C.oV=H.a(s([49,null,null,8589934641]),t.Z)
 C.p_=H.a(s([50,null,null,8589934642]),t.Z)
 C.p0=H.a(s([51,null,null,8589934643]),t.Z)
 C.p1=H.a(s([52,null,null,8589934644]),t.Z)
@@ -58258,7 +58258,7 @@ C.p3=H.a(s([54,null,null,8589934646]),t.Z)
 C.p4=H.a(s([55,null,null,8589934647]),t.Z)
 C.p5=H.a(s([56,null,null,8589934648]),t.Z)
 C.p6=H.a(s([57,null,null,8589934649]),t.Z)
-C.oT=H.a(s([46,null,null,8589934638]),t.Z)
+C.oS=H.a(s([46,null,null,8589934638]),t.Z)
 C.oI=H.a(s([1031,null,null,8589934640]),t.Z)
 C.pb=H.a(s([773,null,null,8589934641]),t.Z)
 C.p7=H.a(s([769,null,null,8589934642]),t.Z)
@@ -58270,16 +58270,16 @@ C.pc=H.a(s([774,null,null,8589934647]),t.Z)
 C.pa=H.a(s([772,null,null,8589934648]),t.Z)
 C.pe=H.a(s([776,null,null,8589934649]),t.Z)
 C.oJ=H.a(s([127,null,null,8589934638]),t.Z)
-C.oU=H.a(s([47,null,null,8589934639]),t.Z)
-C.oQ=H.a(s([42,null,null,8589934634]),t.Z)
-C.oS=H.a(s([45,null,null,8589934637]),t.Z)
-C.oR=H.a(s([43,null,null,8589934635]),t.Z)
+C.oT=H.a(s([47,null,null,8589934639]),t.Z)
+C.oP=H.a(s([42,null,null,8589934634]),t.Z)
+C.oR=H.a(s([45,null,null,8589934637]),t.Z)
+C.oQ=H.a(s([43,null,null,8589934635]),t.Z)
 C.oK=H.a(s([13,null,null,8589934605]),t.Z)
 C.qc=H.a(s([null,12884902157,17179869453,null]),t.Z)
 C.qa=H.a(s([null,12884902149,17179869445,null]),t.Z)
 C.q9=H.a(s([null,12884902146,17179869442,null]),t.Z)
 C.qb=H.a(s([null,12884902153,17179869449,null]),t.Z)
-C.ji=new H.b7(31,{"0":C.oV,"1":C.oW,"2":C.p_,"3":C.p0,"4":C.p1,"5":C.p2,"6":C.p3,"7":C.p4,"8":C.p5,"9":C.p6,".":C.oT,Insert:C.oI,End:C.pb,ArrowDown:C.p7,PageDown:C.pd,ArrowLeft:C.p8,Clear:C.oH,ArrowRight:C.p9,Home:C.pc,ArrowUp:C.pa,PageUp:C.pe,Delete:C.oJ,"/":C.oU,"*":C.oQ,"-":C.oS,"+":C.oR,Enter:C.oK,Shift:C.qc,Control:C.qa,Alt:C.q9,Meta:C.qb},C.pC,H.Q("b7<o,x<m?>>"))
+C.ji=new H.b7(31,{"0":C.oU,"1":C.oV,"2":C.p_,"3":C.p0,"4":C.p1,"5":C.p2,"6":C.p3,"7":C.p4,"8":C.p5,"9":C.p6,".":C.oS,Insert:C.oI,End:C.pb,ArrowDown:C.p7,PageDown:C.pd,ArrowLeft:C.p8,Clear:C.oH,ArrowRight:C.p9,Home:C.pc,ArrowUp:C.pa,PageUp:C.pe,Delete:C.oJ,"/":C.oT,"*":C.oP,"-":C.oR,"+":C.oQ,Enter:C.oK,Shift:C.qc,Control:C.qa,Alt:C.q9,Meta:C.qb},C.pB,H.Q("b7<o,x<m?>>"))
 C.pL=H.a(s(["in","iw","ji","jw","mo","aam","adp","aue","ayx","bgm","bjd","ccq","cjr","cka","cmk","coy","cqu","drh","drw","gav","gfx","ggn","gti","guv","hrr","ibi","ilw","jeg","kgc","kgh","koj","krm","ktr","kvs","kwq","kxe","kzj","kzt","lii","lmm","meg","mst","mwj","myt","nad","ncp","nnx","nts","oun","pcr","pmc","pmu","ppa","ppr","pry","puz","sca","skk","tdu","thc","thx","tie","tkk","tlw","tmp","tne","tnf","tsf","uok","xba","xia","xkh","xsj","ybd","yma","ymt","yos","yuu"]),t.s)
 C.aS=new H.b7(78,{in:"id",iw:"he",ji:"yi",jw:"jv",mo:"ro",aam:"aas",adp:"dz",aue:"ktz",ayx:"nun",bgm:"bcg",bjd:"drl",ccq:"rki",cjr:"mom",cka:"cmr",cmk:"xch",coy:"pij",cqu:"quh",drh:"khk",drw:"prs",gav:"dev",gfx:"vaj",ggn:"gvr",gti:"nyc",guv:"duz",hrr:"jal",ibi:"opa",ilw:"gal",jeg:"oyb",kgc:"tdf",kgh:"kml",koj:"kwv",krm:"bmf",ktr:"dtp",kvs:"gdj",kwq:"yam",kxe:"tvd",kzj:"dtp",kzt:"dtp",lii:"raq",lmm:"rmx",meg:"cir",mst:"mry",mwj:"vaj",myt:"mry",nad:"xny",ncp:"kdz",nnx:"ngv",nts:"pij",oun:"vaj",pcr:"adx",pmc:"huw",pmu:"phr",ppa:"bfy",ppr:"lcq",pry:"prt",puz:"pub",sca:"hle",skk:"oyb",tdu:"dtp",thc:"tpo",thx:"oyb",tie:"ras",tkk:"twm",tlw:"weo",tmp:"tyj",tne:"kak",tnf:"prs",tsf:"taj",uok:"ema",xba:"cax",xia:"acn",xkh:"waw",xsj:"suj",ybd:"rki",yma:"lrr",ymt:"mtm",yos:"zom",yuu:"yug"},C.pL,t.hD)
 C.eZ=H.a(s(["None","Hyper","Super","FnLock","Suspend","Resume","Turbo","PrivacyScreenToggle","Sleep","WakeUp","DisplayToggleIntExt","KeyA","KeyB","KeyC","KeyD","KeyE","KeyF","KeyG","KeyH","KeyI","KeyJ","KeyK","KeyL","KeyM","KeyN","KeyO","KeyP","KeyQ","KeyR","KeyS","KeyT","KeyU","KeyV","KeyW","KeyX","KeyY","KeyZ","Digit1","Digit2","Digit3","Digit4","Digit5","Digit6","Digit7","Digit8","Digit9","Digit0","Enter","Escape","Backspace","Tab","Space","Minus","Equal","BracketLeft","BracketRight","Backslash","Semicolon","Quote","Backquote","Comma","Period","Slash","CapsLock","F1","F2","F3","F4","F5","F6","F7","F8","F9","F10","F11","F12","PrintScreen","ScrollLock","Pause","Insert","Home","PageUp","Delete","End","PageDown","ArrowRight","ArrowLeft","ArrowDown","ArrowUp","NumLock","NumpadDivide","NumpadMultiply","NumpadSubtract","NumpadAdd","NumpadEnter","Numpad1","Numpad2","Numpad3","Numpad4","Numpad5","Numpad6","Numpad7","Numpad8","Numpad9","Numpad0","NumpadDecimal","IntlBackslash","ContextMenu","Power","NumpadEqual","F13","F14","F15","F16","F17","F18","F19","F20","F21","F22","F23","F24","Open","Help","Select","Again","Undo","Cut","Copy","Paste","Find","AudioVolumeMute","AudioVolumeUp","AudioVolumeDown","NumpadComma","IntlRo","KanaMode","IntlYen","Convert","NonConvert","Lang1","Lang2","Lang3","Lang4","Lang5","Abort","Props","NumpadParenLeft","NumpadParenRight","NumpadBackspace","NumpadMemoryStore","NumpadMemoryRecall","NumpadMemoryClear","NumpadMemoryAdd","NumpadMemorySubtract","NumpadClear","NumpadClearEntry","ControlLeft","ShiftLeft","AltLeft","MetaLeft","ControlRight","ShiftRight","AltRight","MetaRight","BrightnessUp","BrightnessDown","MediaPlay","MediaPause","MediaRecord","MediaFastForward","MediaRewind","MediaTrackNext","MediaTrackPrevious","MediaStop","Eject","MediaPlayPause","MediaSelect","LaunchMail","LaunchApp2","LaunchApp1","LaunchControlPanel","SelectTask","LaunchScreenSaver","LaunchAssistant","BrowserSearch","BrowserHome","BrowserBack","BrowserForward","BrowserStop","BrowserRefresh","BrowserFavorites","ZoomToggle","MailReply","MailForward","MailSend","KeyboardLayoutSelect","ShowAllWindows","GameButton1","GameButton2","GameButton3","GameButton4","GameButton5","GameButton6","GameButton7","GameButton8","GameButton9","GameButton10","GameButton11","GameButton12","GameButton13","GameButton14","GameButton15","GameButton16","GameButtonA","GameButtonB","GameButtonC","GameButtonLeft1","GameButtonLeft2","GameButtonMode","GameButtonRight1","GameButtonRight2","GameButtonSelect","GameButtonStart","GameButtonThumbLeft","GameButtonThumbRight","GameButtonX","GameButtonY","GameButtonZ","Fn"]),t.s)
@@ -58722,15 +58722,15 @@ C.rq=new G.i(4295360285)
 C.rr=new G.i(4295360286)
 C.rs=new G.i(4295360287)
 C.uB=new H.b7(230,{None:C.qO,Hyper:C.qP,Super:C.qQ,FnLock:C.qR,Suspend:C.qS,Resume:C.qT,Turbo:C.qU,PrivacyScreenToggle:C.qV,Sleep:C.qW,WakeUp:C.qX,DisplayToggleIntExt:C.qY,KeyA:C.ul,KeyB:C.um,KeyC:C.un,KeyD:C.qq,KeyE:C.qr,KeyF:C.qs,KeyG:C.qt,KeyH:C.qu,KeyI:C.qv,KeyJ:C.qw,KeyK:C.qx,KeyL:C.qy,KeyM:C.qz,KeyN:C.qA,KeyO:C.qB,KeyP:C.qC,KeyQ:C.qD,KeyR:C.qE,KeyS:C.qF,KeyT:C.qG,KeyU:C.qH,KeyV:C.qI,KeyW:C.qJ,KeyX:C.qK,KeyY:C.qL,KeyZ:C.qM,Digit1:C.u6,Digit2:C.u7,Digit3:C.u8,Digit4:C.u9,Digit5:C.ua,Digit6:C.ub,Digit7:C.uc,Digit8:C.ud,Digit9:C.ue,Digit0:C.u5,Enter:C.iR,Escape:C.iS,Backspace:C.rt,Tab:C.f3,Space:C.f2,Minus:C.u2,Equal:C.ug,BracketLeft:C.uh,BracketRight:C.uj,Backslash:C.ui,Semicolon:C.uf,Quote:C.qN,Backquote:C.uk,Comma:C.u1,Period:C.u3,Slash:C.u4,CapsLock:C.iT,F1:C.ru,F2:C.rv,F3:C.rw,F4:C.rx,F5:C.ry,F6:C.rz,F7:C.rA,F8:C.rB,F9:C.rC,F10:C.rD,F11:C.rE,F12:C.rF,PrintScreen:C.rG,ScrollLock:C.iU,Pause:C.rH,Insert:C.rI,Home:C.f4,PageUp:C.iV,Delete:C.rJ,End:C.f5,PageDown:C.iW,ArrowRight:C.aQ,ArrowLeft:C.aR,ArrowDown:C.bm,ArrowUp:C.bn,NumLock:C.iX,NumpadDivide:C.iY,NumpadMultiply:C.iZ,NumpadSubtract:C.j_,NumpadAdd:C.j0,NumpadEnter:C.rK,Numpad1:C.j1,Numpad2:C.j2,Numpad3:C.j3,Numpad4:C.j4,Numpad5:C.j5,Numpad6:C.j6,Numpad7:C.j7,Numpad8:C.j8,Numpad9:C.j9,Numpad0:C.ja,NumpadDecimal:C.jb,IntlBackslash:C.rL,ContextMenu:C.rM,Power:C.rN,NumpadEqual:C.jc,F13:C.rO,F14:C.rP,F15:C.rQ,F16:C.rR,F17:C.rS,F18:C.rT,F19:C.rU,F20:C.rV,F21:C.rW,F22:C.rX,F23:C.rY,F24:C.rZ,Open:C.t_,Help:C.t0,Select:C.t1,Again:C.t2,Undo:C.t3,Cut:C.t4,Copy:C.t5,Paste:C.t6,Find:C.t7,AudioVolumeMute:C.t8,AudioVolumeUp:C.t9,AudioVolumeDown:C.ta,NumpadComma:C.jd,IntlRo:C.tb,KanaMode:C.tc,IntlYen:C.td,Convert:C.te,NonConvert:C.tf,Lang1:C.tg,Lang2:C.th,Lang3:C.ti,Lang4:C.tj,Lang5:C.tk,Abort:C.tl,Props:C.tm,NumpadParenLeft:C.je,NumpadParenRight:C.jf,NumpadBackspace:C.tn,NumpadMemoryStore:C.to,NumpadMemoryRecall:C.tp,NumpadMemoryClear:C.tq,NumpadMemoryAdd:C.tr,NumpadMemorySubtract:C.ts,NumpadClear:C.tt,NumpadClearEntry:C.tu,ControlLeft:C.f6,ShiftLeft:C.f7,AltLeft:C.f8,MetaLeft:C.f9,ControlRight:C.fa,ShiftRight:C.fb,AltRight:C.fc,MetaRight:C.fd,BrightnessUp:C.tv,BrightnessDown:C.tw,MediaPlay:C.tx,MediaPause:C.ty,MediaRecord:C.tz,MediaFastForward:C.tA,MediaRewind:C.tB,MediaTrackNext:C.tC,MediaTrackPrevious:C.tD,MediaStop:C.tE,Eject:C.tF,MediaPlayPause:C.tG,MediaSelect:C.tH,LaunchMail:C.tI,LaunchApp2:C.tJ,LaunchApp1:C.tK,LaunchControlPanel:C.tL,SelectTask:C.tM,LaunchScreenSaver:C.tN,LaunchAssistant:C.tO,BrowserSearch:C.tP,BrowserHome:C.tQ,BrowserBack:C.tR,BrowserForward:C.tS,BrowserStop:C.tT,BrowserRefresh:C.tU,BrowserFavorites:C.tV,ZoomToggle:C.tW,MailReply:C.tX,MailForward:C.tY,MailSend:C.tZ,KeyboardLayoutSelect:C.u_,ShowAllWindows:C.u0,GameButton1:C.qZ,GameButton2:C.r_,GameButton3:C.r0,GameButton4:C.r1,GameButton5:C.r2,GameButton6:C.r3,GameButton7:C.r4,GameButton8:C.r5,GameButton9:C.r6,GameButton10:C.r7,GameButton11:C.r8,GameButton12:C.r9,GameButton13:C.ra,GameButton14:C.rb,GameButton15:C.rc,GameButton16:C.rd,GameButtonA:C.re,GameButtonB:C.rf,GameButtonC:C.rg,GameButtonLeft1:C.rh,GameButtonLeft2:C.ri,GameButtonMode:C.rj,GameButtonRight1:C.rk,GameButtonRight2:C.rl,GameButtonSelect:C.rm,GameButtonStart:C.rn,GameButtonThumbLeft:C.ro,GameButtonThumbRight:C.rp,GameButtonX:C.rq,GameButtonY:C.rr,GameButtonZ:C.rs,Fn:C.iQ},C.eZ,t.b5)
-C.pU=H.a(s([]),H.Q("q<h2>"))
-C.uF=new H.b7(0,{},C.pU,H.Q("b7<h2,ax>"))
+C.pT=H.a(s([]),H.Q("q<h2>"))
+C.uF=new H.b7(0,{},C.pT,H.Q("b7<h2,ax>"))
 C.jm=new H.b7(0,{},C.iK,H.Q("b7<w,pf>"))
-C.pV=H.a(s([]),t.g)
-C.uG=new H.b7(0,{},C.pV,H.Q("b7<co,co>"))
+C.pU=H.a(s([]),t.g)
+C.uG=new H.b7(0,{},C.pU,H.Q("b7<co,co>"))
 C.uE=new H.b7(0,{},C.cC,t.hD)
 C.jk=new H.b7(0,{},C.cC,H.Q("b7<o,@>"))
-C.pW=H.a(s([]),H.Q("q<oB>"))
-C.jj=new H.b7(0,{},C.pW,H.Q("b7<oB,@>"))
+C.pV=H.a(s([]),H.Q("q<oB>"))
+C.jj=new H.b7(0,{},C.pV,H.Q("b7<oB,@>"))
 C.iJ=H.a(s([]),H.Q("q<e0>"))
 C.uD=new H.b7(0,{},C.iJ,H.Q("b7<e0,cn>"))
 C.jl=new H.b7(0,{},C.iJ,H.Q("b7<e0,l_<cn>>"))
@@ -59013,8 +59013,8 @@ C.zQ=new H.oA("call")
 C.zR=new A.k_("forbidden")
 C.zS=new V.E4("SystemSoundType.click")
 C.zT=new V.E4("SystemSoundType.alert")
-C.zU=new X.k0(C.m,null,C.a9,null,C.a8,C.a9)
-C.zV=new X.k0(C.m,null,C.a9,null,C.a9,C.a8)
+C.zU=new X.k0(C.l,null,C.a9,null,C.a8,C.a9)
+C.zV=new X.k0(C.l,null,C.a9,null,C.a9,C.a8)
 C.zW=new U.uU(null,null,null,null,null,null,null)
 C.zX=new E.Z9("tap")
 C.D=new P.uX(0,"TextBaseline.alphabetic")
@@ -59044,14 +59044,14 @@ C.A6=new G.cq(C.E4,null)
 C.E5=new L.ho("What if we rethought: ",C.cV,null,null,null)
 C.A7=new G.cq(C.E5,null)
 C.A8=new R.v3(null,null,null)
-C.kr=new A.p(!0,null,null,null,null,null,18,null,null,0.5,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null)
 C.Cl=new A.p(!0,C.j,null,"Gilroy",null,null,56,C.Y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.Cu=new A.p(!0,null,null,null,null,null,null,C.Y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 C.mm=new P.C(3506372608)
 C.A2=new P.v_(1)
 C.n8=new P.C(4294967040)
 C.D0=new A.p(!0,C.mm,null,"monospace",null,null,48,C.im,null,null,null,null,null,null,null,null,null,C.A2,C.n8,C.kp,null,"fallback style; consider putting your text in a Material",null,null)
-C.Dv=new A.p(!0,C.m,null,"Gilroy",null,null,16,C.Y,null,0.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.Dv=new A.p(!0,C.l,null,"Gilroy",null,null,16,C.Y,null,0.5,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
+C.kr=new A.p(!0,C.l,null,null,null,null,18,null,null,0.5,null,null,1.5,null,null,null,null,null,null,null,null,null,null,null)
 C.Dj=new A.p(!0,C.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity headline1",null,null)
 C.Dk=new A.p(!0,C.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity headline2",null,null)
 C.Dl=new A.p(!0,C.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity headline3",null,null)
@@ -59059,12 +59059,12 @@ C.Dm=new A.p(!0,C.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 C.Dn=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity headline5",null,null)
 C.Do=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity headline6",null,null)
 C.Bj=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity subtitle1",null,null)
-C.Bk=new A.p(!0,C.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity subtitle2",null,null)
+C.Bk=new A.p(!0,C.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity subtitle2",null,null)
 C.BH=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity bodyText1",null,null)
 C.BI=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity bodyText2",null,null)
 C.B3=new A.p(!0,C.F,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity caption",null,null)
 C.Dp=new A.p(!0,C.y,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity button",null,null)
-C.Cv=new A.p(!0,C.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity overline",null,null)
+C.Cv=new A.p(!0,C.l,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedwoodCity overline",null,null)
 C.DR=new R.df(C.Dj,C.Dk,C.Dl,C.Dm,C.Dn,C.Do,C.Bj,C.Bk,C.BH,C.BI,C.B3,C.Dp,C.Cv)
 C.I=H.a(s(["Ubuntu","Cantarell","DejaVu Sans","Liberation Sans","Arial"]),t.s)
 C.DM=new A.p(!0,C.G,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteHelsinki headline1",null,null)
@@ -59088,12 +59088,12 @@ C.BW=new A.p(!0,C.F,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 C.BX=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView headline5",null,null)
 C.BY=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView headline6",null,null)
 C.Cj=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView subtitle1",null,null)
-C.Ck=new A.p(!0,C.m,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView subtitle2",null,null)
+C.Ck=new A.p(!0,C.l,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView subtitle2",null,null)
 C.Bc=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView bodyText1",null,null)
 C.Bd=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView bodyText2",null,null)
 C.BQ=new A.p(!0,C.F,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView caption",null,null)
 C.Cd=new A.p(!0,C.y,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView button",null,null)
-C.BA=new A.p(!0,C.m,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView overline",null,null)
+C.BA=new A.p(!0,C.l,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackMountainView overline",null,null)
 C.DT=new R.df(C.BT,C.BU,C.BV,C.BW,C.BX,C.BY,C.Cj,C.Ck,C.Bc,C.Bd,C.BQ,C.Cd,C.BA)
 C.D3=new A.p(!0,C.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond headline1",null,null)
 C.D4=new A.p(!0,C.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond headline2",null,null)
@@ -59102,12 +59102,12 @@ C.D6=new A.p(!0,C.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null
 C.D7=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond headline5",null,null)
 C.D8=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond headline6",null,null)
 C.Be=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond subtitle1",null,null)
-C.Bf=new A.p(!0,C.m,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond subtitle2",null,null)
+C.Bf=new A.p(!0,C.l,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond subtitle2",null,null)
 C.Cp=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond bodyText1",null,null)
 C.Cq=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond bodyText2",null,null)
 C.Cw=new A.p(!0,C.F,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond caption",null,null)
 C.DI=new A.p(!0,C.y,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond button",null,null)
-C.Bw=new A.p(!0,C.m,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond overline",null,null)
+C.Bw=new A.p(!0,C.l,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackRedmond overline",null,null)
 C.DU=new R.df(C.D3,C.D4,C.D5,C.D6,C.D7,C.D8,C.Be,C.Bf,C.Cp,C.Cq,C.Cw,C.DI,C.Bw)
 C.Bl=new A.p(!0,C.G,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteMountainView headline1",null,null)
 C.Bm=new A.p(!0,C.G,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteMountainView headline2",null,null)
@@ -59158,12 +59158,12 @@ C.D9=new A.p(!0,C.F,null,".SF UI Display",null,null,null,null,null,null,null,nul
 C.BJ=new A.p(!0,C.y,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino headline5",null,null)
 C.C1=new A.p(!0,C.y,null,".SF UI Display",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino headline6",null,null)
 C.Br=new A.p(!0,C.y,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino subtitle1",null,null)
-C.CI=new A.p(!0,C.m,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino subtitle2",null,null)
+C.CI=new A.p(!0,C.l,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino subtitle2",null,null)
 C.C6=new A.p(!0,C.y,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino bodyText1",null,null)
 C.CD=new A.p(!0,C.y,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino bodyText2",null,null)
 C.BN=new A.p(!0,C.F,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino caption",null,null)
 C.Ds=new A.p(!0,C.y,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino button",null,null)
-C.Bu=new A.p(!0,C.m,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino overline",null,null)
+C.Bu=new A.p(!0,C.l,null,".SF UI Text",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackCupertino overline",null,null)
 C.DY=new R.df(C.CY,C.BZ,C.DQ,C.D9,C.BJ,C.C1,C.Br,C.CI,C.C6,C.CD,C.BN,C.Ds,C.Bu)
 C.Ce=new A.p(!1,null,null,null,null,null,112,C.H,null,null,null,C.D,null,null,null,null,null,null,null,null,null,"tall display4 2014",null,null)
 C.Cf=new A.p(!1,null,null,null,null,null,56,C.H,null,null,null,C.D,null,null,null,null,null,null,null,null,null,"tall display3 2014",null,null)
@@ -59214,12 +59214,12 @@ C.CA=new A.p(!0,C.F,null,"Roboto",C.I,null,null,null,null,null,null,null,null,nu
 C.CB=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki headline5",null,null)
 C.CC=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki headline6",null,null)
 C.Dw=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki subtitle1",null,null)
-C.Dx=new A.p(!0,C.m,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki subtitle2",null,null)
+C.Dx=new A.p(!0,C.l,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki subtitle2",null,null)
 C.Bp=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki bodyText1",null,null)
 C.Bq=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki bodyText2",null,null)
 C.C7=new A.p(!0,C.F,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki caption",null,null)
 C.DH=new A.p(!0,C.y,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki button",null,null)
-C.Cr=new A.p(!0,C.m,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki overline",null,null)
+C.Cr=new A.p(!0,C.l,null,"Roboto",C.I,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"blackHelsinki overline",null,null)
 C.E1=new R.df(C.Cx,C.Cy,C.Cz,C.CA,C.CB,C.CC,C.Dw,C.Dx,C.Bp,C.Bq,C.C7,C.DH,C.Cr)
 C.CS=new A.p(!0,C.G,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteRedmond headline1",null,null)
 C.CT=new A.p(!0,C.G,null,"Segoe UI",null,null,null,null,null,null,null,null,null,null,null,null,null,C.f,null,null,null,"whiteRedmond headline2",null,null)
@@ -59348,8 +59348,8 @@ C.Fg=new D.fB(null)
 C.nc=new P.C(939524096)
 C.ml=new P.C(301989888)
 C.nb=new P.C(67108864)
-C.pA=H.a(s([C.nc,C.ml,C.nb,C.aZ]),t.bk)
-C.Fh=new D.fB(C.pA)
+C.pz=H.a(s([C.nc,C.ml,C.nb,C.aZ]),t.bk)
+C.Fh=new D.fB(C.pz)
 C.cd=new O.vL("_DragState.ready")
 C.kE=new O.vL("_DragState.possible")
 C.cX=new O.vL("_DragState.accepted")
@@ -59425,7 +59425,7 @@ C.hc=new M.et("_ScaffoldSlot.bottomNavigationBar")
 C.ed=new M.et("_ScaffoldSlot.floatingActionButton")
 C.hd=new M.et("_ScaffoldSlot.drawer")
 C.he=new M.et("_ScaffoldSlot.endDrawer")
-C.l=new N.a3B("_StateLifecycle.created")
+C.m=new N.a3B("_StateLifecycle.created")
 C.ee=new E.xd("_ToolbarSlot.leading")
 C.ef=new E.xd("_ToolbarSlot.middle")
 C.eg=new E.xd("_ToolbarSlot.trailing")
