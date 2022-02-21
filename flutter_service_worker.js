@@ -72,8 +72,8 @@ const RESOURCES = {
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
 "icons/icon-192.png": "892f7b7231d42e6892677b03acb51c59",
 "icons/icon-512.png": "03b6fb123f26bc62dc596da38092deb4",
-"index.html": "c37d41bf4ff52c147796939612f43395",
-"/": "c37d41bf4ff52c147796939612f43395",
+"index.html": "44ebb3f3de19433dadca6c341b266c50",
+"/": "44ebb3f3de19433dadca6c341b266c50",
 "main.dart.js": "e401ae9004ecbba964c8274b28f879cf",
 "manifest.json": "762226e3634c7a39b4cc48e27587d314",
 "mlogo_sm.png": "133557b9179aa102c94a66039067ba6a",
@@ -81,7 +81,7 @@ const RESOURCES = {
 "OneSignalSDKUpdaterWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
 "OneSignalSDKWorker.js": "7ff0485cee1f7099162a18fe12b8b8a3",
 "robots.txt": "908dd7e55b621e06574323a3f73ebb3e",
-"sitemap.xml": "6f1669b84b710ecd59f3d64e14bb5ee6",
+"sitemap.xml": "5238bc7f9276dc910718091ccf385d07",
 "version.json": "e60ccc8f2807bf60876a4736ce6bc124"
 };
 
