@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "83a19a53c7b7c798b71ab893b1217f37",
+  "assets/AssetManifest.json": "97fab95d503851eb1cad10a10955792a",
 "assets/assets/fonts/gilroylight.otf": "c62aded729bf7146d491275e5019d7fc",
 "assets/assets/images/mlogo.png": "4fb2161e36a25cd3891f03e160eba8a6",
 "assets/assets/images/mlogo_max.png": "539e83b4d25a3daa4d043237f7cef3ca",
@@ -24,6 +24,7 @@ const RESOURCES = {
 "assets/assets/images/portfolio/ih4.png": "73a62b6f3839812fb39230d9b780da4b",
 "assets/assets/images/portfolio/joe2.png": "dc12b7b5e4d314e0864e34750d7c76e0",
 "assets/assets/images/portfolio/joe3.png": "36185ea2fccccce53343d61a5e8e4463",
+"assets/assets/images/portfolio/mmicon.png": "2da0fc87886f63fafbaab0dc34166ab5",
 "assets/assets/images/portfolio/nofame.png": "dd522a8d9204279c26cdbb52d8ea3e50",
 "assets/assets/images/portfolio/o2.png": "73daa2d9f4e0a03516ce68acf72b93dd",
 "assets/assets/images/portfolio/o22.png": "2def45a4b7d86bf58cbf8375d6ca9633",
@@ -39,7 +40,6 @@ const RESOURCES = {
 "assets/assets/images/portfolio/rack3.png": "e5a89b0a5357b69ed5f1dba49f6eeef8",
 "assets/assets/images/portfolio/rethinkrecipes.png": "4a76d08eb972eda72efbb937841f9e11",
 "assets/assets/images/portfolio/rm.png": "c0e944638777138cad17fd7ccf643fa9",
-"assets/assets/images/portfolio/rm2.png": "d898003a2fbf3ebd8e68b96fc6928db1",
 "assets/assets/images/portfolio/rm3.png": "778347bdc9bfb8ad1640b860ed98ce04",
 "assets/assets/images/portfolio/rr1.png": "5eb2d1b5b83d61eb445c72d817c44095",
 "assets/assets/images/portfolio/rr2.png": "32f6812e79a221e239e614ba88484da7",
@@ -59,22 +59,23 @@ const RESOURCES = {
 "assets/assets/images/resume/wavio.png": "dc4e344d59841c448a8e96d25e70fd1d",
 "assets/FontManifest.json": "bc41220f97f2b350ec9580b2b770896f",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "a07b1beaa09ce06d7e0a91c6b58e21e5",
+"assets/NOTICES": "f328758a9fb633b9b13db8531d56319b",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "b80ab3cf2fa8246324e98636db9d3cef",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "bf357842aa22828c804613651cc120c7",
 "firebase-messaging-sw.js": "7f8aceace4c6b442110ee8afbde8b29d",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/icon-192.png": "892f7b7231d42e6892677b03acb51c59",
 "icons/icon-512.png": "03b6fb123f26bc62dc596da38092deb4",
-"index.html": "e8f681da847c8a20f17b0066d5e6fdc8",
-"/": "e8f681da847c8a20f17b0066d5e6fdc8",
-"main.dart.js": "b10c1828d0fc0d1702e85eb471557c7d",
+"index.html": "0dd36c83497042a37dbf674040f59447",
+"/": "0dd36c83497042a37dbf674040f59447",
+"main.dart.js": "d6580dd9fe85218d6d45eecb105dedbb",
 "manifest.json": "1ae70a021848533143fba5854b6df458",
 "mlogo_sm.png": "133557b9179aa102c94a66039067ba6a",
 "myjs.js": "c86b001d433121c1d98350e7399f9c4b",
@@ -89,7 +90,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -188,9 +188,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
