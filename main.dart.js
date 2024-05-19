@@ -69012,7 +69012,7 @@ r=A.ae_(A.he(A.a([A.f4(A.m2("mLogo",A.m0("assets/images/mlogo.png",n,n)),32,n),n
 q=A.a5(a,n,m).w.a.a*3>=A.a5(a,n,m).w.a.b*2?300:276
 s=new A.wt(!1,r,new A.tI(new A.b4(B.kG,A.he(A.a([B.jv,A.a5(a,n,m).w.a.a*2>=A.a5(a,n,m).w.a.b*3?o.Nn(a):o.a7S(a)],s),B.a3,B.Z,B.aG),n),n),B.j,B.bF,q,!0,n)}r=o.a61(a)
 q=t.E
-r=A.a([s,r,A.adL(A.a1S(A.a([new A.b4(B.AD,A.dr("All projects listed either are fully working or have functional prototypes\nWebsite designed and coded in Flutter/Dart by Mark\n\xa92023 Mark Brown & Certainly Apps Inc.",n,n,A.kM(n,n,B.j,n,n,n,n,n,"Gilroy",n,n,A.a5(a,n,m).w.a.a*3>=A.a5(a,n,m).w.a.b*2?16:12,n,n,B.as,n,n,!0,n,n,n,n,n,n,n,n),n),n)],q),!0,!0,!0))],q)
+r=A.a([s,r,A.adL(A.a1S(A.a([new A.b4(B.AD,A.dr("All projects listed either are fully working or have functional prototypes\nWebsite designed and coded in Flutter/Dart by Mark\n\xa92024 Mark Brown & Certainly Apps Inc.",n,n,A.kM(n,n,B.j,n,n,n,n,n,"Gilroy",n,n,A.a5(a,n,m).w.a.a*3>=A.a5(a,n,m).w.a.b*2?16:12,n,n,B.as,n,n,!0,n,n,n,n,n,n,n,n),n),n)],q),!0,!0,!0))],q)
 m=k==null
 m=m?B.fB:n
 return new A.xb(A.aip(B.bF,A.adC(!0,A.he(A.a([l,A.Ux(new A.C2(r,B.az,!1,k,n,m,n,!1,n,0,n,n,B.bk,B.iC,n,B.aA,n))],q),B.a3,B.Z,B.aG),!0),new A.iS(A.agX(B.ki,B.kX,B.Qf,new A.a7A()),"My Resume",u.r,n)),new A.a7B(),n)}}
@@ -69107,7 +69107,7 @@ a1=A.a5(a4,c,a0).w.a.a>=A.a5(a4,c,a0).w.a.b?32:24
 a1=A.iB(A.a([new A.b4(B.kI,A.dr("Other projects you may be interested in",c,c,A.kM(c,c,new A.B(B.M[d.a.c][11]),c,c,c,c,c,c,c,c,a1,c,c,c,c,c,!0,c,c,c,c,c,c,c,c),c),c),new A.b4(B.ho,new A.oD(new A.a8l(d),c),c)],r),B.bj,B.Z)
 a2=A.a5(a4,c,a0).w.a.a>=A.a5(a4,c,a0).w.a.b?new A.aC(A.a5(a4,c,a0).w.a.a/8,0,A.a5(a4,c,a0).w.a.a/8,32):B.AM
 a0=A.a5(a4,c,a0).w.a.a>=A.a5(a4,c,a0).w.a.b?A.a5(a4,c,a0).w.a.a/20:75
-a0=A.he(A.a([A.f4(A.m2("mLogo",A.m0("assets/images/mlogo.png",B.cG,c)),a0,c),new A.b4(B.hq,A.eu(A.dr("Website designed and coded in Flutter/Dart by Mark\n\xa92023 Mark Brown & Certainly Apps Inc.",c,c,B.O2,B.aI),c),c)],r),B.kq,B.Z,B.di)
+a0=A.he(A.a([A.f4(A.m2("mLogo",A.m0("assets/images/mlogo.png",B.cG,c)),a0,c),new A.b4(B.hq,A.eu(A.dr("Website designed and coded in Flutter/Dart by Mark\n\xa92024 Mark Brown & Certainly Apps Inc.",c,c,B.O2,B.aI),c),c)],r),B.kq,B.Z,B.di)
 r=A.a1S(A.a([new A.b4(B.ec,A.kJ(B.jw,A.a([new A.b4(B.ec,e,c),s,new A.b4(B.ec,a3,c)],r),B.bZ),c),new A.b4(a,a1,c),A.he(A.a([new A.b4(a2,a0,c)],r),B.a3,B.Z,B.di)],r),!0,!0,!0)
 return A.aip(B.bF,A.adC(!0,new A.uq(r,c,B.az,!1,c,c,B.fB,c,!1,c,0,c,3,B.bk,B.iC,c,B.aA,c),!0),A.agX(new A.B(B.M[d.a.c][11]),B.Bj,B.Qg,new A.a8m(a4)))}}
 A.a8k.prototype={
