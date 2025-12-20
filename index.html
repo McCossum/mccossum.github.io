@@ -2,90 +2,75 @@
 <html>
 
 <head>
-  <style>
-    html, body {
-      height: 100%;
-      margin:0;
-      padding:0;
-    }
-    .divcenter {
-      position:relative;
-      height: 100%;
-      width: 100%;
-    }
-    .imagecenter {
-      position: absolute;
-      top: -5%;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      margin: auto;
-      height: 25%;
-    }
-    .loadcenter {
-      position: absolute;
-      top: 15%;
-      left: -10%;
-      right: -10%;
-      bottom: 0;
-      margin: auto;
-    }
-  </style>
+<!--  <style>-->
+<!--    html, body {-->
+<!--      height: 100%;-->
+<!--      margin:0;-->
+<!--      padding:0;-->
+<!--    }-->
+<!--    .divcenter {-->
+<!--      position:relative;-->
+<!--      height: 100%;-->
+<!--      width: 100%;-->
+<!--    }-->
+<!--    .imagecenter {-->
+<!--      position: absolute;-->
+<!--      top: -5%;-->
+<!--      left: 0;-->
+<!--      right: 0;-->
+<!--      bottom: 0;-->
+<!--      margin: auto;-->
+<!--      height: 25%;-->
+<!--    }-->
+<!--    .loadcenter {-->
+<!--      position: absolute;-->
+<!--      top: 15%;-->
+<!--      left: -10%;-->
+<!--      right: -10%;-->
+<!--      bottom: 0;-->
+<!--      margin: auto;-->
+<!--    }-->
+<!--  </style>-->
 
   <base href="/">
+<!--  <base href="/">-->
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Mark Brown | Sr. Technical Project Manager | Industrial Engineer">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="language" content="en-US">
+  <meta name="author" content="Mark Brown">
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+  <link rel="canonical" href="https://electricblueideas.com/">
+  <meta name="description" content="Mark Brown - Sr. Technical Project Manager at Indeed.com and Industrial Engineer. Portfolio showcasing innovative app development, engineering projects, and design solutions including Community Food, Campus Food, Wavio, and more.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="Mark Brown | Sr. Technical Project Manager | Industrial Engineer">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
 
   <!-- Favicon -->
   <link rel="shortcut icon" type="image/png" href="favicon.png"/>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-analytics.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106072642-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-106072642-1');
-  </script>
-
-
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-  <script>
-    window.OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "39b47f41-7366-4f2e-bbc6-18a7618d4e57",
-        safari_web_id: "web.onesignal.auto.2c31ff0c-1624-4aec-8f89-a4f0b1da0ea1",
-        notifyButton: {
-          enable: false,
-        },
-      });
-    });
-  </script>
-
   <!-- Open Graph -->
   <meta property="og:title" content="Mark Brown | Sr. Technical Project Manager | Industrial Engineer" />
-  <meta property="og:description" content="Mark Brown's app development, engineering, and design projects" />
+  <meta property="og:description" content="Portfolio of Mark Brown - Sr. Technical Project Manager at Indeed.com and Industrial Engineer. Showcasing innovative app development, engineering projects, and design solutions including Community Food, Campus Food, Wavio, and more." />
   <meta property="og:image" content="https://electricblueideas.com/mlogo_sm.png" />
+  <meta property="og:image:width" content="512" />
+  <meta property="og:image:height" content="512" />
+  <meta property="og:image:alt" content="Mark Brown - Sr. Technical Project Manager & Industrial Engineer" />
   <meta property="og:url" content="https://electricblueideas.com/" />
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Mark Brown | Innovation" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Mark Brown | Sr. Technical Project Manager | Industrial Engineer" />
-  <meta name="twitter:description" content="Mark Brown's app development, engineering, and design projects" />
+  <meta name="twitter:description" content="Portfolio of Mark Brown - Sr. Technical Project Manager at Indeed.com and Industrial Engineer. Showcasing innovative app development, engineering projects, and design solutions." />
   <meta name="twitter:image" content="https://electricblueideas.com/mlogo_sm.png" />
+  <meta name="twitter:image:alt" content="Mark Brown - Sr. Technical Project Manager & Industrial Engineer" />
 
   <!-- Structured Data (JSON-LD) -->
   <script type="application/ld+json">
@@ -94,13 +79,43 @@
     "@type": "Person",
     "name": "Mark Brown",
     "jobTitle": "Sr. Technical Project Manager",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Indeed.com"
+    },
+    "alumniOf": {
+      "@type": "EducationalOrganization",
+      "name": "Rochester Institute of Technology"
+    },
     "image": "https://electricblueideas.com/mlogo_sm.png",
     "url": "https://electricblueideas.com/",
+    "email": "Mark@electricblueideas.com",
     "sameAs": [
-      "https://www.linkedin.com/in/electricblueideas/",
-      "mailto:Mark@electricblueideas.com"
+      "https://www.linkedin.com/in/electricblueideas/"
     ],
-    "description": "Mark Brown | Sr. Technical Project Manager | Industrial Engineer"
+    "description": "Mark Brown is a Sr. Technical Project Manager at Indeed.com and Industrial Engineer. Portfolio showcasing innovative app development, engineering projects, and design solutions.",
+    "knowsAbout": [
+      "Project Management",
+      "Mobile App Development",
+      "Industrial Engineering",
+      "Product Strategy",
+      "Flutter Development",
+      "Software Engineering"
+    ],
+    "hasOccupation": {
+      "@type": "Occupation",
+      "name": "Sr. Technical Project Manager",
+      "occupationLocation": {
+        "@type": "City",
+        "name": "United States"
+      },
+      "skills": [
+        "Technical Project Management",
+        "Product Strategy",
+        "Mobile App Development",
+        "Cross-functional Leadership"
+      ]
+    }
   }
   </script>
 
@@ -108,12 +123,7 @@
   <link rel="manifest" href="manifest.json">
 </head>
 
-<body style="background-color:#25aae2;">
-
-  <div class="divcenter">
-    <h1><img src="mlogo_sm.png" alt="Mark Brown Founder of Certainly Apps Sr. Technical Project Manager at indeed.com Industrial & Systems Engineer Rochester Institute of Technology Electric Blue Ideas rethink Food Donation Community Food Finding Free Food Campus Food Eyeglass Buying Form Eyewear Learning Electronics Paper Breadboarding Maintenance Requests Upkeep Alert Infamy NoFame Disability Design Thinking Design For Diversity Low-Mobility Dexterity Joe Universal Grip Bike Racks Hidden Bike Racks Hearing Wavio Picking Where to Eat Restaurant Match 3D Printed Power Generation Flexible 3D Printed Peltier Tiles Cryptocurrency Economics The Infinite Economy Preparing Food Banana Scale Oxygen Selective Breeding for Better O2 Production" class="imagecenter"/></h1>
-    <progress class="loadcenter"></progress>
-  </div>
+<body style="background-color:#000000;">
 
   <script>
     const regExp = new RegExp("bot|google|baidu|bing|msn|teoma|slurp|yandex", "i");
@@ -122,8 +132,6 @@
     }
   </script>
 
-  <script src="./firebase-messaging-sw.js"></script>
-  <script src="myjs.js"></script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 
