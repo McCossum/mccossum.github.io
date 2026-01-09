@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
         <loc>https://electricblueideas.com/</loc>
         <lastmod>2025-01-27</lastmod>
@@ -17,89 +18,185 @@
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/communityfood.jpg</image:loc>
+            <image:title>Community Food App</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Campus_Food</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/campusfood.jpg</image:loc>
+            <image:title>Campus Food App</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Form_Eyewear</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/form.jpg</image:loc>
+            <image:title>Form Eyewear</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Paper_Breadboarding</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/paperbread.jpg</image:loc>
+            <image:title>Paper Breadboarding</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Upkeep_Alert</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/ua3.jpg</image:loc>
+            <image:title>Upkeep Alert</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/NoFame</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/nofame.jpg</image:loc>
+            <image:title>NoFame Chrome Extension</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Design_For_Diversity</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/desfordiv.jpg</image:loc>
+            <image:title>Design For Diversity</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Joe_Universal_Grip</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/hand.jpg</image:loc>
+            <image:title>Joe Universal Grip</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Hidden_Bike_Racks</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/rack.jpg</image:loc>
+            <image:title>Hidden Bike Racks</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Wavio</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/wavio1.jpg</image:loc>
+            <image:title>Wavio</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Munch_Match</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/mmicon.jpg</image:loc>
+            <image:title>Munch Match</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Flexible_3D_Printed_Peltier_Tiles</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/pt1.jpg</image:loc>
+            <image:title>Flexible 3D Printed Peltier Tiles</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/The_Infinite_Economy</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/e.jpg</image:loc>
+            <image:title>The Infinite Economy</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Banana_Scale</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/rethinkrecipes.jpg</image:loc>
+            <image:title>Banana Scale</image:title>
+        </image:image>
     </url>
     <url>
         <loc>https://electricblueideas.com/#/Selective_Breeding_for_Better_O2_Production</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/o2.jpg</image:loc>
+            <image:title>Selective Breeding for Better O2 Production</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://electricblueideas.com/#/Rise_Thermos</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/ri0.jpg</image:loc>
+            <image:title>Rise Thermos</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://electricblueideas.com/#/Laser_Retrofit</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/lsr0.jpg</image:loc>
+            <image:title>Laser Retrofit</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://electricblueideas.com/#/Teep</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://electricblueideas.com/assets/images/portfolio/tt0.jpg</image:loc>
+            <image:title>Teep</image:title>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://electricblueideas.com/#/About_Mark_Brown</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset>
