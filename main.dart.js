@@ -18524,7 +18524,7 @@ r.toString
 A.dX(r)
 q=a.j(0,"swipeEdge")
 q.toString
-return new A.m1(s,r,B.FY[A.dr(q)])},
+return new A.m1(s,r,B.FX[A.dr(q)])},
 Ae:function Ae(a,b){this.a=a
 this.b=b},
 m1:function m1(a,b,c){this.a=a
@@ -20484,7 +20484,7 @@ if(a.as!==q)return q?-1:1
 return 0},
 aCT(a,b){var s=A.a_(b).h("ab<1,d3>")
 s=A.a0(new A.ab(b,new A.ZR(),s),s.h("aw.E"))
-return A.aCj(!0,s,a,B.GG,!0,B.Cy,null)},
+return A.aCj(!0,s,a,B.GH,!0,B.Cy,null)},
 aoB(a){var s
 try{a.dB()}catch(s){a.Kf()}a.w=B.Vl
 try{a.b1(A.aLo())}catch(s){}},
@@ -21093,7 +21093,7 @@ _.as=!0
 _.at=!1
 _.$ti=d},
 ap0(a,b){var s
-if(a.i(0,b))return new A.G2(B.GD)
+if(a.i(0,b))return new A.G2(B.GE)
 s=A.c([],t.fJ)
 A.bM()
 a.nt(new A.a1Y(b,A.aG(t.u),s))
@@ -26519,7 +26519,7 @@ GS(){var s=this.Q
 s===$&&A.a()
 return s},
 tI(a,b,c,d){var s,r,q,p
-if(a<0||b<0)return B.GB
+if(a<0||b<0)return B.GC
 s=this.a
 s===$&&A.a()
 s=s.a
@@ -26538,7 +26538,7 @@ l.push(new A.el(n[0],n[1],n[2],n[3],B.jm[m]))}return l},
 cu(a){var s,r,q=this.a
 q===$&&A.a()
 s=q.a.getGlyphPositionAtCoordinate(a.a,a.b)
-r=B.G_[J.aa(s.affinity.value)]
+r=B.FZ[J.aa(s.affinity.value)]
 return new A.a6(J.aa(s.pos),r)},
 GV(a){var s=this.a
 s===$&&A.a()
@@ -26781,7 +26781,7 @@ i(a,b){if(b==null)return!1
 if(!(b instanceof A.wO))return!1
 return b.d===this.d&&b.b==this.b&&A.kV(b.c,this.c)},
 gt(a){var s=this,r=s.c
-return A.I(s.d,s.a,s.b,A.bj(r==null?B.GC:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.d,s.a,s.b,A.bj(r==null?B.GD:r),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 $ifz:1}
 A.qC.prototype={
 mS(a){var s,r=a.a,q=this.a
@@ -31425,7 +31425,7 @@ if(m.f!==B.mw){m.f=B.mw
 m.Me()}}return m.d.a.Wj(a)},
 Me(){var s,r
 for(s=this.w,r=0;r<s.length;++r)s[r].$1(this.f)},
-Wg(a){if(B.b.A(B.Gn,a))return this.f===B.fz
+Wg(a){if(B.b.A(B.Go,a))return this.f===B.fz
 return!1}}
 A.a_q.prototype={
 $0(){return new A.h2(Date.now(),0,!1)},
@@ -37486,7 +37486,7 @@ if(o>0)return s
 return null}}
 A.aeN.prototype={
 D(a,b){this.JO(b,0,b.length,!1)},
-bw(){this.JO(B.Gu,0,0,!0)}}
+bw(){this.JO(B.Gv,0,0,!0)}}
 A.alN.prototype={
 JO(a,b,c,d){var s=this.b.agz(a,b,c,d)
 if(s!=null)this.a.my(s,0,s.length,d)}}
@@ -39592,7 +39592,7 @@ A.r_.prototype={
 lK(a,b){return this.ajL(a,b)},
 ajL(a,b){var s=0,r=A.M(t.H),q=this,p,o
 var $async$lK=A.N(function(c,d){if(c===1)return A.J(d,r)
-for(;;)switch(s){case 0:if(B.b.A(B.Fu,a))A.a7(A.fm(a,"name","Event name is reserved and cannot be used"))
+for(;;)switch(s){case 0:if(B.b.A(B.Fv,a))A.a7(A.fm(a,"name","Event name is reserved and cannot be used"))
 if(B.d.bV(a,"firebase_"))A.a7(A.fm(a,"name",'Prefix "firebase_" is reserved and cannot be used.'))
 A.aIC(b)
 p=q.d
@@ -40978,7 +40978,7 @@ r=A.rC(B.JF,B.f,r==null?1:r)
 r.toString
 q=p.aa(q.gp())
 if(q==null)q=1
-return A.avt(A.aux(null,B.x,new A.rq(q,B.FS,new A.cJ(B.zw,this.e)),s,1,B.NK),r)}}
+return A.avt(A.aux(null,B.x,new A.rq(q,B.FT,new A.cJ(B.zw,this.e)),s,1,B.NK),r)}}
 A.EE.prototype={
 l(){var s=this,r=s.bY$
 if(r!=null)r.I(s.gj9())
@@ -51785,7 +51785,7 @@ return new A.nS(r.a.cN(s.ghe()),r.b,r.c)},
 cu(a){var s=this.b
 return s.a.c.cu(a.T(0,s.ghe()))},
 oD(){var s,r,q=this.b,p=q.ghe()
-if(!isFinite(p.a)||!isFinite(p.b))return B.GF
+if(!isFinite(p.a)||!isFinite(p.b))return B.GG
 s=q.f
 if(s==null){s=q.a.c.oD()
 q.f=s}if(p.i(0,B.f))r=s
@@ -60966,7 +60966,7 @@ break
 case 1:return A.K(q,r)}})
 return A.L($async$Bg,r)},
 a37(a,b){var s,r,q,p
-if(a===b)return B.GA
+if(a===b)return B.GB
 s=A.c([],t.QP)
 if(a==null)s.push(b)
 else{r=B.b.kr(B.e2,a)
@@ -62751,7 +62751,7 @@ A.kg.prototype={}
 A.JD.prototype={
 kt(a,b){var s,r,q,p,o,n=$.W.a8$.d.c
 if(n==null||n.e==null)return!1
-for(s=t.J,r=0;r<2;++r){q=B.Gp[r]
+for(s=t.J,r=0;r<2;++r){q=B.Gq[r]
 p=n.e
 p.toString
 o=A.ao5(p,q,s)
@@ -64876,7 +64876,7 @@ q.by.W(r)
 q.ah.W(r)
 i.CL()
 r=i.ga3G()
-l=A.auQ(h.x,s,g,n,h.cy,B.bg,j,0,0,p,r,i.ga5S(),i.ga5U(),m,r,i.ga5Y(),i.ga6_(),o,h,B.GE,h.cx,B.bg,k,h.CW,q.rM,l)
+l=A.auQ(h.x,s,g,n,h.cy,B.bg,j,0,0,p,r,i.ga5S(),i.ga5U(),m,r,i.ga5Y(),i.ga6_(),o,h,B.GF,h.cx,B.bg,k,h.CW,q.rM,l)
 i.e!==$&&A.bn()
 i.e=l
 return i},
@@ -68196,7 +68196,7 @@ if(b==null)return!1
 if(J.P(b)!==A.o(s))return!1
 return b instanceof A.h7&&b.a===s.a&&b.b==s.b&&b.c==s.c&&b.d===s.d&&A.c4(null,null)},
 gt(a){var s=this
-return A.I(s.a,s.b,s.c,s.d,A.bj(B.Gv),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
+return A.I(s.a,s.b,s.c,s.d,A.bj(B.Gw),B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a,B.a)},
 k(a){return"IconData(U+"+B.d.tl(B.i.lW(this.a,16).toUpperCase(),5,"0")+")"}}
 A.nZ.prototype={
 c2(a){return!this.w.i(0,a.w)},
@@ -69247,7 +69247,7 @@ h=r&&e
 c=r?e:c.CW
 if(c==null)c=B.ei
 r=r&&e
-g=new A.y2(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.qO(e),B.Gy,r===!0)
+g=new A.y2(b,s,q,p,m,o,n,a,h===!0,a0,a1,i,d,l,k,j,c,new A.qO(e),B.Gz,r===!0)
 if(!g.i(0,f.e))f.al(new A.aiu(f,g))},
 wS(){if(this.d==null)this.ol()},
 Eb(){this.ol()},
@@ -69607,7 +69607,7 @@ r.V(0,s.Ut(null,l))
 l.a.toString
 q=r.a
 p=0
-for(;!1;++p){o=B.Gw[p]
+for(;!1;++p){o=B.Gx[p]
 n=l.c
 n.toString
 m=new A.fS(o.DT(n),null,!0,B.kJ,B.bw,new A.pQ(new ($.VV())(B.bw)),B.bw)
@@ -69960,7 +69960,7 @@ M(a){var s,r,q=this,p=null,o=q.ga5t(),n=A.lr(a),m=q.bK$,l=q.d
 l===$&&A.a()
 s=q.a.ay
 if(l.gJ()==null){r=q.gIV()
-r=J.re(r.slice(0),A.a_(r).c)}else r=B.Gx
+r=J.re(r.slice(0),A.a_(r).c)}else r=B.Gy
 return new A.nV(p,new A.db(new A.a6k(q,a),A.rm(B.bm,new A.Fp(!1,A.aoJ(A.nH(!0,p,A.adw(m,new A.rD(r,s,l)),p,p,p,q.y,!1,p,p,p,p,p,!0),n),p),o,q.ga86(),p,p,o),p,t.w3),p)}}
 A.a6j.prototype={
 $1(a){var s=this.a.c
@@ -75839,7 +75839,7 @@ r.w0()
 return s.aQ()},
 l(){var s,r,q,p,o=this
 for(s=o.b,r=s.length,q=o.gBi(),p=0;p<s.length;s.length===r||(0,A.y)(s),++p)s[p].I(q)
-o.b=B.Gz
+o.b=B.GA
 o.y=!1
 o.dP()},
 cB(a,b){return a.dU(b)},
@@ -83382,7 +83382,7 @@ B.AF=new A.adz()
 B.ae=new A.adC()
 B.ce=new A.adE()
 B.dm=new A.Mw(0,0,0,0)
-B.Gy=s([],A.ap("x<aMQ>"))
+B.Gz=s([],A.ap("x<aMQ>"))
 B.Ww=new A.adK()
 B.b3={}
 B.rV=new A.bP(B.b3,[],t.li)
@@ -83902,65 +83902,65 @@ B.mN=new A.a2K(B.k,8)
 B.Eo=new A.xO(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.mO=s(["text","multiline","number","phone","datetime","emailAddress","url","visiblePassword","name","address","none","webSearch","twitter"],t.s)
 B.Pf=new A.aQ("Food insecurity is a pervasive problem in the United States, with 1 in 8 Americans affected. Food banks are often the first line of defense for those facing food insecurity, but they frequently struggle with food collection and distribution. This is compounded by the fact that many individuals do not qualify for federal nutrition programs and therefore rely heavily on local food banks. All the while, in a country where 30-40% of food goes to waste, much of it is discarded simply because it is deemed \"ugly\" or past its sell-by date. Such items are often safe to donate but are overlooked.\n\nTo tackle these problems, a group of college students and I developed the Community Food app, which works with restaurants, grocers, and food banks to connect people to better food. The app makes it easy to list donations and schedule food pickups in just a few taps. We identified three main reasons why restaurants and grocers often don't donate food: lack of education, hassle/lack of time, and an assumption that the food is unwanted. However, our research revealed that nobody said they don't donate because they have nothing to give or no one to give it to; they simply didn't know what to give or who would be the best recipient.\n\nWe realized that the problem wasn't a supply problem, but a data problem. So we set out to automate the food donation and collection process while also educating the public. This was the founding idea for the Community Food app. The current donation process is cumbersome, requiring individuals to search for their local food bank, call to describe their possible donation, and wait for an overworked volunteer to respond. Poor descriptions can lead to wasted time and food.",null,B.o,null,null)
-B.Fv=s([B.Pf],t.o)
+B.Fw=s([B.Pf],t.o)
 B.OJ=new A.aQ("The Community Food app streamlines the process. Donors can download the app, register their location, and scan barcodes of items ready to be sent to food services, along with a brief description. Volunteers at local food services are then alerted on their phones that there is food ready to be retrieved. They receive information on the type of food, its nutritional content, its size, and its perishability. This helps volunteers make educated decisions on how much room they need, how many volunteers should go out, and whether they need to bring a refrigeration unit. The app saves time, prevents food spoilage, and ensures that everyone involved has the information they need.\n\nThe Community Food app takes advantage of the fact that most people have a smartphone with access to the internet, GPS, and a camera. We turn the average smartphone into a network of data collection devices in the fight against hunger. The app removes the need to know who and where one is donating to, eliminates logging and communication hassles, and most importantly, shares exact nutrients and sizing information with the volunteers picking up the food.\n\nFood insecurity and food waste are two significant issues that we aimed to solve with one elegant solution. Education and automation of the food donation and receiving process are critical steps in tackling these issues head-on. The Community Food app is a powerful tool that can help solve the problems for both food waste and food insecurity, making it easier for people to donate and receive food, and ensuring that more food goes to those who need it most.",null,B.o,null,null)
-B.Fq=s([B.OJ],t.o)
-B.H8=s(["Food Donation","communityfood.jpg","comfood2.jpg","comfood3.jpg","Community Food",B.Fv,B.Fq,"Scanning a barcode in the app","Securely signing into the system","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainlyapps.community_food",4293890077,"Food insecurity affects 1 in 8 Americans, while 30-40% of food in the US goes to waste. However, a group of college students has developed an innovative solution to tackle these issues with their Community Food app, which automates the food donation and collection process, while also educating donors and volunteers on the best practices of food donation."],t.b)
+B.Fr=s([B.OJ],t.o)
+B.H8=s(["Food Donation","communityfood.jpg","comfood2.jpg","comfood3.jpg","Community Food",B.Fw,B.Fr,"Scanning a barcode in the app","Securely signing into the system","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainlyapps.community_food",4293890077,"Food insecurity affects 1 in 8 Americans, while 30-40% of food in the US goes to waste. However, a group of college students has developed an innovative solution to tackle these issues with their Community Food app, which automates the food donation and collection process, while also educating donors and volunteers on the best practices of food donation."],t.b)
 B.P7=new A.aQ("When I was a student at Rochester Institute of Technology, I stumbled upon a small building tucked away at the back of the campus. This beige paneled building was mostly occupied by a laundry room, but adjacent to it was something unique \u2013 the FoodShare. It was a resourceful place for students in need, where they could pick up donated groceries and other essential items donated by the local community. However, it was not until a friend mentioned that the FoodShare had over 8,000 student visits in two years that I realized how food scarcity affected many of my fellow students.\n\nA semester later I started Campus Food. It started as a Twitter retweet bot to search for tweets mentioning free food at RIT and retweet them to the @RITFreeFood account for my followers. I thought of this as a fun way to learn Python and help students find free food. I soon realized that this idea had potential as I received over 500 followers and many missed messages. This inspired me to create an RITFreeFood website where students could view a live map of free food powered by location keywords in tweets. I also added a feature for students to submit new events directly to the service. Soon after, brands began reaching out to me, wanting to promote their products.\n\nI decided to take this idea to the next level and created a mobile application, now known as Campus Food, which would enable better scaling and reach more students. I released the app on both iOS and Android, and it quickly gained minor popularity on campus. My goal was to implement ads and collaborate with brands to promote their giveaways and start making revenue. I recruited a small team of students to help me grow this idea.",null,B.o,null,null)
 B.Er=s([B.P7],t.o)
 B.Pn=new A.aQ("The following semester, we launched a crowdfunding campaign to scale our app to new campuses. Today, Campus Food is functional on over 800 campuses in the United States, helping hungry students find free food and reducing food waste. Our mission is to ensure that no student goes hungry, and we are proud to have made a difference in the lives of many students across the country.\n\nSometimes the most simple ideas can reach a large audience. I didn\u2019t expect my initiative to learn Python and locate pizza would lead me to create an app that could impact so many students' stomachs. I am grateful to have received so much positive feedback so far, and I hope that Campus Food continues to make a positive difference for years to come.",null,B.o,null,null)
 B.Fd=s([B.Pn],t.o)
 B.Gi=s(["Finding Food","campusfood.jpg","campusfood3.jpg","campusfood2.jpg","Campus Food",B.Er,B.Fd,"The login screen of the app","An example of a post on the app","See it on the Play Store","https://play.google.com/store/apps/details?id=com.certainly_apps.campus_food",4294967295,"From a small Twitter bot to a mobile application functioning on over 800 campuses in the United States, Campus Food has come a long way. What started as a simple idea to learn Python turned into a mission to help hungry students find free food and reduce food waste."],t.b)
 B.OV=new A.aQ("Eyeglasses should be a form of expression. What if instead of selecting from a limited set of cookie-cutter eyewear, you could have fully customized glasses? What if you could do this all from the comfort of your home? This was the idea behind an entrepreneurial project I worked on in my sophomore year of college.\n\nWorking with a small team in a makerspace, we designed a way to quickly capture eye measurements from a standard smartphone selfie camera. With this data, we could manipulate standard eyeglass forms to guarantee superior fit.\n\nOur ability to make custom glasses was enabled by using wood laminate and polycarbonate blanks cut out on an industrial laser cutter. This lets us gain full control of each measurement and curve of the frames. From there, my team envisioned a system where a user could fully design their own styles. For customization, the sky was the limit!",null,B.o,null,null)
-B.FC=s([B.OV],t.o)
+B.FD=s([B.OV],t.o)
 B.Pw=new A.aQ("This project got accepted into the RIT Summer Start incubator, my college\u2019s exclusive student incubator. With the funding they provided my team, we spent the summer conducting market research and advancing our concept. Classes focused around competition analysis, prototype validation, analyzing growth financials, and developing our pitching skills.\n\nIn the 13 weeks of the program Form Eyewear transformed from a simple way to customize eyeglass styles into a form-fitting program for customers who want a truly custom fit. Summer Start was a great experience to rapidly iterate on an idea with other entrepreneurs in a similar stage of development.",null,B.o,null,null)
 B.Gj=s([B.Pw],t.o)
-B.Ga=s(["Eyeglass Buying","form.jpg","fe3.jpg","fe2.jpg","Form Eyewear",B.FC,B.Gj,"The features of a pair of Form Eyewear sunglasses","Custom defined measurements","","",4290099124,"Imagine being able to design your own eyeglasses that perfectly fit your unique facial measurements, all from the comfort of your own home. This was the vision behind an innovative project called Form Eyewear, which transformed from a simple software tool into a fully customizable and form-fitting eyeglass buying experience for customers."],t.b)
+B.Ga=s(["Eyeglass Buying","form.jpg","fe3.jpg","fe2.jpg","Form Eyewear",B.FD,B.Gj,"The features of a pair of Form Eyewear sunglasses","Custom defined measurements","","",4290099124,"Imagine being able to design your own eyeglasses that perfectly fit your unique facial measurements, all from the comfort of your own home. This was the vision behind an innovative project called Form Eyewear, which transformed from a simple software tool into a fully customizable and form-fitting eyeglass buying experience for customers."],t.b)
 B.Py=new A.aQ("A common problem I believe in is that technology is advancing far faster than our education system. Teachers, though experienced in many fields, are continuously asked to prepare emerging technology lessons without the support of the appropriate budget or time to learn themselves. For this reason, many modern engineering subjects are simply unable to be taught outside of a specialized environment. Though certainly not the norm, I was fortunate enough to attend a high school that offered specialized engineering classes. I still see it as a critical part of my learning experience and I want to break down barriers in order to make this opportunity available to more students.\n\nIf we brought down the cost of materials and improved the learning curve for the instructor, most of the barriers to entry for this critical education could be eliminated. Currently, for $60 an instructor can demo basic electronics and circuitry lessons to a class. This is the cost of one kit, a kit that only one individual can interact with at a time. For this project, I wanted to offer that same learning experience to an entire class at the same time, all while not increasing the cost.\n\nMy solution to this problem: paper, easily the most common classroom material there is.",null,B.o,null,null)
 B.H3=s([B.Py],t.o)
 B.P_=new A.aQ("Paper Bread is an interactive online circuit maker where teachers could build their own, or download pre-built lesson plans for circuits. The circuit components listed in the lesson plans were real prototyping components such as breadboards, LEDs, SMD resistors, and various sensors. Most lesson plans have a cost per student of $2 ($60 for a class of 30 \ud83c\udf89) and can include links to purchase the components wholesale.\n\nLesson plans are printed and placed on top of each breadboard. The students are then instructed to punch each component through the paper and into the breadboard to complete the circuit. This design resembles the functions of the Lite-Brite toy.\n\nI tested this project at Imagine RIT and two Maker Faires, helping people from 8 to 80 years old make their first circuit. The look of excitement when they lit up their first LED or connected their first sensor felt as though they had just performed magic. In under 10 minutes, participants went from a printed sheet of paper on a plastic box to controlling electricity using real electronics.\n\nI am currently working on making a more stable version of this project and testing it in more classrooms. If you are interested in testing it out or finding out more, please feel free to reach out to me: McCossum@gmail.com. Together, we can make engineering education more accessible and exciting for students of all ages.",null,B.o,null,null)
-B.FR=s([B.P_],t.o)
-B.Hd=s(["Learning Electronics","paperbread.jpg","pb2.jpg","pb3.jpg","Paper Breadboarding",B.H3,B.FR,"A Paper Bread kit cut out","A young student using Paper Bread","","",4287393617,"The making of an interactive online circuit maker that uses real prototyping components and simple paper to teach basic electronics lessons to any class. All while making hands-on learning more affordable."],t.b)
+B.FS=s([B.P_],t.o)
+B.Hd=s(["Learning Electronics","paperbread.jpg","pb2.jpg","pb3.jpg","Paper Breadboarding",B.H3,B.FS,"A Paper Bread kit cut out","A young student using Paper Bread","","",4287393617,"The making of an interactive online circuit maker that uses real prototyping components and simple paper to teach basic electronics lessons to any class. All while making hands-on learning more affordable."],t.b)
 B.OP=new A.aQ("As an entrepreneur, I firmly believe that finding new applications for existing products is just as important as creating new products. Not only does it provide new value to an existing product, but it also greatly reduces the expensive development time. In fact, this is the approach I took with many of the applications in my portfolio.\n\nIt all started with Campus Food, an application my team and I developed to help hungry college students locate free food. To make this possible, we created a system to aggregate and display live, crowdsourced geolocation data. However, after running the service for a few months, a local food bank reached out to me thinking they were the app's intended audience. This taught me a valuable lesson in better branding the application, as there was nothing preventing them from being the customer of a food geolocation aggregation service. Therefore, we quickly threw a new skin on the application and rebranded that fork as Community Food for them.\n\nCampus Food took months to create, but the transition to Community Food only took a few weeks. At this point, we realized that it was easier to develop new applications for new markets instead of trying to add increasingly complex features to obtain a niche market in our current app. Consequently, my team split into one group working on potential new markets, while the other group maintained and marketed the already developed apps. This is when we created Upkeep Alert.",null,B.o,null,null)
-B.Gq=s([B.OP],t.o)
+B.Gr=s([B.OP],t.o)
 B.Pd=new A.aQ("The idea for Upkeep Alert came to me while on my way to a college exam. I needed to quickly use the restroom, but the sink was stuck and overflowing, wasting a ton of water and damaging the area. I did nothing about this, as my exam felt more important to me than taking time to call maintenance. Due to not having a system to quickly send urgent maintenance requests, the expenses from these events piled up. This inspired the idea for Upkeep Alert, which simplifies the maintenance reporting process.\n\nPreviously, the process for maintenance reporting was tedious and time-consuming. It required observing a maintenance issue, finding a computer, logging into an online portal, and trying to describe an issue you are no longer even keeping an eye on. However, by using the same system as the other applications, all someone would have to do moving forward is take a picture on their phone and provide an optional description. The geolocation data would be sent right to maintenance. The multi-step process was reduced to just two quick actions.\n\nDue to the criticality of the data being captured by the app, my team created a unique strategy of rolling out changes. We would test new features in Campus Food, an app that if it failed, only a few college students may miss out on free food. From there we tested them in a more critical application, Community Food. If all went well, we would finally roll out the changes to Upkeep Alert, keeping our potential enterprise customers on the most stable and tested application.\n\nOur ultimate goal is to integrate Upkeep Alert's simple reporting system into other commonly used maintenance management applications. Even without that, I've learned that finding new applications for existing products can be just as valuable as creating new products. I'm excited to continue exploring this mindset in my future endeavors.",null,B.o,null,null)
 B.H1=s([B.Pd],t.o)
-B.G0=s(["Maintenance Requests","ua3.jpg","upkeepalert.jpg","ua2.jpg","Upkeep Alert",B.Gq,B.H1,"Marking a maintenance issue on the app","Providing more information on a maintenance issue","","",4279726788,"Discovering new applications for existing products can be just as important as creating new products. Upkeep Alert is one of those products, it adds new value to an existing system and helps us keep our world clean. I share my journey of transforming one app into many and how it changed the way my team approached product development."],t.b)
+B.G_=s(["Maintenance Requests","ua3.jpg","upkeepalert.jpg","ua2.jpg","Upkeep Alert",B.Gr,B.H1,"Marking a maintenance issue on the app","Providing more information on a maintenance issue","","",4279726788,"Discovering new applications for existing products can be just as important as creating new products. Upkeep Alert is one of those products, it adds new value to an existing system and helps us keep our world clean. I share my journey of transforming one app into many and how it changed the way my team approached product development."],t.b)
 B.Pa=new A.aQ('It is my strong belief that some people do not deserve the fame the media gives them. News organizations fixate over the actions of evil individuals instead of the life stories of those affected. It is all too common that those who commit crimes are more remembered than the victims. Committing heinous acts should not be a means to fame, publicity, or anything positive.\n\nI grew up in the digital age. From the time I entered high school, I started receiving my news not just from mainstream cable providers but from then-smaller indie productions. These shows were unique to me because of their bootstrap production setup and their ability to challenge the cookie-cutter model of broadcast news networks. One show implemented a policy of not displaying or even naming individuals accused of monstrous acts. This was the first time I had seen a news organization have a policy like this and it greatly appealed to me.\n\nTaking the idea from the show, I wanted to attempt to bring this approach to the rest of the internet. What came of this was NoFame, an optional Chrome plugin to remove the names of monsters from web pages. No longer would users have to constantly be surrounded by the names and life stories of school shooters, mass murderers, and other vile people; instead, it would replace their name with what they truly are, "a monster."',null,B.o,null,null)
-B.FN=s([B.Pa],t.o)
+B.FO=s([B.Pa],t.o)
 B.Pm=new A.aQ("Though this plugin will never be able to replace all mentions of monsters, I do try to keep up with lists supplied from well-reviewed Wikipedia lists. Admittedly, there are also a number of problems with the plugin being unable to appropriately remove common names and pictures of these people. I recognize these current shortcomings and do want to continue to improve the tool. If you believe you have a well-reviewed Wikipedia page that should be included in our list, please add it with the form here: https://bit.ly/2EHdsH6. With your help, we can make evil a fameless pursuit.\n\nFor more information as well as access to the plugin please visit this link or search \u201cNoFame\u201d in the Chrome WebStore.",null,B.o,null,null)
 B.H7=s([B.Pm],t.o)
-B.Fi=s(["Infamy","nofame.jpg","nofame.jpg","nofame.jpg","NoFame",B.FN,B.H7,"NoFame logo","NoFame logo","See it on the Chrome Web Store","https://chrome.google.com/webstore/detail/nofame/fjjggbeocpjmkmfhlbggbbfehnkdcblp?hl=en-US",4284900966,'Are we giving fame to the wrong people? The media tends to focus on the actions of evil individuals, rather than the stories of those affected. I wanted to take a stand by creating a Chrome plugin which removes the names of horrible individuals from web pages and replaces them with the appropriate label: "a monster".'],t.b)
+B.Fi=s(["Infamy","nofame.jpg","nofame.jpg","nofame.jpg","NoFame",B.FO,B.H7,"NoFame logo","NoFame logo","See it on the Chrome Web Store","https://chrome.google.com/webstore/detail/nofame/fjjggbeocpjmkmfhlbggbbfehnkdcblp?hl=en-US",4284900966,'Are we giving fame to the wrong people? The media tends to focus on the actions of evil individuals, rather than the stories of those affected. I wanted to take a stand by creating a Chrome plugin which removes the names of horrible individuals from web pages and replaces them with the appropriate label: "a monster".'],t.b)
 B.P0=new A.aQ('Innovation is a crucial aspect of modern-day entrepreneurship. It is the driving force behind the creation of new products and services that solve problems and enhance our lives. However, innovation can also be limited by our biases and perceptions of who our target market should be. This was the subject of a discussion during my second year of college, when I was leading the Innovator\'s Hour research organization through the Albert J. Simone Center for Innovation and Entrepreneurship.\n\nWe realized that most of the entrepreneurial ideas coming from the club were targeted towards what we then called the "iPhone Demographic." This largely upper-middle-class demographic usually consists of white, predominantly male, able-bodied individuals. While there are many reasons for selecting this demographic when doing case studies for new products and services, an immense portion of the population remains ignored.\n\nIn order to address this issue, our organization decided to reach out to diversity, inclusion, and belonging groups on the RIT campus. We partnered with Grey Matter, a hot-button discussion group, along with the Center for Diversity and RIT\'s President\'s office to plan a weekend-long event named "Design for Diversity."',null,B.o,null,null)
 B.Eq=s([B.P0],t.o)
 B.P2=new A.aQ('The goal of Design for Diversity was to challenge students to design a product or service benefiting those in underrepresented groups. Teams of students were assigned pre-written user stories focusing on the lives of immigrants, specially-abled individuals, and various marginalized populations. From there, the teams examined what popular modern products were not serving these demographics and worked to identify why. The list the teams created was even larger than we expected.\n\nThe teams were then given the next 24 hours to reimagine popular products to better address the needs of their given user story. Innovator\'s Hour recruited a number of faculty moderators to advise the teams, making sure topics stayed respectful, appropriate, and unbiased toward negative stereotypes or assumptions. Many of the mentors even included individuals whose life experiences paralleled those of the user stories, gaining real market research in the process.\n\nAt the end of the weekend, the teams regrouped to present their work. Though none of these ideas ever came to market, the goal of this event was still achieved. It was never our intention to sell a new product or service from this weekend but instead, we wanted students thinking outside the illegitimate box of the perception of a "normal" end-user. We hope this activity inspires more diverse work in the RIT entrepreneurship community moving forward.\n\nThis event highlights the importance of considering diverse perspectives when it comes to innovation. As entrepreneurs, it is essential that we challenge our biases and assumptions in order to create products and services that benefit a wide range of individuals. By doing so, we not only expand our potential customer base but also create a more inclusive society where everyone has access to products and services that meet their needs.',null,B.o,null,null)
 B.Fn=s([B.P2],t.o)
 B.Fo=s(["Disability Design Thinking","desfordiv.jpg","ih2.jpg","ih3.jpg","Design For Diversity",B.Eq,B.Fn,"Students brainstorming","Students presenting their final project","","",4294967295,'When it comes to innovation, our biases and perceptions can limit our potential for success. My team recognized this and organized a weekend-long event called "Design for Diversity" to challenge students to design products and services benefiting underrepresented groups. By considering diverse perspectives, entrepreneurs can create a more inclusive society where everyone has access to products and services that meet their needs.'],t.b)
 B.OW=new A.aQ("Coffee grounds and rubber balloons. These are everyday items that most people may have lying around their house. They are fairly cheap and can help put together a good party but what if they could also work as a decent universal grabber for those without full dexterity?\n\nBy filling a common latex balloon with coffee grounds, or another fine ground yet unevenly sized material, and applying a vacuum, it will tightly form around whatever object it is pressed against. The granular material will go from acting more like a liquid to acting as a rigid solid. Along with this, the latex balloon will create a fair bit of friction, allowing for it to grab even obtuse angles.\n\nThis idea is already used in a few industrial applications for picking up and placing objects of non-standard geometry. Experimenting with this idea in college I wanted to see if I could create one of these devices to pick up things in my dormitory and how small I could make it. After playing around with it for a while I realized there may be potential to help people with low dexterity pick up objects. Using a balloon was a lot easier than using one of those claw arms used by people who cannot bend over and it can pick up a wider range of objects. Creating a grabbing-wand would certainly be one way to take this project, but I also found the idea of making a palm-sized device quite interesting. Having this device in the palm of your hand would allow people with limited or no mobility in their hands to still pick up small objects with ease. The best part was that the materials were mostly household items already and the cost would be fairly low.",null,B.o,null,null)
-B.Fr=s([B.OW],t.o)
+B.Fs=s([B.OW],t.o)
 B.Pc=new A.aQ("Areas where this design falls short are, first and foremost, around the fact that this device does not look like a traditional hand. There is an immense amount of work trying to create prosthetics that look similar to a human hand. This is completely understandable, as there is a strong stigma around having an artificial part of your body. This design simply does not take this into account at this time. Also, the vacuum needed in this design is quite powerful, though there are some improvements that could greatly scale this down in a closed system. Along with this, the current model is quite bulky and complex. It puts functionality and versatility above aesthetics and simplicity. There are also concerns with the current model\u2019s durability over time. Luckily, the parts most likely to need replacement are some of the cheapest currently.\n\nI would greatly enjoy being able to test these designs further in real-world situations. There are plenty of areas for improvement but the idea still stands- there must be a cost-effective way to provide versatile prosthetics to those in need.",null,B.o,null,null)
 B.GX=s([B.Pc],t.o)
-B.Hi=s(["Low-Mobility Dexterity","hand.jpg","joe2.jpg","joe3.jpg","Joe Universal Grip",B.Fr,B.GX,"Coffee grounds acting solid when compacted","Sketch of internal components","","",4291742925,"A device made from a latex balloon filled with coffee grounds may be able to help people with low dexterity. This cost-effective solution can be used to pick up a wide range of objects by using basic materials in new ways."],t.b)
+B.Hi=s(["Low-Mobility Dexterity","hand.jpg","joe2.jpg","joe3.jpg","Joe Universal Grip",B.Fs,B.GX,"Coffee grounds acting solid when compacted","Sketch of internal components","","",4291742925,"A device made from a latex balloon filled with coffee grounds may be able to help people with low dexterity. This cost-effective solution can be used to pick up a wide range of objects by using basic materials in new ways."],t.b)
 B.Pq=new A.aQ("As a Pacific Northwest native, I grew up surrounded by bikes and bike racks. I remember as a child jumping between the loops of the wavy, curbside racks, feeling pretty cool. However, as I grew older, the racks became more of a nuisance than anything else. They narrowed packed sidewalks and collected politically-charged stickers, yet they still served a great public use.\n\nIt wasn't until I took a high school Engineering Design class that I realized the potential for engineering and design-thinking to solve real-world problems. Over the course of a year, my team, consisting of my best friend, a random classmate, and myself, chose to tackle the mild nuisance of bike racks.\n\nOur goal was to find a solution that would allow us to have as many bike racks as desired while removing them from cluttering pathways when not in use. We came up with the idea of folding bike racks, which would allow them to be placed flush with the pathway when not in use. However, this created a host of new problems, such as safely locking into place when in use, not tripping people, and leaving behind holes when in use.",null,B.o,null,null)
 B.Gh=s([B.Pq],t.o)
 B.ON=new A.aQ("To address these challenges and quickly demonstrate solutions, we learned basic AutoCAD. This allowed us to design solutions for vertically sliding racks or smaller post-style racks. This project was my first experience with a design-thinking approach, and I learned a lot about iterative solutioning in engineering.\n\nIn the end, our project was a success. We presented our designs to the class, and our teacher was impressed with our creativity and attention to detail. It was an incredible feeling to see the potential impact that our work could have on our community. This experience solidified my passion for engineering and problem-solving and set me on a path to pursue a career in the field.",null,B.o,null,null)
 B.F8=s([B.ON],t.o)
 B.Hh=s(["Bike Racks","rack.jpg","rack3.jpg","rack2.jpg","Hidden Bike Racks",B.Gh,B.F8,"Early prototype of the folding bike rack","Render of the folding bike rack\n(Sliding version in round picture above)","","",4287202701,"Moving bike racks out of the way while keeping all of their functionality. This was a problem my team came up with and tackled for a high school engineering class. Using design-thinking to remove a minor nuisance and create a new opportunity."],t.b)
 B.OS=new A.aQ("As we go about our daily lives, we often take for granted our ability to hear and react to sounds around us. However, for those who are part of the Deaf and Hard of Hearing community, simple sounds can go unnoticed, leaving them vulnerable in potentially dangerous situations. This is where Wavio comes in, a startup focused on developing intelligent sound recognition technology to help remove barriers faced by the Deaf and Hard of Hearing community.\n\nImagine cooking mac and cheese while babysitting and suddenly hearing a cry for help. For someone with normal hearing, this might be a common occurrence, but for someone who is Hard of Hearing or Deaf, hearing a cry for help can be a challenge. Similarly, imagine being in a friend's house for the weekend and not being able to hear the doorbell or fire alarm. These situations can be incredibly dangerous, and time is of the essence when it comes to responding to them.\n\nThe Wavio device was designed to be a fully integrated notification platform that could be easily deployed through plug-and-play sound recognition technology. The device would listen for critical sounds and then notify the user on their smartphone, giving them the information they need to take action quickly. With the help of proprietary audio signal processing algorithms, the Wavio team was able to create a unique user experience that would help remove barriers and take advantage of emerging technology solutions.\n\nWhat made the Wavio team unique was their deep understanding of the challenges faced by the Deaf and Hard of Hearing community. Led by members who had experienced many of these difficulties firsthand, the team was highly motivated to create a product that could truly make a difference. As a result, they were able to bring together a team of engineers and designers to develop a product from conceptual designs through market validation and manufacturing negotiations.",null,B.o,null,null)
-B.FP=s([B.OS],t.o)
+B.FQ=s([B.OS],t.o)
 B.OM=new A.aQ("Working with the Wavio team gave me a valuable perspective on designing products with the needs of specific customer segments in mind. I learned about PCB layout, design for manufacturability, and most importantly, gained insights from a community that I was not previously familiar with. The experience helped me understand the importance of developing products that are accessible to everyone, regardless of their abilities.\n\nThe Wavio device is a great example of how technology can be used to help remove barriers faced by those who are Hard of Hearing or Deaf. By developing a product that is easy to use and accessible to everyone, the Wavio team has helped create a more inclusive world. Their innovative approach to sound recognition technology has the potential to revolutionize the way we interact with our environment, making it safer and more accessible for everyone.",null,B.o,null,null)
 B.Hl=s([B.OM],t.o)
-B.Gk=s(["Hearing","wavio1.jpg","wavio3.jpg","wavio2.jpg","Wavio",B.FP,B.Hl,"Wavio device concepts","A Wavio prototype plugged into a wall","See how the project advanced: see-sound.com","https://www.see-sound.com/",4280655359,"Wavio is a startup that has developed an intelligent sound recognition technology that removes critical barriers faced by the Deaf and Hard of Hearing community. With their device plugged into the wall, users can be notified on their smartphone of critical sounds, enabling them to take action quickly, making the world a safer and more inclusive place for everyone."],t.b)
+B.Gl=s(["Hearing","wavio1.jpg","wavio3.jpg","wavio2.jpg","Wavio",B.FQ,B.Hl,"Wavio device concepts","A Wavio prototype plugged into a wall","See how the project advanced: see-sound.com","https://www.see-sound.com/",4280655359,"Wavio is a startup that has developed an intelligent sound recognition technology that removes critical barriers faced by the Deaf and Hard of Hearing community. With their device plugged into the wall, users can be notified on their smartphone of critical sounds, enabling them to take action quickly, making the world a safer and more inclusive place for everyone."],t.b)
 B.Po=new A.aQ("Have you ever had the frustrating experience of wanting to go out and eat with someone but you just can\u2019t agree as to where? For people who want to quickly and collaboratively choose where to eat, I created Munch Match.\n\nMunch Match is a unique and innovative app that allows users to quickly and collaboratively decide on where to eat. Think of it as Tinder, but for restaurants. With Munch Match, you can swipe through a list of nearby eateries in the comfort of your own privacy. You can choose as many places as you like without having to explain your choices one by one. Meanwhile, your companions can do the same. The app alerts you and your party as soon as there are several matches, presenting a short, agreed-upon list of vetted restaurants instead of a lengthy and controversial list of food choices.",null,B.o,null,null)
-B.FX=s([B.Po],t.o)
+B.FW=s([B.Po],t.o)
 B.P3=new A.aQ("The app was developed using Flutter/Dart, which allows for a seamless and intuitive user experience. It also utilizes the Yelp API and several other support libraries for Flutter, providing users with important filtering information such as distance, rating, and price.\n\nMunch Match is perfect for group outings, dates, or even solo diners who want to quickly decide on a restaurant without the hassle of endless discussions. It's available for download on both iOS and Android platforms, so you can easily find the perfect place to eat no matter where you are.\n\nSo, if you're tired of the \"where to eat\" dilemma, Munch Match is the solution you've been searching for. Try it out today and experience a hassle-free and enjoyable dining experience.",null,B.o,null,null)
-B.Gr=s([B.P3],t.o)
-B.GQ=s(["Picking Where to Eat","mmicon.jpg","rm.jpg","rm3.jpg","Munch Match",B.FX,B.Gr,"App screenshot","Example of a card within the app","See it on the Play Store","https://play.google.com/store/apps/details?id=com.electricblueideas.munch_match",4280658658,"Munch Match is an innovative app that simplifies the process of choosing a restaurant by allowing users to swipe through a list of nearby restaurants and notifying users when there are multiple matches. Munch Match is perfect for group outings, dates, or adventurous diners who want to avoid the hassle of lengthy and controversial food choice discussions."],t.b)
+B.Gs=s([B.P3],t.o)
+B.GQ=s(["Picking Where to Eat","mmicon.jpg","rm.jpg","rm3.jpg","Munch Match",B.FW,B.Gs,"App screenshot","Example of a card within the app","See it on the Play Store","https://play.google.com/store/apps/details?id=com.electricblueideas.munch_match",4280658658,"Munch Match is an innovative app that simplifies the process of choosing a restaurant by allowing users to swipe through a list of nearby restaurants and notifying users when there are multiple matches. Munch Match is perfect for group outings, dates, or adventurous diners who want to avoid the hassle of lengthy and controversial food choice discussions."],t.b)
 B.Ps=new A.aQ("What if the future of power generation was wearable?\n\nIn my final year of college, I had the privilege of taking the Functional Printing special topics class in the AMPrint Center. This was conducted in the NY State Center for Advanced Technology funded Center for Additive Manufacturing and Multifunctional Printing. All the long names made the class feel very official.\n\nIn the class we studied an immense amount of printing styles, from Flexo to Gravure and Stereolithography to Fused Deposition Modeling. Throughout the entirety of college, no class made my head hurt more. It was incredible to see all the various solutions to printing and additive manufacturing processes, but this class was not just for demonstrating existing methods. For our grade in the class we had to use a combination of the printing methods in a new way. This meant either creating a new end-product using the tools or combining the printing methods in a new way.\n\nMy team took on trying to create a Peltier tile on a flexible substrate. The main goal of the project was to create a printed, flexible Peltier device that could produce small amounts of current through the Seebeck effect when a temperature gradient was applied on either side. Peltier devices had, up to this point, traditionally been made of rigid ceramic in order to withstand their temperature gradients. This increases their durability but prevents them from properly conforming to irregular surface areas. \n\nThe potential for a flexible Peltier device could open the door to possibilities of thermal power generation in wearable technology. With further research, it is feasible that fabric-like material could generate small amounts of energy with the temperature gradient between the body and the ambient room temperature. This would open the door for the continuous recharging of wearable tech. Above all this, the flexible and patterned method for creating these devices could allow for roll-to-roll processing of these devices, allowing for variable sizes and an overall reduction in manufacturing cost.",null,B.o,null,null)
 B.Hb=s([B.Ps],t.o)
 B.Pt=new A.aQ("All major parts of the Peltier device have been commonly printed for other drives. This includes flexible copper, printed solder, and both P and N type semiconductors. By printing flexible copper traces into a flexible yet heat resistant substrate such as Kapton and depositing P and N type printable semiconductors like PEDOT:PSS, a flexible Peltier device is theoretically possible.\n\nA basic Peltier tile functions with an insulative air gap between components, allowing for an increased temperature gradient. With the appropriate printing methods, we can replace this with a flexible silicone insulator to further enhance the effects. This could also allow for smaller material deposition sizes by using the ceramic to place the semiconductors more precisely. By having everything more compact, the device would be much more efficient at generating current.\n\nDuring the course of the semester, our tested printed Peltier device did not show conclusive results. This could have been due to the limited number of semiconductor junctions or large impurities in our printing processes. We also did not have access to the printable semiconductor material we had first envisioned with the design. More research would have to be done in order to find a more efficient process for creating this device.",null,B.o,null,null)
-B.FM=s([B.Pt],t.o)
-B.G1=s(["3D Printed Power Generation","pt1.jpg","pt3.jpg","pt2.jpg","Flexible 3D Printed Peltier Tiles",B.Hb,B.FM,"Assembling layers of printed components","Testing of an early prototype","","",4294681091,"What if you could generate electricity simply by wearing a piece of clothing? Using additive manufacturing we may be able to create a flexible Peltier device that could power wearable technology, leading to a future of sustainable energy generation."],t.b)
+B.FN=s([B.Pt],t.o)
+B.G0=s(["3D Printed Power Generation","pt1.jpg","pt3.jpg","pt2.jpg","Flexible 3D Printed Peltier Tiles",B.Hb,B.FN,"Assembling layers of printed components","Testing of an early prototype","","",4294681091,"What if you could generate electricity simply by wearing a piece of clothing? Using additive manufacturing we may be able to create a flexible Peltier device that could power wearable technology, leading to a future of sustainable energy generation."],t.b)
 B.kr=new A.n(!0,B.l,null,null,null,null,24,B.bW,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.OK=new A.aQ("Current Concepts",null,B.o,null,B.kr)
 B.bH=new A.n(!0,B.l,null,null,null,null,18,B.bW,null,0.25,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
@@ -83986,34 +83986,34 @@ B.Pu=new A.aQ("\n\nDeconstruction and Reconstruction",null,B.o,null,B.bH)
 B.OY=new A.aQ("\n\nAs the assets are infinitely divisible they must also be able to be recombined in order to curb inflationary behaviors. A few extra rules can be set in place to disincentivize divisions while still allowing for their existence.\n\nIf any token can be broken down but only \"adjacent\" tokens - those with unique values sequential to each other - can be reassembled into larger tokens, it would encourage the community to assess value off of both the fungible and non-fungible aspects. If community members are looking to grow their sets, they have to look at transactions based not only on the perceived value of the tokens but the unique value of the token's adjacency to the tokens they already hold.\n\nThis may enable many unique features to the currency's community, such as groups looking to only trade for tokens in specific regions of the set, thus looking to increase their chances of being able to build back their divided tokens. This allows for the idea of currency subsets within the single currency. These communities can grow to represent a subset of the currency's range without changing any of the initial aspects and functionality of the currency. Just like a fractal, the initial principles and design are reflected in any subset.\n\nThere is a real need to encourage the use of larger tokens as well. Many smaller tokens will inevitably take more energy to register and reconcile transactions with than one large token. By charging a small transaction fee on the per-token basis, the system can largely incentivize the use of whole tokens.",null,B.o,null,null)
 B.OO=new A.aQ("\n\n\nConclusion",null,B.o,null,B.kr)
 B.Pb=new A.aQ("\n\nCreating an economy around an infinitely divisible and non-growing set enables many unique features we cannot achieve with any current economic systems. An infinite currency will enable its utility to expand far into the future, adapt to a population of any size, and set a trade value to even the smallest of items.\n\nThese tokens combine the best attributes of modern cryptocurrency trading with the unique collectibility of NFTs.\n\nBy creating a method and incentive to recombine held currency into larger assets, the currency\u2019s integrity can be preserved. In addition, opportunities will be created to find various methods of assigning value.\n\nThere is no way of knowing how a currency like this will truly behave once created, but it is the best way to ensure the longevity of a system far beyond our current imagination.",null,B.o,null,null)
-B.GI=s([B.Pi,B.Pv,B.Pz,B.P1,B.P5,B.P6,B.Pj,B.Pu,B.OY,B.OO,B.Pb],t.o)
-B.Hk=s(["Cryptocurrency Economics","e.jpg","tri1.jpg","tri2.jpg","The Infinite Economy",B.Fj,B.GI,"Representation of\nhow the system is maintained\nwhile infinitely divided","Representation of\nhow unique attributes are preserved\nin an infinite set","Clap on Medium","https://mccossum.medium.com/the-infinite-economy-2ba585b61ddb",4289831540,"What if there was a new economic model that enabled a currency with infinite reach while maintaining a set quantity, providing long-term stability and avoiding inflationary behaviors? With the ability to trade all assets, no matter how low in value, and using a unique combination of fungible and non-fungible attributes, this new currency model has the potential to revolutionize the way we think about money."],t.b)
+B.GJ=s([B.Pi,B.Pv,B.Pz,B.P1,B.P5,B.P6,B.Pj,B.Pu,B.OY,B.OO,B.Pb],t.o)
+B.Hk=s(["Cryptocurrency Economics","e.jpg","tri1.jpg","tri2.jpg","The Infinite Economy",B.Fj,B.GJ,"Representation of\nhow the system is maintained\nwhile infinitely divided","Representation of\nhow unique attributes are preserved\nin an infinite set","Clap on Medium","https://mccossum.medium.com/the-infinite-economy-2ba585b61ddb",4289831540,"What if there was a new economic model that enabled a currency with infinite reach while maintaining a set quantity, providing long-term stability and avoiding inflationary behaviors? With the ability to trade all assets, no matter how low in value, and using a unique combination of fungible and non-fungible attributes, this new currency model has the potential to revolutionize the way we think about money."],t.b)
 B.OX=new A.aQ("Cooking should be simple. Most recipes can be simplified down to three things; Ingredients, Temperature, and Time. This is in stark contrast to how recipes are presented online. Many hide behind long stories and intrusive ads. Even after all that I still found many recipes still hard to follow and keep track of my place in.\n\nI started working with a team of good friends to investigate methods of creating a great user experience while following new recipes. We worked on hardware, software, and design to tackle this initiative.",null,B.o,null,null)
-B.FD=s([B.OX],t.o)
+B.FE=s([B.OX],t.o)
 B.OU=new A.aQ("Starting with the software, we used a robust recipe parser to extract only the most relevant information from online recipes. No stories, no obscure links, only what the user needed to know to make the recipe. Along with this, we designed our screens to focus on minimalism, only showing the user one measurement or instruction at a time. This guaranteed comprehension while maintaining an intuitive flow.\n\nAll of the software paired directly with our custom hardware. To seamlessly connect the digital space to the physical food our team designed a sleek, food-safe, scale. With the aid of this scale, users could navigate through a recipe without the need to know exact amounts. All they have to focus on is if they need to add more or less of each ingredient to the scale. This allowed recipes to auto-advance on the phone once each ingredient was correct. This intuitive pairing allowed room for a level of simplicity in recipes that was previously unheard of.\n\nAll this is wrapped up in a design language that spans across both software and hardware. The scale easily pairs with our kitchenware and bowls to automatically detect and calibrate the added weight. Our unique stamped logo guarantees grip and stability of app parts leading to fewer messes compared to other scales. Even if there is a mess, our scale is one of the few covered in dishwasher safe parts allowing for easy cleanup. This elegant design is reflected in the app as colors automatically change to match the user's kitchenware set and allow them to quickly jump into recipes with similar recipes to those made in the past.\n\nThis project is still in development by the team and does not have an official launch date as of this time. Our team is working diligently to ensure the success of the Banana Scale with over 10,000 recipes. Please allow notifications to hear about this project as it progresses.",null,B.o,null,null)
 B.GO=s([B.OU],t.o)
-B.Gb=s(["Food Preparation","rethinkrecipes.jpg","rr1.jpg","rr2.jpg","Banana Scale",B.FD,B.GO,"Starting a recipe","Minimalist instructions","","",4293878608,"Tired of sifting through long and intrusive online recipe stories just to find the information you need? Look no further than the Banana Scale, a revolutionary kitchen tool designed to simplify your cooking experience. With a focus on minimalism and intuitive design, this custom hardware and software pairing allows you to effortlessly navigate through recipes, leaving you with more time to focus on what really matters - the food."],t.b)
+B.Gb=s(["Food Preparation","rethinkrecipes.jpg","rr1.jpg","rr2.jpg","Banana Scale",B.FE,B.GO,"Starting a recipe","Minimalist instructions","","",4293878608,"Tired of sifting through long and intrusive online recipe stories just to find the information you need? Look no further than the Banana Scale, a revolutionary kitchen tool designed to simplify your cooking experience. With a focus on minimalism and intuitive design, this custom hardware and software pairing allows you to effortlessly navigate through recipes, leaving you with more time to focus on what really matters - the food."],t.b)
 B.OI=new A.aQ("Our interaction with the air around us is often taken for granted. Though the air we breathe is a constant shaping force in our lives we rarely think about how it changes with our environment. As we go throughout our day in different locations for both indoor and outdoor settings the composition of our air can vary greatly.\n\nAround 60 years ago Carbon Dioxide (CO2) concentrations were around 300 parts per million (ppm). Currently, in a natural environment, CO2 levels average about 415ppm. With this sudden change taking us 35% over the historical average and still growing, we are entering unprecedented territory.\n\nThis situation only gets more bleak when we look into unnatural environments. Office buildings and other crowded gathering spaces can have CO2 levels ranging from several hundred ppm to over 1000 ppm. This is still under common safety guidelines warning of levels of 5000ppm and above, but recent studies have shown there still may be reason for concern. At 1000ppm there is a 15% decrease in cognitive function going up to 50% at 1400ppm. If we care about our ability to think, either as an individual or a species, this issue needs to be addressed.\n\nOn a small scale, plants may be an option to curb high CO2 levels. It takes about 7-8 mature trees per person to exchange all the air we breathe. While trees are a vital part of our ecosystem they are certainly not the most efficient to manage CO2 levels, nor are they practical in an indoor setting. With the aid of selective breeding, we may be able to create super oxygenating plants and algae to curb indoor CO2 levels.",null,B.o,null,null)
-B.FT=s([B.OI],t.o)
+B.FU=s([B.OI],t.o)
 B.P4=new A.aQ("To test the hypothesis that I could breed better oxygenating species of algae and plants I started with 64 Fast Plants from the University of Wisconsin. These are a type of mustard seed with a total lifecycle of around 60 days. This would allow me to isolate leaves from mature plants and only germinate seeds from plants with the highest oxygen-producing levels per leaf mass. Over many generations, I expect to see a trend of higher oxygen-producing varieties.\n\nI have also started reproducing this experiment with Chlorella vulgaris, a type of algae, in a series of small bioreactors. This plans to be beneficial for the faster reproductive cycle leading to faster selection and evolution times. Also, it goes to say, the series of 12 green glowing bioreactors just look extremely cool. I could easily imagine these lining a sci-fi-looking spaceship in the future able to supply future generations with clean air and nutrients.\n\nThe experiment with Wisconsin Fast Plants is still ongoing and has not yet shown results, the same goes for the Chlorella vulgaris group. I do not expect to see significant changes till the 30th generation at earliest. I will work on posting updates as this unfolds so please sign up for notifications. This is a slow project but one that would leave behind a more efficient method for clean air in the future.",null,B.o,null,null)
 B.Hj=s([B.P4],t.o)
-B.Ev=s(["Oxygen","o2.jpg","o22.jpg","o23.jpg","Selective Breeding for Better O2 Production",B.FT,B.Hj,"Test of an Algae Bioreactor","Grid of FastPlants Growing","","",4294967295,"Take a deep breath. The air we breathe has a direct impact on our cognitive function. With carbon dioxide levels increasing at an unprecedented rate, can we selectively breed plants & algae to curb indoor CO2 levels and ensure future generations have access to healthy air?"],t.b)
+B.Ev=s(["Oxygen","o2.jpg","o22.jpg","o23.jpg","Selective Breeding for Better O2 Production",B.FU,B.Hj,"Test of an Algae Bioreactor","Grid of FastPlants Growing","","",4294967295,"Take a deep breath. The air we breathe has a direct impact on our cognitive function. With carbon dioxide levels increasing at an unprecedented rate, can we selectively breed plants & algae to curb indoor CO2 levels and ensure future generations have access to healthy air?"],t.b)
 B.OQ=new A.aQ("Coffee should be hot. That simple expectation was the starting point for the Rise Thermos. Most travel mugs focus on portability or spill resistance, but quietly accept heat loss as inevitable. Rise challenges that assumption by treating temperature retention as a system-level design problem rather than a material spec. The result is a thermos built around one core idea: keep heat in by eliminating the conditions that allow it to escape.\n\nAt the heart of Rise is a liquid-first insulation philosophy. Instead of leaving pockets of air inside the vessel, spaces that quickly siphon heat away, the design ensures the coffee is constantly surrounded by an insulated wall. By minimizing internal air volume, the thermos reduces convective cooling and stabilizes temperature over time. Heat stays where it belongs: in the coffee, not warming the container or the air trapped inside it.\n\nThe defining feature of Rise is its integrated cooling and control interface at the top of the vessel. While the body of the thermos prioritizes maximum heat retention, the silicone cooling element allows users to fine-tune drinkability without compromising overall temperature stability. Rather than waiting for the entire volume to cool unpredictably, Rise enables intentional, localized cooling at the moment of drinking. Hot stays hot - until you decide otherwise.",null,B.o,null,null)
-B.FW=s([B.OQ],t.o)
+B.FV=s([B.OQ],t.o)
 B.Pe=new A.aQ("Form and function are tightly interwoven throughout the design. Rise is meant to feel elegant without being delicate, rugged without appearing industrial. Its proportions are deliberate, balancing a solid thermal mass with a comfortable grip and a visually distinct silhouette. The result is a thermos that looks at home both on a cluttered desk and on the go, quietly signaling that it was designed with intent.\n\nBeyond performance, Rise is designed to invite curiosity. The visible mechanical logic, the pump straw, movable seal, and layered insulation, turns an everyday object into a conversation starter. It communicates how it works without needing explanation, reflecting a belief that good design should be legible and honest. Rise doesn\u2019t hide its engineering; it celebrates it.\n\nRise Thermos is built for people who care about their coffee and the objects they use every day. Whether commuting, working in an office, or moving between meetings, it delivers consistency without compromise. Hot coffee when you want it, control when you need it, and a design that rewards attention. Rise isn\u2019t about novelty, it\u2019s about respecting the ritual.",null,B.o,null,null)
 B.Et=s([B.Pe],t.o)
-B.Gd=s(["Thermoses","ri0.jpg","ri1.jpg","ri2.jpg","Rise Thermos",B.FW,B.Et,"A cutaway","Initial designs","","",4288640851,"Coffee should be hot. Rise Thermos is built to keep it that way by eliminating interfaces that cause heat loss. By keeping liquid continuously surrounded by insulation, Rise keeps you in control of when the coffee cools down. Elegant, rugged, and quietly technical, it\u2019s built for life on the move or long hours at a desk."],t.b)
+B.Gd=s(["Thermoses","ri0.jpg","ri1.jpg","ri2.jpg","Rise Thermos",B.FV,B.Et,"A cutaway","Initial designs","","",4288640851,"Coffee should be hot. Rise Thermos is built to keep it that way by eliminating interfaces that cause heat loss. By keeping liquid continuously surrounded by insulation, Rise keeps you in control of when the coffee cools down. Elegant, rugged, and quietly technical, it\u2019s built for life on the move or long hours at a desk."],t.b)
 B.Ph=new A.aQ("Satellites don\u2019t usually fail dramatically. More often, they just go quiet. A transmitter glitches, a processor locks up, or a power subsystem enters a bad state and never recovers. Once radio contact is lost, operators are often left with no way to reach the spacecraft, even though it may still be physically intact and generating power. This raises a fascinating question: could we communicate with a satellite using something it already has, its solar panels, by flashing a laser at them?\n\nAt a fundamental level, most of the equipment is already there. Solar panels are photovoltaic devices, which means they are essentially very large photodiodes. When light intensity changes, the electrical output of the panel changes as well. If a laser beam were modulated (turned on and off or varied in intensity) those fluctuations could create a detectable electrical signal on the satellite\u2019s power bus. In other words, the same surface that normally turns sunlight into electricity could double as a very crude optical antenna.\n\nThis wouldn\u2019t be fast communication. Solar panels are large-area devices with significant electrical capacitance, which limits how quickly they can respond to changes in light. That puts realistic data rates in the range of a few bits per second up to a few kilobits per second, depending on the design and conditions. But for emergency scenarios, speed isn\u2019t the goal. We only need enough bandwidth to send a reset command, switch operating modes, or tell the spacecraft to reboot a radio subsystem.",null,B.o,null,null)
-B.Fx=s([B.Ph],t.o)
+B.Fy=s([B.Ph],t.o)
 B.Pk=new A.aQ("Researchers have explored this idea in laboratory settings for more than a decade. Bench-top experiments have shown that a modulated laser aimed at a photovoltaic panel can be detected even in the presence of strong background illumination. By filtering out the steady DC current produced by sunlight and looking only at specific flicker frequencies, the signal can be recovered reliably. In some studies, researchers demonstrated laser-to-solar-panel communication at data rates of roughly 10 kb/s, far more than enough for emergency command sequences.\n\nThe concept becomes especially interesting when applied to older or already-launched satellites. Many spacecraft currently in orbit were never designed with optical communication in mind, yet they all share one thing: exposed solar arrays. In theory, a ground-based laser could attempt to \u201cwake up\u201d a silent satellite by injecting a carefully timed optical signal into its power system. If the satellite\u2019s onboard electronics are still partially functional, we could attempt to design a signal that would be detected as an anomaly in current or voltage and interpreted as a trigger for a safe-mode exit or system reset.\n\nThere are serious challenges, though. Orientation is one of the biggest. Satellites typically point their solar panels toward the Sun, not Earth, and many spacecraft\u2014especially those in safe mode\u2014cannot change their attitude on command. That means a laser uplink might only work during brief moments when geometry aligns just right or if the signal is sent from another object in orbit. Another challenge is that most legacy satellites are not listening for this kind of signal. Without pre-designed hardware or software routines that monitor solar panel fluctuations for encoded patterns, the spacecraft may simply ignore the injected signal entirely. This makes laser-to-panel communication far more attractive as a planned emergency feature for future satellites rather than a guaranteed recovery method for existing ones. Still, as a last-ditch effort, it offers something radio communication does not: a completely independent physical channel.\n\nUltimately, using lasers and solar panels as an emergency communication channel won\u2019t replace traditional radios, and it won\u2019t save every silent spacecraft. But it represents a powerful design philosophy shift: building resilience by reusing existing hardware in unexpected ways. As laser communication infrastructure improves and satellite constellations grow denser, future spacecraft may routinely include optical \u201cbackdoors\u201d that allow operators to reach them even when everything else fails. One day, reviving a dead satellite might start not with a radio call, but with a carefully aimed flash of light.",null,B.o,null,null)
 B.Ex=s([B.Pk],t.o)
-B.GH=s(["Solar Panel Communication","lsr0.jpg","lsr1.jpg","lsr2.jpg","Laser Retrofit",B.Fx,B.Ex,"A ground station sending a signal","A satellite receiving a signal","","",4287589833,"When a satellite loses its radio link, it isn\u2019t necessarily dead, it\u2019s just unreachable. Solar panels, fundamentally large-area photodiodes, respond electrically to changes in incident light. That raises a provocative possibility: could a modulated laser provide a low-bandwidth emergency command channel by injecting data directly through a spacecraft\u2019s power system?"],t.b)
+B.GI=s(["Solar Panel Communication","lsr0.jpg","lsr1.jpg","lsr2.jpg","Laser Retrofit",B.Fy,B.Ex,"A ground station sending a signal","A satellite receiving a signal","","",4287589833,"When a satellite loses its radio link, it isn\u2019t necessarily dead, it\u2019s just unreachable. Solar panels, fundamentally large-area photodiodes, respond electrically to changes in incident light. That raises a provocative possibility: could a modulated laser provide a low-bandwidth emergency command channel by injecting data directly through a spacecraft\u2019s power system?"],t.b)
 B.OL=new A.aQ("Most tea instructions rely on time: steep for 3 minutes, remove after 5. But tea doesn\u2019t actually brew by time alone, it brews by heat exposure over time. Water temperature, cup material, volume, and even ambient conditions all influence extraction. These two tea timer concepts explore a different approach: measuring the brewing process itself, using passive, non-electronic materials that respond naturally to heat. The result is a more intuitive, forgiving, and elegant way to brew tea perfectly.\n\nFor this project I designed two options. The disposable version integrates a color-changing indicator directly into the tea bag. As the bag steeps, a thermochromic gradient inside the bag shifts color in response to cumulative heat exposure. When the indicator reaches its \u201cperfect brew\u201d state, the tea is ready, no clock, no guessing, no instructions required. The indicator lives inside the tea, ensuring it experiences the same thermal conditions as the leaves themselves, making it a true proxy for the brewing process.\n\nBecause the disposable timer is single-use, its design prioritizes minimal material and low cost. The indicator can be printed using food-safe thermochromic inks or encapsulated pigments, applied during standard tea bag manufacturing. While this adds marginal cost per unit (estimated about $0.05 \u2013 $0.30 per unit), it opens the door to premium tea experiences where consistency and ease are part of the product value. It\u2019s especially well-suited for gift sets, hotel service, or specialty teas where experience matters as much as flavor.",null,B.o,null,null)
 B.Gf=s([B.OL],t.o)
 B.P8=new A.aQ("The reusable timer takes a different approach. Rather than living inside the tea bag, it rests at the bottom of the cup, lightly encased in clear resin. This flat, circular form factor ensures stability while remaining unobtrusive. Like the disposable version, it uses thermochromic materials, but here, the indicator is calibrated for repeated use and durability, designed to survive thousands of heat cycles without electronics, batteries, or calibration drift.\n\nThe reusable version also is designed to come as a set so cafes or the culinary curious can have one on hand for a variety of brews. Designed to be a thoughtful gift and a useful gadget the reusable version aims to stand the test of time.\n\nThese designs favor visual clarity over numeric signals. Instead of numbers or seconds, both designs communicate progress with color, moving from cool greens to warm reds as extraction progresses. This removes the anxiety of over- or under-steeping and replaces it with a simple visual cue. Teep doesn\u2019t demand attention; it quietly signals when it\u2019s done. For users, this transforms tea making from a timed task into a calm, ambient interaction.\n\nTogether, these two tea timers represent the same philosophy expressed in different forms. One is ephemeral, embedded directly in the tea and discarded after use. The other is durable, reusable, and ritualistic. Both reject electronics and embrace material intelligence, letting physics and chemistry do the work. By designing tools that respond to the real variables of brewing, not idealized instructions, these concepts aim to make better tea feel effortless, intuitive, and quietly delightful.",null,B.o,null,null)
-B.Go=s([B.P8],t.o)
-B.FB=s(["Tea Timers","tt0.jpg","tt1.jpg","tt2.jpg","Teep",B.Gf,B.Go,"The disposable design","The reusable design","","",4293636489,"Perfect tea should be simple. Teep takes away the numbers, the beeping timers, and the unknown. This project is a pair of passive, color-changing tea timers designed to read the brewing process itself. By using material intelligence instead of electronics, Teep makes the perfect cup of tea visible, intuitive, and effortless every time."],t.b)
-B.W=s([B.H8,B.Gi,B.Ga,B.Hd,B.G0,B.Fi,B.Fo,B.Hi,B.Hh,B.Gk,B.GQ,B.G1,B.Hk,B.Gb,B.Ev,B.Gd,B.GH,B.FB],t.X6)
+B.Gp=s([B.P8],t.o)
+B.FC=s(["Tea Timers","tt0.jpg","tt1.jpg","tt2.jpg","Teep",B.Gf,B.Gp,"The disposable design","The reusable design","","",4293636489,"Perfect tea should be simple. Teep takes away the numbers, the beeping timers, and the unknown. This project is a pair of passive, color-changing tea timers designed to read the brewing process itself. By using material intelligence instead of electronics, Teep makes the perfect cup of tea visible, intuitive, and effortless every time."],t.b)
+B.W=s([B.H8,B.Gi,B.Ga,B.Hd,B.G_,B.Fi,B.Fo,B.Hi,B.Hh,B.Gl,B.GQ,B.G0,B.Hk,B.Gb,B.Ev,B.Gd,B.GI,B.FC],t.X6)
 B.ET=s([4,9,14,19],t.t)
 B.GY=s([137,80,78,71,13,10,26,10],t.Z)
 B.DQ=new A.lw(0,"png")
@@ -84057,40 +84057,22 @@ B.eD=new A.kt(3,"justify")
 B.aS=new A.kt(4,"start")
 B.ht=new A.kt(5,"end")
 B.Fg=s([B.c2,B.dh,B.eC,B.eD,B.aS,B.ht],A.ap("x<kt>"))
-B.Fy=s([2,1.13276676],t.n)
+B.Fz=s([2,1.13276676],t.n)
 B.Ey=s([2.18349805,1.20311921],t.n)
-B.GL=s([2.33888662,1.28698796],t.n)
+B.GM=s([2.33888662,1.28698796],t.n)
 B.GP=s([2.48660575,1.36351941],t.n)
 B.Fl=s([2.62226596,1.44717976],t.n)
-B.Fs=s([2.7514899,1.53385819],t.n)
+B.Ft=s([2.7514899,1.53385819],t.n)
 B.G7=s([3.36298265,1.98288283],t.n)
-B.FF=s([4.08649929,2.23811846],t.n)
-B.FZ=s([4.85481134,2.47563463],t.n)
+B.FG=s([4.08649929,2.23811846],t.n)
+B.FY=s([4.85481134,2.47563463],t.n)
 B.Fm=s([5.62945551,2.72948597],t.n)
-B.FA=s([6.43023796,2.98020421],t.n)
-B.mQ=s([B.Fy,B.Ey,B.GL,B.GP,B.Fl,B.Fs,B.G7,B.FF,B.FZ,B.Fm,B.FA],t.zg)
+B.FB=s([6.43023796,2.98020421],t.n)
+B.mQ=s([B.Fz,B.Ey,B.GM,B.GP,B.Fl,B.Ft,B.G7,B.FG,B.FY,B.Fm,B.FB],t.zg)
 B.Fk=s([B.i5,B.i6],A.ap("x<vt>"))
-B.Fu=s(["ad_activeview","ad_click","ad_exposure","ad_query","ad_reward","adunit_exposure","app_background","app_clear_data","app_exception","app_remove","app_store_refund","app_store_subscription_cancel","app_store_subscription_convert","app_store_subscription_renew","app_uninstall","app_update","app_upgrade","dynamic_link_app_open","dynamic_link_app_update","dynamic_link_first_open","error","first_open","first_visit","in_app_purchase","notification_dismiss","notification_foreground","notification_open","notification_receive","os_update","session_start","session_start_with_rollout","user_engagement"],t.s)
+B.Fv=s(["ad_activeview","ad_click","ad_exposure","ad_query","ad_reward","adunit_exposure","app_background","app_clear_data","app_exception","app_remove","app_store_refund","app_store_subscription_cancel","app_store_subscription_convert","app_store_subscription_renew","app_uninstall","app_update","app_upgrade","dynamic_link_app_open","dynamic_link_app_update","dynamic_link_first_open","error","first_open","first_visit","in_app_purchase","notification_dismiss","notification_foreground","notification_open","notification_receive","os_update","session_start","session_start_with_rollout","user_engagement"],t.s)
 B.Hm=new A.o9("en",null,"US")
 B.mR=s([B.Hm],t.ss)
-B.FV=s(["Sr. Technical Project Manager","Indeed.com","indeed.jpg","\n- Owned R&D-wide AI acceleration strategy, evaluating and rolling out low-code and no-code tools to improve engineering and non-engineering velocity. Broke down PDLC bottlenecks and identified tooling use cases to meet our goal of reducing time-to-rollout by 30%.\n- Led cross-team migrations for MCP platforms and LLM telemetry. Rolled out standardized AI tooling and usage patterns to support company-wide adoption and scalability amid evolving regulatory requirements.\n- Owned strategic initiatives across Indeed\u2019s Job Seeker-facing mobile apps (iOS, Android), used by millions globally. Partnered with Engineering, Design, and UX to identify high-impact user friction points, driving product changes that contributed to 25% YoY growth, achieving 4.4B user sessions/year and elevating the app into the top 10 US iPhone apps.\n- Managed timelines for Indeed\u2019s first AI-powered, customer-facing product, aligning user needs, technical constraints, legal review, and launch readiness across a year-long development cycle. Contributed to one of the company\u2019s top product initiatives.\n- Global Lead for Hackathons (800+ participants across the globe), surfacing 100+ product concepts per event. Partnered with C-level leadership to evaluate ideas, align them to strategic bets, and integrate top concepts into product roadmaps.\n- Collaborated with Legal and Engineering on compliance and technical migrations for the global Messaging Platform. Refined roadmap execution for international markets by driving data-driven and regulation-compliant product requirements.","2022","Present"],t.s)
-B.FU=s(["Technical Project Manager","Indeed.com","indeed.jpg","\n- Supported early-stage product experimentation by optimizing our Product Operating Model, reducing MVP launch times from 8 to 6 weeks. Collaborated with PMs and UX to integrate product feedback loops into our internal hiring tools before rolling them out to customers.\n- Introduced operational frameworks and a portfolio management system, improving alignment across multiple product areas and enabling better roadmap planning and transparency.","2021","2022"],t.s)
-B.GN=s(["Project & Engagement Manager","Indeed.com","indeed.jpg","\n- Drove vendor product evaluations and tech migrations, aligning solutions to business needs while phasing out homegrown tools.\n- Managed critical product development timelines by working with 3rd-party vendors to improve project value, velocity, & quality. Grew a diverse portfolio for software, infrastructure, & engineering teams distributed across the company.","2019","2021"],t.s)
-B.H_=s(["Graduated College","Rochester Institute of Technology","rit.jpg","\n- Innovator's Hour Startup Incubator President: Lead a club which students can share ideas for innovative products or services. Worked connecting students to resources they need to attempt to bring their ideas into reality. Quickly became RIT's largest student think tank.\n\n- Design for Diversity (Creator and Lead): Created and lead a new campus-wide event. This event was created to help people create new products and services which would help break down social barriers which cause division among people.\n\n- Student Government Engineering Representative\n\n- SPEX CubeSat (Radio Communications Group Lead): I was the ground-to-satellite communication leader for a team which worked with a multidisciplinary team to create a small satellite to test new technologies in low earth orbit.","2014","2019"],t.s)
-B.FO=s(["Founder","Certainly Apps","ca.jpg","\n- Co-created B2C & B2B geolocation software focused on reducing food insecurity via community-driven reporting.\n\n- Led customer discovery and translated findings into product iterations, ultimately shifting focus from campus food apps to non-profit food distribution tools.","2017","2020"],t.s)
-B.Fz=s(["Sr. Lab Manager","RIT Makerspace","rit.jpg","\n- Managed a makerspace to address the needs of its community, ensuring members had the materials, tools, and understanding to develop projects in electronics, programming, and rapid prototyping.\n\n- Collaborated with the department leads to scale operations 300%.","2017","2019"],t.s)
-B.FE=s(["Program Management Intern","Indeed.com","indeed.jpg","\n- Managed and monitored projects for many software infrastructure and engineering capability teams.\n\n- Helped with allocation and optimization of resources, along with tracking project velocity and improving team collaboration with Agile processes.\n\n- Drove company-wide efforts for software rollouts and adoption.","2018","2018"],t.s)
-B.GW=s(["Quality Engineering Intern","Dark Field Technologies","df.jpg","\n- Developed, tested, and installed quality inspection systems for fortune-500 companies needing innovative in-line defect monitoring.\n\n- Improved the flagship product by 65% in detection quality.","2018","2018"],t.s)
-B.He=s(["Exhibit Creator","OMSI","omsi.jpg","\n- Worked designing electronics and programming exhibits for the Oregon Museum of Science and Industry","2017","2017"],t.s)
-B.Gs=s(["Writer & Resource Distributor","Street Roots","sr.jpg","\n- Wrote local interest articles\n\n- Assisted with the distribution of hygiene materials and newspaper sales","2017","2017"],t.s)
-B.Ha=s(["Manufacturing Engineer","Hz Innovations (Wavio)","wavio.jpg","\n- Coordinated initial manufacturing for a smart-home IoT device offering AI sound recognition for the deaf/HoH community.\n\n- Prototyped electronics and field tested units while contributing to the growth of the startup.","2016","2016"],t.s)
-B.Hg=s(["Graduated High School","Health Sciences High School","hs2.jpg","\n- Howard Hughes Medical Institute Internship\n\n- Med. Stars Medical Career Shadowing\n\n- Architecture, Construction, and Engineering Mentoring\n\n- Organized a clothing drive for the homeless\n\n- Night Strike Volunteer for hygiene and medical assistance\n\n- Student Ambassador for International Expeditionary & Proficiency Conference\n\n- Coordinated and led high school Stock Market club\n\n- Organized and MC\u2019ed high school Cultural Activities and Talent Show\n\n- Tutored math","2010","2014"],t.s)
-B.Ft=s(["Research Assistant","Lewis & Clark College","lc.jpg","\n- Aided in research and peer-review of a paper on \u2018The Theory of Mind\u2019.\n\n- Organized and analyzed experiments to study behavioral patterns in young children.","2013","2013"],t.s)
-B.Hc=s(["Graduated Middle School","Cedar Park Middle School","cpms.png","\n- Placed third in the Beaverton School District science fair for studying petri dish colonies from various school locations","2007","2010"],t.s)
-B.Fp=s(["Camp Counselor","Clouds Hill Farms","chf.jpg","\n- Assisted with the teaching of environmental conservation\n\n- Helped teach South American weaving","2008","2008"],t.s)
-B.G9=s(["Graduated Elementary School","West Tualatin View Elementary","wtv.png","\n- Spent 5 years in Elementary School","2001","2007"],t.s)
-B.H5=s(["Born","Portland, Oregon","pdx.png","\n- Started my adventure","1996","1996"],t.s)
-B.bX=s([B.FV,B.FU,B.GN,B.H_,B.FO,B.Fz,B.FE,B.GW,B.He,B.Gs,B.Ha,B.Hg,B.Ft,B.Hc,B.Fp,B.G9,B.H5],A.ap("x<U<C>>"))
 B.Vm=new A.kF(0,0)
 B.Vr=new A.kF(1,0.05)
 B.Vp=new A.kF(3,0.08)
@@ -84098,17 +84080,35 @@ B.Vq=new A.kF(6,0.11)
 B.Vo=new A.kF(8,0.12)
 B.Vn=new A.kF(12,0.14)
 B.mS=s([B.Vm,B.Vr,B.Vp,B.Vq,B.Vo,B.Vn],A.ap("x<kF>"))
-B.FQ=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
+B.Gk=s(["Sr. Technical Project Manager","Indeed.com","indeed.jpg","\n- Owned R&D-wide AI acceleration strategy, evaluating and rolling out low-code and no-code tools to improve engineering and non-engineering velocity. Broke down PDLC bottlenecks and identified tooling use cases to meet our goal of reducing time-to-rollout by 30%.\n\n- Led cross-team migrations for MCP platforms and LLM telemetry. Rolled out standardized AI tooling and usage patterns to support company-wide adoption and scalability amid evolving regulatory requirements.\n\n- Owned strategic initiatives across Indeed\u2019s Job Seeker-facing mobile apps (iOS, Android), used by millions globally. Partnered with Engineering, Design, and UX to identify high-impact user friction points, driving product changes that contributed to 25% YoY growth, achieving 4.4B user sessions/year and elevating the app into the top 10 US iPhone apps.\n\n- Managed timelines for Indeed\u2019s first AI-powered, customer-facing product, aligning user needs, technical constraints, legal review, and launch readiness across a year-long development cycle. Contributed to one of the company\u2019s top product initiatives.\n\n- Global Lead for Hackathons (800+ participants across the globe), surfacing 100+ product concepts per event. Partnered with C-level leadership to evaluate ideas, align them to strategic bets, and integrate top concepts into product roadmaps.\n\n- Collaborated with Legal and Engineering on compliance and technical migrations for the global Messaging Platform. Refined roadmap execution for international markets by driving data-driven and regulation-compliant product requirements.","2022","Present"],t.s)
+B.G1=s(["Technical Project Manager","Indeed.com","indeed.jpg","\n- Supported early-stage product experimentation by optimizing our Product Operating Model, reducing MVP launch times from 8 to 6 weeks. Collaborated with PMs and UX to integrate product feedback loops into our internal hiring tools before rolling them out to customers.\n\n- Introduced operational frameworks and a portfolio management system, improving alignment across multiple product areas and enabling better roadmap planning and transparency.","2021","2022"],t.s)
+B.Fq=s(["Project & Engagement Manager","Indeed.com","indeed.jpg","\n- Drove vendor product evaluations and tech migrations, aligning solutions to business needs while phasing out homegrown tools.\n\n- Managed critical product development timelines by working with 3rd-party vendors to improve project value, velocity, & quality. Grew a diverse portfolio for software, infrastructure, & engineering teams distributed across the company.","2019","2021"],t.s)
+B.H_=s(["Graduated College","Rochester Institute of Technology","rit.jpg","\n- Innovator's Hour Startup Incubator President: Lead a club which students can share ideas for innovative products or services. Worked connecting students to resources they need to attempt to bring their ideas into reality. Quickly became RIT's largest student think tank.\n\n- Design for Diversity (Creator and Lead): Created and lead a new campus-wide event. This event was created to help people create new products and services which would help break down social barriers which cause division among people.\n\n- Student Government Engineering Representative\n\n- SPEX CubeSat (Radio Communications Group Lead): I was the ground-to-satellite communication leader for a team which worked with a multidisciplinary team to create a small satellite to test new technologies in low earth orbit.","2014","2019"],t.s)
+B.FP=s(["Founder","Certainly Apps","ca.jpg","\n- Co-created B2C & B2B geolocation software focused on reducing food insecurity via community-driven reporting.\n\n- Led customer discovery and translated findings into product iterations, ultimately shifting focus from campus food apps to non-profit food distribution tools.","2017","2020"],t.s)
+B.FA=s(["Sr. Lab Manager","RIT Makerspace","rit.jpg","\n- Managed a makerspace to address the needs of its community, ensuring members had the materials, tools, and understanding to develop projects in electronics, programming, and rapid prototyping.\n\n- Collaborated with the department leads to scale operations 300%.","2017","2019"],t.s)
+B.FF=s(["Program Management Intern","Indeed.com","indeed.jpg","\n- Managed and monitored projects for many software infrastructure and engineering capability teams.\n\n- Helped with allocation and optimization of resources, along with tracking project velocity and improving team collaboration with Agile processes.\n\n- Drove company-wide efforts for software rollouts and adoption.","2018","2018"],t.s)
+B.GW=s(["Quality Engineering Intern","Dark Field Technologies","df.jpg","\n- Developed, tested, and installed quality inspection systems for fortune-500 companies needing innovative in-line defect monitoring.\n\n- Improved the flagship product by 65% in detection quality.","2018","2018"],t.s)
+B.He=s(["Exhibit Creator","OMSI","omsi.jpg","\n- Worked designing electronics and programming exhibits for the Oregon Museum of Science and Industry","2017","2017"],t.s)
+B.Gt=s(["Writer & Resource Distributor","Street Roots","sr.jpg","\n- Wrote local interest articles\n\n- Assisted with the distribution of hygiene materials and newspaper sales","2017","2017"],t.s)
+B.Ha=s(["Manufacturing Engineer","Hz Innovations (Wavio)","wavio.jpg","\n- Coordinated initial manufacturing for a smart-home IoT device offering AI sound recognition for the deaf/HoH community.\n\n- Prototyped electronics and field tested units while contributing to the growth of the startup.","2016","2016"],t.s)
+B.Hg=s(["Graduated High School","Health Sciences High School","hs2.jpg","\n- Howard Hughes Medical Institute Internship\n\n- Med. Stars Medical Career Shadowing\n\n- Architecture, Construction, and Engineering Mentoring\n\n- Organized a clothing drive for the homeless\n\n- Night Strike Volunteer for hygiene and medical assistance\n\n- Student Ambassador for International Expeditionary & Proficiency Conference\n\n- Coordinated and led high school Stock Market club\n\n- Organized and MC\u2019ed high school Cultural Activities and Talent Show\n\n- Tutored math","2010","2014"],t.s)
+B.Fu=s(["Research Assistant","Lewis & Clark College","lc.jpg","\n- Aided in research and peer-review of a paper on \u2018The Theory of Mind\u2019.\n\n- Organized and analyzed experiments to study behavioral patterns in young children.","2013","2013"],t.s)
+B.Hc=s(["Graduated Middle School","Cedar Park Middle School","cpms.png","\n- Placed third in the Beaverton School District science fair for studying petri dish colonies from various school locations","2007","2010"],t.s)
+B.Fp=s(["Camp Counselor","Clouds Hill Farms","chf.jpg","\n- Assisted with the teaching of environmental conservation\n\n- Helped teach South American weaving","2008","2008"],t.s)
+B.G9=s(["Graduated Elementary School","West Tualatin View Elementary","wtv.png","\n- Spent 5 years in Elementary School","2001","2007"],t.s)
+B.H5=s(["Born","Portland, Oregon","pdx.png","\n- Started my adventure","1996","1996"],t.s)
+B.bX=s([B.Gk,B.G1,B.Fq,B.H_,B.FP,B.FA,B.FF,B.GW,B.He,B.Gt,B.Ha,B.Hg,B.Fu,B.Hc,B.Fp,B.G9,B.H5],A.ap("x<U<C>>"))
+B.FR=s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0],t.n)
 B.zt=new A.FP(2,"outer")
 B.lx=new A.D(0.09803921568627451,0,0,0,B.h)
 B.f=new A.h(0,0)
 B.zN=new A.dy(0.2,B.zt,B.lx,B.f,11)
-B.FS=s([B.zN],t.sq)
+B.FT=s([B.zN],t.sq)
 B.y1=new A.Ae(0,"left")
 B.y2=new A.Ae(1,"right")
-B.FY=s([B.y1,B.y2],A.ap("x<Ae>"))
+B.FX=s([B.y1,B.y2],A.ap("x<Ae>"))
 B.a3=new A.Aq(0,"upstream")
-B.G_=s([B.a3,B.j],A.ap("x<Aq>"))
+B.FZ=s([B.a3,B.j],A.ap("x<Aq>"))
 B.aH=new A.Au(0,"rtl")
 B.a_=new A.Au(1,"ltr")
 B.jm=s([B.aH,B.a_],A.ap("x<Au>"))
@@ -84142,29 +84142,29 @@ B.Lw=new A.ai(0.66416338,0.0734653)
 B.Lt=new A.ai(0.68675338,0.06974996)
 B.LI=new A.ai(0.70678034,0.06529512)
 B.mT=s([B.LM,B.LL,B.Ly,B.LB,B.LK,B.Ls,B.Lx,B.Lz,B.Lv,B.LH,B.LP,B.Lw,B.Lt,B.LI],A.ap("x<+(O,O)>"))
-B.Gn=s(["click","scroll"],t.s)
+B.Go=s(["click","scroll"],t.s)
 B.zT=new A.q9()
 B.er=new A.KN(1,"page")
 B.hb=new A.dF(B.aL,B.er)
-B.Gp=s([B.zT,B.hb],A.ap("x<aK>"))
-B.GA=s([],t.QP)
+B.Gq=s([B.zT,B.hb],A.ap("x<aK>"))
+B.GB=s([],t.QP)
 B.mV=s([],A.ap("x<aMB>"))
-B.GG=s([],t.D)
-B.GD=s([],t.fJ)
-B.GF=s([],t.ER)
+B.GH=s([],t.D)
+B.GE=s([],t.fJ)
+B.GG=s([],t.ER)
 B.fH=s([],t.jl)
-B.Gx=s([],t.wi)
-B.Gw=s([],A.ap("x<aud<@>>"))
+B.Gy=s([],t.wi)
+B.Gx=s([],A.ap("x<aud<@>>"))
 B.jo=s([],t.AO)
-B.Gz=s([],t.D1)
+B.GA=s([],t.D1)
 B.jn=s([],t.QF)
-B.GB=s([],t.Lx)
-B.GE=s([],t.fm)
+B.GC=s([],t.Lx)
+B.GF=s([],t.fm)
 B.WD=s([],t.E)
-B.GC=s([],t.n)
-B.Gu=s([],t.t)
+B.GD=s([],t.n)
+B.Gv=s([],t.t)
 B.mU=s([],t.b)
-B.Gv=s([],t.XS)
+B.Gw=s([],t.XS)
 B.jg=new A.h6(0)
 B.Dt=new A.h6(1)
 B.Du=new A.h6(2)
@@ -84753,8 +84753,8 @@ B.EJ=s([4294968072,null,null,8589935161],t.Z)
 B.G5=s([8589934850,8589934850,8589934851,null],t.Z)
 B.rY=new A.cV(["*",B.EM,"+",B.EN,"-",B.EO,".",B.EP,"/",B.EQ,"0",B.ER,"1",B.ES,"2",B.EU,"3",B.EW,"4",B.EX,"5",B.EY,"6",B.EZ,"7",B.F_,"8",B.F0,"9",B.F2,"Alt",B.G2,"AltGraph",B.EB,"ArrowDown",B.EC,"ArrowLeft",B.ED,"ArrowRight",B.EE,"ArrowUp",B.EF,"Clear",B.EK,"Control",B.G3,"Delete",B.EA,"End",B.EG,"Enter",B.Ez,"Home",B.EH,"Insert",B.EL,"Meta",B.G4,"PageDown",B.EI,"PageUp",B.EJ,"Shift",B.G5],A.ap("cV<C,U<t?>>"))
 B.F1=s([B.n3,null,null,B.rK],t.L)
-B.GJ=s([B.rw,null,null,B.rL],t.L)
-B.Fw=s([B.rx,null,null,B.rM],t.L)
+B.GK=s([B.rw,null,null,B.rL],t.L)
+B.Fx=s([B.rx,null,null,B.rM],t.L)
 B.G6=s([B.ry,null,null,B.ck],t.L)
 B.Ep=s([B.rz,null,null,B.rN],t.L)
 B.H0=s([B.rA,null,null,B.jA],t.L)
@@ -84765,26 +84765,26 @@ B.GU=s([B.rE,null,null,B.cm],t.L)
 B.F5=s([B.rF,null,null,B.jB],t.L)
 B.Ew=s([B.rG,null,null,B.cn],t.L)
 B.Fh=s([B.rH,null,null,B.ed],t.L)
-B.GK=s([B.rI,null,null,B.co],t.L)
-B.GM=s([B.rJ,null,null,B.ee],t.L)
+B.GL=s([B.rI,null,null,B.co],t.L)
+B.GN=s([B.rJ,null,null,B.ee],t.L)
 B.F9=s([B.e9,B.e9,B.fO,null],t.L)
 B.H2=s([B.fK,null,B.fK,null],t.L)
-B.FG=s([B.bo,null,null,B.cl],t.L)
-B.FH=s([B.bb,null,null,B.cm],t.L)
-B.FI=s([B.bc,null,null,B.cn],t.L)
+B.FH=s([B.bo,null,null,B.cl],t.L)
+B.FI=s([B.bb,null,null,B.cm],t.L)
+B.FJ=s([B.bc,null,null,B.cn],t.L)
 B.H6=s([B.bp,null,null,B.co],t.L)
 B.GS=s([B.jt,null,null,B.jB],t.L)
 B.Fa=s([B.e8,B.e8,B.fN,null],t.L)
-B.Gl=s([B.at,null,null,B.ck],t.L)
-B.FJ=s([B.ci,null,null,B.eb],t.L)
+B.Gm=s([B.at,null,null,B.ck],t.L)
+B.FK=s([B.ci,null,null,B.eb],t.L)
 B.F4=s([B.fJ,null,null,B.jz],t.L)
-B.FK=s([B.cj,null,null,B.ed],t.L)
+B.FL=s([B.cj,null,null,B.ed],t.L)
 B.GT=s([B.ju,null,null,B.jA],t.L)
 B.Fb=s([B.ea,B.ea,B.fP,null],t.L)
-B.FL=s([B.e6,null,null,B.ec],t.L)
-B.Gt=s([B.e7,null,null,B.ee],t.L)
+B.FM=s([B.e6,null,null,B.ec],t.L)
+B.Gu=s([B.e7,null,null,B.ee],t.L)
 B.Fc=s([B.bC,B.bC,B.bY,null],t.L)
-B.J1=new A.cV(["*",B.F1,"+",B.GJ,"-",B.Fw,".",B.G6,"/",B.Ep,"0",B.H0,"1",B.GV,"2",B.F7,"3",B.H9,"4",B.GU,"5",B.F5,"6",B.Ew,"7",B.Fh,"8",B.GK,"9",B.GM,"Alt",B.F9,"AltGraph",B.H2,"ArrowDown",B.FG,"ArrowLeft",B.FH,"ArrowRight",B.FI,"ArrowUp",B.H6,"Clear",B.GS,"Control",B.Fa,"Delete",B.Gl,"End",B.FJ,"Enter",B.F4,"Home",B.FK,"Insert",B.GT,"Meta",B.Fb,"PageDown",B.FL,"PageUp",B.Gt,"Shift",B.Fc],A.ap("cV<C,U<e?>>"))
+B.J1=new A.cV(["*",B.F1,"+",B.GK,"-",B.Fx,".",B.G6,"/",B.Ep,"0",B.H0,"1",B.GV,"2",B.F7,"3",B.H9,"4",B.GU,"5",B.F5,"6",B.Ew,"7",B.Fh,"8",B.GL,"9",B.GN,"Alt",B.F9,"AltGraph",B.H2,"ArrowDown",B.FH,"ArrowLeft",B.FI,"ArrowRight",B.FJ,"ArrowUp",B.H6,"Clear",B.GS,"Control",B.Fa,"Delete",B.Gm,"End",B.FK,"Enter",B.F4,"Home",B.FL,"Insert",B.GT,"Meta",B.Fb,"PageDown",B.FM,"PageUp",B.Gu,"Shift",B.Fc],A.ap("cV<C,U<e?>>"))
 B.Jw={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
 B.rZ=new A.bP(B.Jw,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.li)
 B.Js={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
@@ -85399,9 +85399,9 @@ B.xv=new A.dB([B.a4,B.au,B.b4,B.av,B.aP],t.Lu)
 B.BO=new A.D(0.23529411764705882,0,0,0,B.h)
 B.JG=new A.h(0,4)
 B.zO=new A.dy(0.5,B.eT,B.BO,B.JG,10)
-B.Gm=s([B.zO],t.sq)
+B.Gn=s([B.zO],t.sq)
 B.LZ=new A.j5(B.kY,B.r)
-B.MP=new A.i6(null,null,null,B.Gm,B.LZ)
+B.MP=new A.i6(null,null,null,B.Gn,B.LZ)
 B.xw=new A.a1(B.jr,!1,!1,!1,!0,B.m)
 B.MQ=new A.a1(B.mZ,!0,!1,!1,!1,B.m)
 B.aN=new A.xS(1,"locked")
@@ -86311,7 +86311,7 @@ return A.c([A.z(A.z(A.a9(),q),"Baseline"),A.z(A.z(A.a9(),q),"AboveBaseline"),A.z
 r($,"aQd","aAp",()=>A.cM().gRX()+"roboto/v32/KFOmCnqEu92Fr1Me4GZLCzYlKw.woff2")
 r($,"aPE","aA_",()=>A.aIH(A.uL(A.uL(A.jv(),"window"),"FinalizationRegistry"),A.fT(new A.amx())))
 r($,"aQX","aAP",()=>new A.a6f())
-s($,"aPK","aA2",()=>A.aEu(B.FQ))
+s($,"aPK","aA2",()=>A.aEu(B.FR))
 s($,"aPJ","anX",()=>A.a2Y(A.aBH($.aA2())))
 s($,"aMT","cN",()=>{var q,p=A.z(A.z(A.jv(),"window"),"screen")
 p=p==null?null:A.z(p,"width")
