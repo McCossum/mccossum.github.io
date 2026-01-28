@@ -1710,7 +1710,7 @@ s.id=c
 b.appendChild(s)
 A.aKj(s,a,"normal normal 14px sans-serif")},
 aKj(a,b,c){var s,r,q,p=v.G
-a.append(p.document.createTextNode(b+" flt-scene-host {  font: "+c+";}"+b+" flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}"+b+" input::selection {  background-color: transparent;}"+b+" textarea::selection {  background-color: transparent;}"+b+" flt-semantics input,"+b+" flt-semantics textarea,"+b+' flt-semantics [contentEditable="true"] {  caret-color: transparent;}'+b+" .flt-text-editing::placeholder {  opacity: 0;}"+b+":focus { outline: none;}"))
+a.append(p.document.createTextNode(b+" flt-scene-host {  font: "+c+";}"+b+" flt-semantics input[type=range] {  appearance: none;  -webkit-appearance: none;  width: 100%;  position: absolute;  border: none;  top: 0;  right: 0;  bottom: 0;  left: 0;}"+b+" input::selection {  background-color: transparent;}"+b+" textarea::selection {  background-color: transparent;}"+b+" flt-semantics input,"+b+" flt-semantics textarea,"+b+' flt-semantics [contentEditable="true"] {  caret-color: transparent;}'+b+" .flt-text-editing::placeholder {  opacity: 0;}"+b+":focus { outline: rgb(0, 0, 0) none 0px;}"))
 if($.b1().gcZ()===B.aV)a.append(p.document.createTextNode(b+" * {  -webkit-tap-highlight-color: transparent;}"+b+" flt-semantics input[type=range]::-webkit-slider-thumb {  -webkit-appearance: none;}"))
 if($.b1().gcZ()===B.cb)a.append(p.document.createTextNode(b+" flt-paragraph,"+b+" flt-span {  line-height: 100%;}"))
 if($.b1().gcZ()===B.bR||$.b1().gcZ()===B.aV)a.append(p.document.createTextNode(b+" .transparentTextEditing:-webkit-autofill,"+b+" .transparentTextEditing:-webkit-autofill:hover,"+b+" .transparentTextEditing:-webkit-autofill:focus,"+b+" .transparentTextEditing:-webkit-autofill:active {  opacity: 0 !important;}"))
@@ -25571,7 +25571,7 @@ $S:1}
 A.amg.prototype={
 $1(a){var s=A.cM().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/78fc3012e45889657f72359b005af7beac47ba3d/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/db373eb85a06eb3d706af362a45d42d0972f4b46/":s)+a},
 $S:46}
 A.ID.prototype={
 gt(a){var s=this.a
@@ -39936,13 +39936,13 @@ for(;;)switch(s){case 0:k=v.G
 if(k.firebase_core!=null){s=1
 break}o=A.bq(k.flutterfire_web_sdk_version)
 if(o==null)o=null
-n=o==null?"12.3.0":o
+n=o==null?"12.7.0":o
 m=p.ga70()
 k=$.VP()
 l=A.m(k).h("b8<2>")
 s=3
 return A.Q(A.hS(A.xV(new A.b8(k,l),new A.a_J(p,m,n),l.h("r.E"),t.uz),t.H),$async$uP)
-case 3:$.aoH.m(0,"flutter-fire-core","4.3.0")
+case 3:$.aoH.m(0,"flutter-fire-core","4.4.0")
 $.aoH.ai(0,A.aLf())
 case 1:return A.K(q,r)}})
 return A.L($async$uP,r)},
@@ -80820,7 +80820,7 @@ $0(){return A.any()},
 $S:0}
 A.anz.prototype={
 $0(){var s,r,q,p,o=$.aAT()
-$.aoH.m(0,"flutter-fire-analytics","12.1.0")
+$.aoH.m(0,"flutter-fire-analytics","12.1.1")
 A.aDa("analytics")
 s=A.asT(null,null)
 A.lY(s,$.VO(),!0)
